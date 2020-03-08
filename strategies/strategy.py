@@ -3,9 +3,9 @@ class Strategy(object):
     Defines an agent that will drafts.
     """
 
-    def __init__(self, num_teams: int, draft_position: int):
+    def __init__(self, num_teams: int, draft_pos: int):
         self.num_teams = num_teams
-        self.draft_position = draft_position
+        self.draft_pos = draft_pos
 
     def pick(self, remaining_players):
         """

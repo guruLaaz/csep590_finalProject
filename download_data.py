@@ -16,10 +16,7 @@ def player_id(stat):
 
 
 def player_position(stat):
-    pos = stat['Position']
-    if pos == 'RW' or pos == 'LW' or pos == 'C':
-        return 'FWD'
-    return pos
+    return stat['Position']
 
 
 def player_name(stat):

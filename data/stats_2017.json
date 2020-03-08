@@ -8,7 +8,7 @@
   {
     "id": 30001233,
     "name": "Connor McDavid",
-    "position": "FWD",
+    "position": "C",
     "value": 821.0
   },
   {
@@ -20,37 +20,37 @@
   {
     "id": 30000651,
     "name": "Sidney Crosby",
-    "position": "FWD",
+    "position": "C",
     "value": 785.0
   },
   {
     "id": 30000866,
     "name": "Patrick Kane",
-    "position": "FWD",
+    "position": "RW",
     "value": 778.0
   },
   {
     "id": 30000074,
     "name": "Brad Marchand",
-    "position": "FWD",
+    "position": "LW",
     "value": 741.0
   },
   {
     "id": 30001047,
     "name": "Nikita Kucherov",
-    "position": "FWD",
+    "position": "RW",
     "value": 744.0
   },
   {
     "id": 30000378,
     "name": "Alex Ovechkin",
-    "position": "FWD",
+    "position": "LW",
     "value": 727.0
   },
   {
     "id": 30003130,
     "name": "Auston Matthews",
-    "position": "FWD",
+    "position": "C",
     "value": 721.0
   },
   {
@@ -62,7 +62,7 @@
   {
     "id": 30000797,
     "name": "Vladimir Tarasenko",
-    "position": "FWD",
+    "position": "RW",
     "value": 715.0
   },
   {
@@ -74,31 +74,31 @@
   {
     "id": 30000835,
     "name": "Blake Wheeler",
-    "position": "FWD",
+    "position": "RW",
     "value": 691.0
   },
   {
     "id": 30000607,
     "name": "David Pastrnak",
-    "position": "FWD",
+    "position": "LW",
     "value": 689.0
   },
   {
     "id": 30000019,
     "name": "Max Pacioretty",
-    "position": "FWD",
+    "position": "LW",
     "value": 684.0
   },
   {
     "id": 30000137,
     "name": "Joe Pavelski",
-    "position": "FWD",
+    "position": "C",
     "value": 680.0
   },
   {
     "id": 30000762,
     "name": "Tyler Seguin",
-    "position": "FWD",
+    "position": "C",
     "value": 666.0
   },
   {
@@ -122,43 +122,43 @@
   {
     "id": 30001334,
     "name": "Nicklas Backstrom",
-    "position": "FWD",
+    "position": "C",
     "value": 651.0
   },
   {
     "id": 30000065,
     "name": "Patrice Bergeron",
-    "position": "FWD",
+    "position": "C",
     "value": 642.0
   },
   {
     "id": 30000642,
     "name": "Jeff Skinner",
-    "position": "FWD",
+    "position": "LW",
     "value": 644.0
   },
   {
     "id": 30000143,
     "name": "Jeff Carter",
-    "position": "FWD",
+    "position": "C",
     "value": 641.0
   },
   {
     "id": 30000421,
     "name": "Cam Atkinson",
-    "position": "FWD",
+    "position": "RW",
     "value": 639.0
   },
   {
     "id": 30000830,
     "name": "Mark Scheifele",
-    "position": "FWD",
+    "position": "C",
     "value": 637.0
   },
   {
     "id": 30000245,
     "name": "Viktor Arvidsson",
-    "position": "FWD",
+    "position": "RW",
     "value": 630.0
   },
   {
@@ -176,25 +176,25 @@
   {
     "id": 30001322,
     "name": "Artemi Panarin",
-    "position": "FWD",
+    "position": "LW",
     "value": 632.0
   },
   {
     "id": 30000660,
     "name": "Evgeni Malkin",
-    "position": "FWD",
+    "position": "C",
     "value": 629.0
   },
   {
     "id": 30000275,
     "name": "John Tavares",
-    "position": "FWD",
+    "position": "C",
     "value": 626.0
   },
   {
     "id": 30000515,
     "name": "Mikael Granlund",
-    "position": "FWD",
+    "position": "C",
     "value": 621.0
   },
   {
@@ -206,19 +206,19 @@
   {
     "id": 30000356,
     "name": "Eric Staal",
-    "position": "FWD",
+    "position": "C",
     "value": 616.0
   },
   {
     "id": 30001076,
     "name": "Leon Draisaitl",
-    "position": "FWD",
+    "position": "C",
     "value": 615.0
   },
   {
     "id": 30000033,
     "name": "Phil Kessel",
-    "position": "FWD",
+    "position": "RW",
     "value": 606.0
   },
   {
@@ -230,13 +230,13 @@
   {
     "id": 30000465,
     "name": "Mike Hoffman",
-    "position": "FWD",
+    "position": "LW",
     "value": 601.0
   },
   {
     "id": 30003131,
     "name": "Patrik Laine",
-    "position": "FWD",
+    "position": "RW",
     "value": 593.0
   },
   {
@@ -248,25 +248,25 @@
   {
     "id": 30000032,
     "name": "Nazem Kadri",
-    "position": "FWD",
+    "position": "C",
     "value": 589.0
   },
   {
     "id": 30001208,
     "name": "Ryan Getzlaf",
-    "position": "FWD",
+    "position": "C",
     "value": 582.0
   },
   {
     "id": 30001302,
     "name": "Jamie Benn",
-    "position": "FWD",
+    "position": "LW",
     "value": 584.0
   },
   {
     "id": 30000043,
     "name": "James van Riemsdyk",
-    "position": "FWD",
+    "position": "LW",
     "value": 585.0
   },
   {
@@ -296,7 +296,7 @@
   {
     "id": 30001041,
     "name": "Henrik Zetterberg",
-    "position": "FWD",
+    "position": "LW",
     "value": 574.0
   },
   {
@@ -308,7 +308,7 @@
   {
     "id": 30001263,
     "name": "Ryan Kesler",
-    "position": "FWD",
+    "position": "C",
     "value": 573.0
   },
   {
@@ -320,19 +320,19 @@
   {
     "id": 30000321,
     "name": "Derek Stepan",
-    "position": "FWD",
+    "position": "C",
     "value": 564.0
   },
   {
     "id": 30000496,
     "name": "Jack Eichel",
-    "position": "FWD",
+    "position": "C",
     "value": 561.0
   },
   {
     "id": 30000183,
     "name": "Filip Forsberg",
-    "position": "FWD",
+    "position": "LW",
     "value": 558.0
   },
   {
@@ -350,13 +350,13 @@
   {
     "id": 30000061,
     "name": "Wayne Simmonds",
-    "position": "FWD",
+    "position": "RW",
     "value": 551.0
   },
   {
     "id": 30001087,
     "name": "Mats Zuccarello",
-    "position": "FWD",
+    "position": "RW",
     "value": 551.0
   },
   {
@@ -368,19 +368,19 @@
   {
     "id": 30000656,
     "name": "Patric Hornqvist",
-    "position": "FWD",
+    "position": "RW",
     "value": 552.0
   },
   {
     "id": 30000822,
     "name": "Nikolaj Ehlers",
-    "position": "FWD",
+    "position": "LW",
     "value": 552.0
   },
   {
     "id": 30000379,
     "name": "T.J. Oshie",
-    "position": "FWD",
+    "position": "RW",
     "value": 547.0
   },
   {
@@ -398,7 +398,7 @@
   {
     "id": 30000519,
     "name": "Mikko Koivu",
-    "position": "FWD",
+    "position": "C",
     "value": 546.0
   },
   {
@@ -410,13 +410,13 @@
   {
     "id": 30001267,
     "name": "Jakob Silfverberg",
-    "position": "FWD",
+    "position": "LW",
     "value": 544.0
   },
   {
     "id": 30001229,
     "name": "Brandon Saad",
-    "position": "FWD",
+    "position": "LW",
     "value": 545.0
   },
   {
@@ -434,19 +434,19 @@
   {
     "id": 30000872,
     "name": "Jonathan Toews",
-    "position": "FWD",
+    "position": "C",
     "value": 541.0
   },
   {
     "id": 30000128,
     "name": "Logan Couture",
-    "position": "FWD",
+    "position": "C",
     "value": 537.0
   },
   {
     "id": 30000064,
     "name": "Jakub Voracek",
-    "position": "FWD",
+    "position": "RW",
     "value": 534.0
   },
   {
@@ -458,37 +458,37 @@
   {
     "id": 30001119,
     "name": "Patrick Eaves",
-    "position": "FWD",
+    "position": "RW",
     "value": 534.0
   },
   {
     "id": 30000276,
     "name": "Anders Lee",
-    "position": "FWD",
+    "position": "C",
     "value": 533.0
   },
   {
     "id": 30000452,
     "name": "Kyle Turris",
-    "position": "FWD",
+    "position": "C",
     "value": 531.0
   },
   {
     "id": 30000522,
     "name": "Nino Niederreiter",
-    "position": "FWD",
+    "position": "RW",
     "value": 532.0
   },
   {
     "id": 30000226,
     "name": "Vincent Trocheck",
-    "position": "FWD",
+    "position": "C",
     "value": 529.0
   },
   {
     "id": 30000103,
     "name": "Mikael Backlund",
-    "position": "FWD",
+    "position": "C",
     "value": 528.0
   },
   {
@@ -506,7 +506,7 @@
   {
     "id": 30000486,
     "name": "William Nylander",
-    "position": "FWD",
+    "position": "RW",
     "value": 529.0
   },
   {
@@ -518,7 +518,7 @@
   {
     "id": 30000115,
     "name": "Sean Monahan",
-    "position": "FWD",
+    "position": "C",
     "value": 525.0
   },
   {
@@ -530,7 +530,7 @@
   {
     "id": 30001265,
     "name": "Corey Perry",
-    "position": "FWD",
+    "position": "RW",
     "value": 523.0
   },
   {
@@ -548,61 +548,61 @@
   {
     "id": 30000523,
     "name": "Jason Zucker",
-    "position": "FWD",
+    "position": "LW",
     "value": 519.0
   },
   {
     "id": 30000979,
     "name": "Ryan O'Reilly",
-    "position": "FWD",
+    "position": "C",
     "value": 516.0
   },
   {
     "id": 30001187,
     "name": "Taylor Hall",
-    "position": "FWD",
+    "position": "LW",
     "value": 518.0
   },
   {
     "id": 30000794,
     "name": "Jaden Schwartz",
-    "position": "FWD",
+    "position": "LW",
     "value": 517.0
   },
   {
     "id": 30000805,
     "name": "Charlie Coyle",
-    "position": "FWD",
+    "position": "C",
     "value": 517.0
   },
   {
     "id": 30000904,
     "name": "Nathan MacKinnon",
-    "position": "FWD",
+    "position": "C",
     "value": 514.0
   },
   {
     "id": 30000204,
     "name": "Kyle Palmieri",
-    "position": "FWD",
+    "position": "RW",
     "value": 514.0
   },
   {
     "id": 30000382,
     "name": "Evgeny Kuznetsov",
-    "position": "FWD",
+    "position": "C",
     "value": 512.0
   },
   {
     "id": 30000888,
     "name": "Rickard Rakell",
-    "position": "FWD",
+    "position": "C",
     "value": 511.0
   },
   {
     "id": 30003342,
     "name": "Mitchell Marner",
-    "position": "FWD",
+    "position": "C",
     "value": 510.0
   },
   {
@@ -620,19 +620,19 @@
   {
     "id": 30000539,
     "name": "Jordan Eberle",
-    "position": "FWD",
+    "position": "RW",
     "value": 509.0
   },
   {
     "id": 30000320,
     "name": "Chris Kreider",
-    "position": "FWD",
+    "position": "LW",
     "value": 509.0
   },
   {
     "id": 30000102,
     "name": "Radim Vrbata",
-    "position": "FWD",
+    "position": "RW",
     "value": 503.0
   },
   {
@@ -650,43 +650,43 @@
   {
     "id": 30001052,
     "name": "Ondrej Palat",
-    "position": "FWD",
+    "position": "LW",
     "value": 501.0
   },
   {
     "id": 30000617,
     "name": "J.T. Miller",
-    "position": "FWD",
+    "position": "C",
     "value": 497.0
   },
   {
     "id": 30001309,
     "name": "Marcus Johansson",
-    "position": "FWD",
+    "position": "C",
     "value": 500.0
   },
   {
     "id": 30000691,
     "name": "Nick Foligno",
-    "position": "FWD",
+    "position": "LW",
     "value": 500.0
   },
   {
     "id": 30000280,
     "name": "Josh Bailey",
-    "position": "FWD",
+    "position": "LW",
     "value": 498.0
   },
   {
     "id": 30000553,
     "name": "Michael Frolik",
-    "position": "FWD",
+    "position": "RW",
     "value": 494.0
   },
   {
     "id": 30000059,
     "name": "Brayden Schenn",
-    "position": "FWD",
+    "position": "C",
     "value": 492.0
   },
   {
@@ -698,7 +698,7 @@
   {
     "id": 30000976,
     "name": "Evander Kane",
-    "position": "FWD",
+    "position": "LW",
     "value": 491.0
   },
   {
@@ -710,13 +710,13 @@
   {
     "id": 30000052,
     "name": "Claude Giroux",
-    "position": "FWD",
+    "position": "LW",
     "value": 488.0
   },
   {
     "id": 30000778,
     "name": "Boone Jenner",
-    "position": "FWD",
+    "position": "C",
     "value": 488.0
   },
   {
@@ -728,25 +728,25 @@
   {
     "id": 30002819,
     "name": "Sebastian Aho",
-    "position": "FWD",
+    "position": "LW",
     "value": 487.0
   },
   {
     "id": 30000410,
     "name": "Conor Sheary",
-    "position": "FWD",
+    "position": "LW",
     "value": 488.0
   },
   {
     "id": 30000159,
     "name": "Justin Williams",
-    "position": "FWD",
+    "position": "RW",
     "value": 486.0
   },
   {
     "id": 30001246,
     "name": "Mark Stone",
-    "position": "FWD",
+    "position": "RW",
     "value": 485.0
   },
   {
@@ -764,7 +764,7 @@
   {
     "id": 30000692,
     "name": "Ryan Johansen",
-    "position": "FWD",
+    "position": "C",
     "value": 479.0
   },
   {
@@ -782,31 +782,31 @@
   {
     "id": 30000110,
     "name": "Johnny Gaudreau",
-    "position": "FWD",
+    "position": "LW",
     "value": 478.0
   },
   {
     "id": 30000133,
     "name": "Patrick Marleau",
-    "position": "FWD",
+    "position": "LW",
     "value": 477.0
   },
   {
     "id": 30001858,
     "name": "Alexander Radulov",
-    "position": "FWD",
+    "position": "RW",
     "value": 474.0
   },
   {
     "id": 30000514,
     "name": "Zach Parise",
-    "position": "FWD",
+    "position": "LW",
     "value": 475.0
   },
   {
     "id": 30000426,
     "name": "Alexander Wennberg",
-    "position": "FWD",
+    "position": "C",
     "value": 469.0
   },
   {
@@ -818,7 +818,7 @@
   {
     "id": 30000620,
     "name": "Sam Gagner",
-    "position": "FWD",
+    "position": "C",
     "value": 467.0
   },
   {
@@ -830,7 +830,7 @@
   {
     "id": 30000228,
     "name": "Aleksander Barkov",
-    "position": "FWD",
+    "position": "C",
     "value": 462.0
   },
   {
@@ -866,7 +866,7 @@
   {
     "id": 30000153,
     "name": "Tanner Pearson",
-    "position": "FWD",
+    "position": "LW",
     "value": 459.0
   },
   {
@@ -878,19 +878,19 @@
   {
     "id": 30000073,
     "name": "Milan Lucic",
-    "position": "FWD",
+    "position": "LW",
     "value": 460.0
   },
   {
     "id": 30000605,
     "name": "David Krejci",
-    "position": "FWD",
+    "position": "C",
     "value": 459.0
   },
   {
     "id": 30000865,
     "name": "Marian Hossa",
-    "position": "FWD",
+    "position": "RW",
     "value": 458.0
   },
   {
@@ -908,13 +908,13 @@
   {
     "id": 30000483,
     "name": "Michael Grabner",
-    "position": "FWD",
+    "position": "RW",
     "value": 454.0
   },
   {
     "id": 30001085,
     "name": "Rick Nash",
-    "position": "FWD",
+    "position": "LW",
     "value": 455.0
   },
   {
@@ -926,13 +926,13 @@
   {
     "id": 30000880,
     "name": "Patrick Maroon",
-    "position": "FWD",
+    "position": "LW",
     "value": 455.0
   },
   {
     "id": 30000734,
     "name": "Jonathan Drouin",
-    "position": "FWD",
+    "position": "LW",
     "value": 453.0
   },
   {
@@ -950,7 +950,7 @@
   {
     "id": 30000488,
     "name": "Richard Panik",
-    "position": "FWD",
+    "position": "RW",
     "value": 452.0
   },
   {
@@ -986,7 +986,7 @@
   {
     "id": 30001048,
     "name": "Jonathan Marchessault",
-    "position": "FWD",
+    "position": "C",
     "value": 450.0
   },
   {
@@ -1010,7 +1010,7 @@
   {
     "id": 30001276,
     "name": "Bo Horvat",
-    "position": "FWD",
+    "position": "C",
     "value": 443.0
   },
   {
@@ -1022,37 +1022,37 @@
   {
     "id": 30000027,
     "name": "Tyler Bozak",
-    "position": "FWD",
+    "position": "C",
     "value": 443.0
   },
   {
     "id": 30000149,
     "name": "Anze Kopitar",
-    "position": "FWD",
+    "position": "C",
     "value": 440.0
   },
   {
     "id": 30000520,
     "name": "Jason Pominville",
-    "position": "FWD",
+    "position": "RW",
     "value": 439.0
   },
   {
     "id": 30000980,
     "name": "Sam Reinhart",
-    "position": "FWD",
+    "position": "C",
     "value": 439.0
   },
   {
     "id": 30000615,
     "name": "Kevin Hayes",
-    "position": "FWD",
+    "position": "RW",
     "value": 430.0
   },
   {
     "id": 30001082,
     "name": "Derick Brassard",
-    "position": "FWD",
+    "position": "C",
     "value": 436.0
   },
   {
@@ -1064,13 +1064,13 @@
   {
     "id": 30001000,
     "name": "Brock Nelson",
-    "position": "FWD",
+    "position": "C",
     "value": 435.0
   },
   {
     "id": 30000796,
     "name": "Alexander Steen",
-    "position": "FWD",
+    "position": "LW",
     "value": 434.0
   },
   {
@@ -1088,13 +1088,13 @@
   {
     "id": 30000540,
     "name": "Ryan Nugent-Hopkins",
-    "position": "FWD",
+    "position": "C",
     "value": 433.0
   },
   {
     "id": 30000966,
     "name": "Jean-Gabriel Pageau",
-    "position": "FWD",
+    "position": "C",
     "value": 428.0
   },
   {
@@ -1118,31 +1118,31 @@
   {
     "id": 30000086,
     "name": "Nick Bonino",
-    "position": "FWD",
+    "position": "C",
     "value": 426.0
   },
   {
     "id": 30003134,
     "name": "Matthew Tkachuk",
-    "position": "FWD",
+    "position": "LW",
     "value": 423.0
   },
   {
     "id": 30000640,
     "name": "Victor Rask",
-    "position": "FWD",
+    "position": "C",
     "value": 421.0
   },
   {
     "id": 30000097,
     "name": "Daniel Sedin",
-    "position": "FWD",
+    "position": "LW",
     "value": 421.0
   },
   {
     "id": 30000192,
     "name": "James Neal",
-    "position": "FWD",
+    "position": "LW",
     "value": 420.0
   },
   {
@@ -1154,25 +1154,25 @@
   {
     "id": 30000767,
     "name": "Jaromir Jagr",
-    "position": "FWD",
+    "position": "RW",
     "value": 418.0
   },
   {
     "id": 30001040,
     "name": "Tomas Tatar",
-    "position": "FWD",
+    "position": "LW",
     "value": 416.0
   },
   {
     "id": 30000783,
     "name": "David Backes",
-    "position": "FWD",
+    "position": "C",
     "value": 415.0
   },
   {
     "id": 30000358,
     "name": "Jordan Staal",
-    "position": "FWD",
+    "position": "C",
     "value": 411.0
   },
   {
@@ -1184,25 +1184,25 @@
   {
     "id": 30000636,
     "name": "Elias Lindholm",
-    "position": "FWD",
+    "position": "C",
     "value": 403.0
   },
   {
     "id": 30000240,
     "name": "Mike Fisher",
-    "position": "FWD",
+    "position": "C",
     "value": 407.0
   },
   {
     "id": 30001036,
     "name": "Gustav Nyquist",
-    "position": "FWD",
+    "position": "C",
     "value": 405.0
   },
   {
     "id": 30000397,
     "name": "David Perron",
-    "position": "FWD",
+    "position": "LW",
     "value": 403.0
   },
   {
@@ -1220,7 +1220,7 @@
   {
     "id": 30000871,
     "name": "Teuvo Teravainen",
-    "position": "FWD",
+    "position": "LW",
     "value": 403.0
   },
   {
@@ -1238,13 +1238,13 @@
   {
     "id": 30001261,
     "name": "Andrew Cogliano",
-    "position": "FWD",
+    "position": "C",
     "value": 399.0
   },
   {
     "id": 30001002,
     "name": "Kyle Okposo",
-    "position": "FWD",
+    "position": "RW",
     "value": 401.0
   },
   {
@@ -1256,31 +1256,31 @@
   {
     "id": 30000774,
     "name": "Brandon Dubinsky",
-    "position": "FWD",
+    "position": "C",
     "value": 399.0
   },
   {
     "id": 30000946,
     "name": "Martin Hanzal",
-    "position": "FWD",
+    "position": "C",
     "value": 399.0
   },
   {
     "id": 30000107,
     "name": "Paul Byron",
-    "position": "FWD",
+    "position": "C",
     "value": 392.0
   },
   {
     "id": 30001125,
     "name": "Jason Spezza",
-    "position": "FWD",
+    "position": "C",
     "value": 393.0
   },
   {
     "id": 30001001,
     "name": "Frans Nielsen",
-    "position": "FWD",
+    "position": "C",
     "value": 391.0
   },
   {
@@ -1292,31 +1292,31 @@
   {
     "id": 30001012,
     "name": "Ryan Hartman",
-    "position": "FWD",
+    "position": "RW",
     "value": 389.0
   },
   {
     "id": 30001046,
     "name": "Tyler Johnson",
-    "position": "FWD",
+    "position": "C",
     "value": 385.0
   },
   {
     "id": 30001424,
     "name": "Phillip Danault",
-    "position": "FWD",
+    "position": "LW",
     "value": 383.0
   },
   {
     "id": 30000491,
     "name": "Connor Brown",
-    "position": "FWD",
+    "position": "RW",
     "value": 383.0
   },
   {
     "id": 30000987,
     "name": "Adam Henrique",
-    "position": "FWD",
+    "position": "C",
     "value": 381.0
   },
   {
@@ -1334,7 +1334,7 @@
   {
     "id": 30000858,
     "name": "Artem Anisimov",
-    "position": "FWD",
+    "position": "C",
     "value": 382.0
   },
   {
@@ -1352,13 +1352,13 @@
   {
     "id": 30000739,
     "name": "Alex Killorn",
-    "position": "FWD",
+    "position": "C",
     "value": 375.0
   },
   {
     "id": 30000142,
     "name": "Dustin Brown",
-    "position": "FWD",
+    "position": "RW",
     "value": 376.0
   },
   {
@@ -1376,13 +1376,13 @@
   {
     "id": 30001343,
     "name": "Patrik Berglund",
-    "position": "FWD",
+    "position": "C",
     "value": 371.0
   },
   {
     "id": 30000742,
     "name": "Brayden Point",
-    "position": "FWD",
+    "position": "C",
     "value": 369.0
   },
   {
@@ -1394,13 +1394,13 @@
   {
     "id": 30001298,
     "name": "Bryan Little",
-    "position": "FWD",
+    "position": "C",
     "value": 370.0
   },
   {
     "id": 30000817,
     "name": "Thomas Vanek",
-    "position": "FWD",
+    "position": "LW",
     "value": 367.0
   },
   {
@@ -1418,7 +1418,7 @@
   {
     "id": 30000848,
     "name": "Anthony Mantha",
-    "position": "FWD",
+    "position": "RW",
     "value": 367.0
   },
   {
@@ -1436,7 +1436,7 @@
   {
     "id": 30000795,
     "name": "Paul Stastny",
-    "position": "FWD",
+    "position": "C",
     "value": 364.0
   },
   {
@@ -1454,7 +1454,7 @@
   {
     "id": 30000827,
     "name": "Mathieu Perreault",
-    "position": "FWD",
+    "position": "C",
     "value": 359.0
   },
   {
@@ -1466,13 +1466,13 @@
   {
     "id": 30000080,
     "name": "Reilly Smith",
-    "position": "FWD",
+    "position": "RW",
     "value": 357.0
   },
   {
     "id": 30000305,
     "name": "Travis Zajac",
-    "position": "FWD",
+    "position": "C",
     "value": 356.0
   },
   {
@@ -1490,19 +1490,19 @@
   {
     "id": 30000015,
     "name": "Brendan Gallagher",
-    "position": "FWD",
+    "position": "RW",
     "value": 357.0
   },
   {
     "id": 30000157,
     "name": "Tyler Toffoli",
-    "position": "FWD",
+    "position": "C",
     "value": 356.0
   },
   {
     "id": 30000138,
     "name": "Joe Thornton",
-    "position": "FWD",
+    "position": "C",
     "value": 357.0
   },
   {
@@ -1526,19 +1526,19 @@
   {
     "id": 30000357,
     "name": "Kris Versteeg",
-    "position": "FWD",
+    "position": "RW",
     "value": 352.0
   },
   {
     "id": 30001293,
     "name": "Tobias Rieder",
-    "position": "FWD",
+    "position": "C",
     "value": 351.0
   },
   {
     "id": 30000082,
     "name": "Ryan Spooner",
-    "position": "FWD",
+    "position": "C",
     "value": 351.0
   },
   {
@@ -1550,19 +1550,19 @@
   {
     "id": 30000469,
     "name": "Zack Smith",
-    "position": "FWD",
+    "position": "C",
     "value": 348.0
   },
   {
     "id": 30000014,
     "name": "Alex Galchenyuk",
-    "position": "FWD",
+    "position": "C",
     "value": 351.0
   },
   {
     "id": 30001199,
     "name": "Brandon Sutter",
-    "position": "FWD",
+    "position": "C",
     "value": 350.0
   },
   {
@@ -1574,13 +1574,13 @@
   {
     "id": 30000994,
     "name": "Lee Stempniak",
-    "position": "FWD",
+    "position": "RW",
     "value": 349.0
   },
   {
     "id": 30000412,
     "name": "Scott Hartnell",
-    "position": "FWD",
+    "position": "LW",
     "value": 349.0
   },
   {
@@ -1598,7 +1598,7 @@
   {
     "id": 30000467,
     "name": "Mika Zibanejad",
-    "position": "FWD",
+    "position": "C",
     "value": 348.0
   },
   {
@@ -1622,7 +1622,7 @@
   {
     "id": 30000021,
     "name": "Tomas Plekanec",
-    "position": "FWD",
+    "position": "C",
     "value": 343.0
   },
   {
@@ -1634,13 +1634,13 @@
   {
     "id": 30001297,
     "name": "Andrew Ladd",
-    "position": "FWD",
+    "position": "LW",
     "value": 343.0
   },
   {
     "id": 30001146,
     "name": "Matt Duchene",
-    "position": "FWD",
+    "position": "C",
     "value": 342.0
   },
   {
@@ -1652,19 +1652,19 @@
   {
     "id": 30000034,
     "name": "Leo Komarov",
-    "position": "FWD",
+    "position": "C",
     "value": 340.0
   },
   {
     "id": 30000763,
     "name": "Devin Shore",
-    "position": "FWD",
+    "position": "C",
     "value": 342.0
   },
   {
     "id": 30001437,
     "name": "Brett Ritchie",
-    "position": "FWD",
+    "position": "RW",
     "value": 342.0
   },
   {
@@ -1676,25 +1676,25 @@
   {
     "id": 30000538,
     "name": "Mark Letestu",
-    "position": "FWD",
+    "position": "C",
     "value": 336.0
   },
   {
     "id": 30000750,
     "name": "Radek Faksa",
-    "position": "FWD",
+    "position": "C",
     "value": 340.0
   },
   {
     "id": 30000087,
     "name": "Alexandre Burrows",
-    "position": "FWD",
+    "position": "LW",
     "value": 338.0
   },
   {
     "id": 30000050,
     "name": "Sean Couturier",
-    "position": "FWD",
+    "position": "C",
     "value": 338.0
   },
   {
@@ -1706,19 +1706,19 @@
   {
     "id": 30000440,
     "name": "Zach Hyman",
-    "position": "FWD",
+    "position": "C",
     "value": 333.0
   },
   {
     "id": 30000974,
     "name": "Brian Gionta",
-    "position": "FWD",
+    "position": "RW",
     "value": 334.0
   },
   {
     "id": 30001070,
     "name": "Adam Lowry",
-    "position": "FWD",
+    "position": "LW",
     "value": 335.0
   },
   {
@@ -1730,13 +1730,13 @@
   {
     "id": 30000903,
     "name": "Gabriel Landeskog",
-    "position": "FWD",
+    "position": "LW",
     "value": 334.0
   },
   {
     "id": 30002512,
     "name": "Artturi Lehkonen",
-    "position": "FWD",
+    "position": "LW",
     "value": 333.0
   },
   {
@@ -1748,25 +1748,25 @@
   {
     "id": 30000736,
     "name": "Valtteri Filppula",
-    "position": "FWD",
+    "position": "C",
     "value": 333.0
   },
   {
     "id": 30000581,
     "name": "Jay Beagle",
-    "position": "FWD",
+    "position": "C",
     "value": 330.0
   },
   {
     "id": 30000425,
     "name": "Josh Anderson",
-    "position": "FWD",
+    "position": "RW",
     "value": 333.0
   },
   {
     "id": 30000585,
     "name": "Andre Burakovsky",
-    "position": "FWD",
+    "position": "LW",
     "value": 331.0
   },
   {
@@ -1778,7 +1778,7 @@
   {
     "id": 30000195,
     "name": "Craig Smith",
-    "position": "FWD",
+    "position": "C",
     "value": 328.0
   },
   {
@@ -1796,49 +1796,49 @@
   {
     "id": 30000377,
     "name": "Jason Chimera",
-    "position": "FWD",
+    "position": "LW",
     "value": 325.0
   },
   {
     "id": 30000761,
     "name": "Colton Sceviour",
-    "position": "FWD",
+    "position": "C",
     "value": 321.0
   },
   {
     "id": 30000942,
     "name": "Christian Dvorak",
-    "position": "FWD",
+    "position": "LW",
     "value": 325.0
   },
   {
     "id": 30000889,
     "name": "Nick Ritchie",
-    "position": "FWD",
+    "position": "LW",
     "value": 323.0
   },
   {
     "id": 30000906,
     "name": "Mikko Rantanen",
-    "position": "FWD",
+    "position": "RW",
     "value": 322.0
   },
   {
     "id": 30000241,
     "name": "Calle Jarnkrok",
-    "position": "FWD",
+    "position": "C",
     "value": 319.0
   },
   {
     "id": 30000248,
     "name": "Colin Wilson",
-    "position": "FWD",
+    "position": "C",
     "value": 321.0
   },
   {
     "id": 30001021,
     "name": "Andrew Shaw",
-    "position": "FWD",
+    "position": "C",
     "value": 320.0
   },
   {
@@ -1862,13 +1862,13 @@
   {
     "id": 30000498,
     "name": "Matt Moulson",
-    "position": "FWD",
+    "position": "LW",
     "value": 318.0
   },
   {
     "id": 30000810,
     "name": "Erik Haula",
-    "position": "FWD",
+    "position": "LW",
     "value": 317.0
   },
   {
@@ -1880,19 +1880,19 @@
   {
     "id": 30000461,
     "name": "Ryan Dzingel",
-    "position": "FWD",
+    "position": "C",
     "value": 315.0
   },
   {
     "id": 30001502,
     "name": "Tom Pyatt",
-    "position": "FWD",
+    "position": "C",
     "value": 312.0
   },
   {
     "id": 30000846,
     "name": "Dylan Larkin",
-    "position": "FWD",
+    "position": "C",
     "value": 313.0
   },
   {
@@ -1910,7 +1910,7 @@
   {
     "id": 30001194,
     "name": "Sven Baertschi",
-    "position": "FWD",
+    "position": "LW",
     "value": 313.0
   },
   {
@@ -1928,7 +1928,7 @@
   {
     "id": 30001175,
     "name": "Brian Boyle",
-    "position": "FWD",
+    "position": "C",
     "value": 308.0
   },
   {
@@ -1946,7 +1946,7 @@
   {
     "id": 30000098,
     "name": "Henrik Sedin",
-    "position": "FWD",
+    "position": "C",
     "value": 303.0
   },
   {
@@ -1958,19 +1958,19 @@
   {
     "id": 30000657,
     "name": "Chris Kunitz",
-    "position": "FWD",
+    "position": "LW",
     "value": 301.0
   },
   {
     "id": 30000012,
     "name": "Lars Eller",
-    "position": "FWD",
+    "position": "C",
     "value": 300.0
   },
   {
     "id": 30000349,
     "name": "Travis Konecny",
-    "position": "FWD",
+    "position": "C",
     "value": 300.0
   },
   {
@@ -1982,7 +1982,7 @@
   {
     "id": 30000922,
     "name": "Joel Ward",
-    "position": "FWD",
+    "position": "RW",
     "value": 296.0
   },
   {
@@ -2006,7 +2006,7 @@
   {
     "id": 30000304,
     "name": "Mike Cammalleri",
-    "position": "FWD",
+    "position": "LW",
     "value": 294.0
   },
   {
@@ -2024,7 +2024,7 @@
   {
     "id": 30001100,
     "name": "Bryan Rust",
-    "position": "FWD",
+    "position": "RW",
     "value": 289.0
   },
   {
@@ -2042,37 +2042,37 @@
   {
     "id": 30000940,
     "name": "Max Domi",
-    "position": "FWD",
+    "position": "C",
     "value": 288.0
   },
   {
     "id": 30000948,
     "name": "Jordan Martinook",
-    "position": "FWD",
+    "position": "LW",
     "value": 285.0
   },
   {
     "id": 30000150,
     "name": "Trevor Lewis",
-    "position": "FWD",
+    "position": "C",
     "value": 285.0
   },
   {
     "id": 30001292,
     "name": "Shane Doan",
-    "position": "FWD",
+    "position": "RW",
     "value": 285.0
   },
   {
     "id": 30000394,
     "name": "Matt Cullen",
-    "position": "FWD",
+    "position": "C",
     "value": 282.0
   },
   {
     "id": 30000841,
     "name": "Andreas Athanasiou",
-    "position": "FWD",
+    "position": "C",
     "value": 283.0
   },
   {
@@ -2102,13 +2102,13 @@
   {
     "id": 30002532,
     "name": "Jake Guentzel",
-    "position": "FWD",
+    "position": "C",
     "value": 280.0
   },
   {
     "id": 30000938,
     "name": "Mikkel Boedker",
-    "position": "FWD",
+    "position": "LW",
     "value": 278.0
   },
   {
@@ -2120,7 +2120,7 @@
   {
     "id": 30000404,
     "name": "Scott Wilson",
-    "position": "FWD",
+    "position": "C",
     "value": 278.0
   },
   {
@@ -2132,13 +2132,13 @@
   {
     "id": 30002761,
     "name": "Jimmy Vesey",
-    "position": "FWD",
+    "position": "LW",
     "value": 275.0
   },
   {
     "id": 30001155,
     "name": "Casey Cizikas",
-    "position": "FWD",
+    "position": "C",
     "value": 275.0
   },
   {
@@ -2162,49 +2162,49 @@
   {
     "id": 30001005,
     "name": "Ryan Strome",
-    "position": "FWD",
+    "position": "C",
     "value": 273.0
   },
   {
     "id": 30000449,
     "name": "Bobby Ryan",
-    "position": "FWD",
+    "position": "RW",
     "value": 272.0
   },
   {
     "id": 30001319,
     "name": "Carl Hagelin",
-    "position": "FWD",
+    "position": "LW",
     "value": 272.0
   },
   {
     "id": 30001050,
     "name": "Vladislav Namestnikov",
-    "position": "FWD",
+    "position": "C",
     "value": 271.0
   },
   {
     "id": 30000044,
     "name": "Daniel Winnik",
-    "position": "FWD",
+    "position": "RW",
     "value": 270.0
   },
   {
     "id": 30000499,
     "name": "Marcus Foligno",
-    "position": "FWD",
+    "position": "LW",
     "value": 270.0
   },
   {
     "id": 30000559,
     "name": "Sam Bennett",
-    "position": "FWD",
+    "position": "C",
     "value": 270.0
   },
   {
     "id": 30000325,
     "name": "Dominic Moore",
-    "position": "FWD",
+    "position": "C",
     "value": 266.0
   },
   {
@@ -2222,7 +2222,7 @@
   {
     "id": 30000564,
     "name": "Markus Granlund",
-    "position": "FWD",
+    "position": "C",
     "value": 268.0
   },
   {
@@ -2234,13 +2234,13 @@
   {
     "id": 30000164,
     "name": "Jussi Jokinen",
-    "position": "FWD",
+    "position": "LW",
     "value": 265.0
   },
   {
     "id": 30000068,
     "name": "Loui Eriksson",
-    "position": "FWD",
+    "position": "LW",
     "value": 265.0
   },
   {
@@ -2264,7 +2264,7 @@
   {
     "id": 30000760,
     "name": "Antoine Roussel",
-    "position": "FWD",
+    "position": "LW",
     "value": 264.0
   },
   {
@@ -2276,13 +2276,13 @@
   {
     "id": 30000554,
     "name": "Micheal Ferland",
-    "position": "FWD",
+    "position": "LW",
     "value": 264.0
   },
   {
     "id": 30000186,
     "name": "Austin Watson",
-    "position": "FWD",
+    "position": "LW",
     "value": 262.0
   },
   {
@@ -2300,7 +2300,7 @@
   {
     "id": 30001318,
     "name": "Jarome Iginla",
-    "position": "FWD",
+    "position": "RW",
     "value": 261.0
   },
   {
@@ -2312,7 +2312,7 @@
   {
     "id": 30001222,
     "name": "Antoine Vermette",
-    "position": "FWD",
+    "position": "C",
     "value": 260.0
   },
   {
@@ -2330,13 +2330,13 @@
   {
     "id": 30001430,
     "name": "Melker Karlsson",
-    "position": "FWD",
+    "position": "RW",
     "value": 256.0
   },
   {
     "id": 30000213,
     "name": "Brett Connolly",
-    "position": "FWD",
+    "position": "RW",
     "value": 256.0
   },
   {
@@ -2354,7 +2354,7 @@
   {
     "id": 30000422,
     "name": "William Karlsson",
-    "position": "FWD",
+    "position": "C",
     "value": 253.0
   },
   {
@@ -2390,13 +2390,13 @@
   {
     "id": 30000536,
     "name": "Lauri Korpikoski",
-    "position": "FWD",
+    "position": "LW",
     "value": 250.0
   },
   {
     "id": 30000093,
     "name": "Zack Kassian",
-    "position": "FWD",
+    "position": "RW",
     "value": 251.0
   },
   {
@@ -2420,7 +2420,7 @@
   {
     "id": 30000139,
     "name": "Chris Tierney",
-    "position": "FWD",
+    "position": "C",
     "value": 249.0
   },
   {
@@ -2432,13 +2432,13 @@
   {
     "id": 30000375,
     "name": "Tom Wilson",
-    "position": "FWD",
+    "position": "RW",
     "value": 247.0
   },
   {
     "id": 30000359,
     "name": "Riley Nash",
-    "position": "FWD",
+    "position": "C",
     "value": 243.0
   },
   {
@@ -2450,7 +2450,7 @@
   {
     "id": 30000284,
     "name": "Nikolay Kulemin",
-    "position": "FWD",
+    "position": "LW",
     "value": 243.0
   },
   {
@@ -2462,13 +2462,13 @@
   {
     "id": 30000341,
     "name": "Anthony Beauvillier",
-    "position": "FWD",
+    "position": "LW",
     "value": 244.0
   },
   {
     "id": 30000020,
     "name": "Pierre-Alexandr Parenteau",
-    "position": "FWD",
+    "position": "RW",
     "value": 243.0
   },
   {
@@ -2480,7 +2480,7 @@
   {
     "id": 30000372,
     "name": "Derek Ryan",
-    "position": "FWD",
+    "position": "C",
     "value": 240.0
   },
   {
@@ -2492,19 +2492,19 @@
   {
     "id": 30000672,
     "name": "Troy Brouwer",
-    "position": "FWD",
+    "position": "RW",
     "value": 239.0
   },
   {
     "id": 30002583,
     "name": "Nick Schmaltz",
-    "position": "FWD",
+    "position": "C",
     "value": 239.0
   },
   {
     "id": 30000146,
     "name": "Marian Gaborik",
-    "position": "FWD",
+    "position": "RW",
     "value": 239.0
   },
   {
@@ -2522,7 +2522,7 @@
   {
     "id": 30001313,
     "name": "Marcus Kruger",
-    "position": "FWD",
+    "position": "C",
     "value": 237.0
   },
   {
@@ -2534,7 +2534,7 @@
   {
     "id": 30000132,
     "name": "Tomas Hertl",
-    "position": "FWD",
+    "position": "C",
     "value": 236.0
   },
   {
@@ -2552,7 +2552,7 @@
   {
     "id": 30000285,
     "name": "Cal Clutterbuck",
-    "position": "FWD",
+    "position": "RW",
     "value": 235.0
   },
   {
@@ -2564,13 +2564,13 @@
   {
     "id": 30000475,
     "name": "Alex Chiasson",
-    "position": "FWD",
+    "position": "RW",
     "value": 232.0
   },
   {
     "id": 30000831,
     "name": "Drew Stafford",
-    "position": "FWD",
+    "position": "RW",
     "value": 232.0
   },
   {
@@ -2588,7 +2588,7 @@
   {
     "id": 30000057,
     "name": "Matt Read",
-    "position": "FWD",
+    "position": "RW",
     "value": 228.0
   },
   {
@@ -2600,19 +2600,19 @@
   {
     "id": 30000322,
     "name": "Oscar Lindberg",
-    "position": "FWD",
+    "position": "C",
     "value": 227.0
   },
   {
     "id": 30000575,
     "name": "Adam Cracknell",
-    "position": "FWD",
+    "position": "RW",
     "value": 226.0
   },
   {
     "id": 30000818,
     "name": "Joel Armia",
-    "position": "FWD",
+    "position": "RW",
     "value": 223.0
   },
   {
@@ -2630,7 +2630,7 @@
   {
     "id": 30000609,
     "name": "Frank Vatrano",
-    "position": "FWD",
+    "position": "C",
     "value": 223.0
   },
   {
@@ -2642,7 +2642,7 @@
   {
     "id": 30000766,
     "name": "Jonathan Huberdeau",
-    "position": "FWD",
+    "position": "C",
     "value": 220.0
   },
   {
@@ -2654,13 +2654,13 @@
   {
     "id": 30000789,
     "name": "Robby Fabbri",
-    "position": "FWD",
+    "position": "C",
     "value": 220.0
   },
   {
     "id": 30001213,
     "name": "Chris Stewart",
-    "position": "FWD",
+    "position": "RW",
     "value": 219.0
   },
   {
@@ -2672,7 +2672,7 @@
   {
     "id": 30000721,
     "name": "Torrey Mitchell",
-    "position": "FWD",
+    "position": "C",
     "value": 218.0
   },
   {
@@ -2684,13 +2684,13 @@
   {
     "id": 30001014,
     "name": "Tanner Kero",
-    "position": "FWD",
+    "position": "C",
     "value": 217.0
   },
   {
     "id": 30001220,
     "name": "Brendan Perlini",
-    "position": "FWD",
+    "position": "LW",
     "value": 216.0
   },
   {
@@ -2708,19 +2708,19 @@
   {
     "id": 30001255,
     "name": "Patrick Sharp",
-    "position": "FWD",
+    "position": "LW",
     "value": 215.0
   },
   {
     "id": 30000199,
     "name": "Kevin Fiala",
-    "position": "FWD",
+    "position": "C",
     "value": 216.0
   },
   {
     "id": 30000148,
     "name": "Dwight King",
-    "position": "FWD",
+    "position": "LW",
     "value": 212.0
   },
   {
@@ -2732,13 +2732,13 @@
   {
     "id": 30003109,
     "name": "Drake Caggiula",
-    "position": "FWD",
+    "position": "C",
     "value": 210.0
   },
   {
     "id": 30000119,
     "name": "Matt Stajan",
-    "position": "FWD",
+    "position": "C",
     "value": 208.0
   },
   {
@@ -2750,13 +2750,13 @@
   {
     "id": 30000331,
     "name": "Jesper Fast",
-    "position": "FWD",
+    "position": "RW",
     "value": 208.0
   },
   {
     "id": 30000821,
     "name": "Andrew Copp",
-    "position": "FWD",
+    "position": "C",
     "value": 207.0
   },
   {
@@ -2774,7 +2774,7 @@
   {
     "id": 30000170,
     "name": "Derek MacKenzie",
-    "position": "FWD",
+    "position": "C",
     "value": 198.0
   },
   {
@@ -2786,25 +2786,25 @@
   {
     "id": 30000502,
     "name": "Zemgus Girgensons",
-    "position": "FWD",
+    "position": "C",
     "value": 202.0
   },
   {
     "id": 30000401,
     "name": "Beau Bennett",
-    "position": "FWD",
+    "position": "RW",
     "value": 202.0
   },
   {
     "id": 30000688,
     "name": "Matt Calvert",
-    "position": "FWD",
+    "position": "LW",
     "value": 198.0
   },
   {
     "id": 30000319,
     "name": "Viktor Stalberg",
-    "position": "FWD",
+    "position": "LW",
     "value": 199.0
   },
   {
@@ -2816,25 +2816,25 @@
   {
     "id": 30002680,
     "name": "Kevin Labanc",
-    "position": "FWD",
+    "position": "RW",
     "value": 200.0
   },
   {
     "id": 30000995,
     "name": "Pavel Zacha",
-    "position": "FWD",
+    "position": "C",
     "value": 200.0
   },
   {
     "id": 30000048,
     "name": "Pierre-Edouard Bellemare",
-    "position": "FWD",
+    "position": "RW",
     "value": 198.0
   },
   {
     "id": 30000899,
     "name": "Mikhail Grigorenko",
-    "position": "FWD",
+    "position": "C",
     "value": 199.0
   },
   {
@@ -2846,25 +2846,25 @@
   {
     "id": 30000026,
     "name": "Dale Weise",
-    "position": "FWD",
+    "position": "RW",
     "value": 198.0
   },
   {
     "id": 30001024,
     "name": "Justin Abdelkader",
-    "position": "FWD",
+    "position": "LW",
     "value": 196.0
   },
   {
     "id": 30000010,
     "name": "Rene Bourque",
-    "position": "FWD",
+    "position": "LW",
     "value": 197.0
   },
   {
     "id": 30000713,
     "name": "Sven Andrighetto",
-    "position": "FWD",
+    "position": "RW",
     "value": 197.0
   },
   {
@@ -2882,7 +2882,7 @@
   {
     "id": 30000912,
     "name": "Joonas Donskoi",
-    "position": "FWD",
+    "position": "RW",
     "value": 196.0
   },
   {
@@ -2900,13 +2900,13 @@
   {
     "id": 30001338,
     "name": "Darren Helm",
-    "position": "FWD",
+    "position": "C",
     "value": 192.0
   },
   {
     "id": 30000168,
     "name": "Brandon Pirri",
-    "position": "FWD",
+    "position": "C",
     "value": 193.0
   },
   {
@@ -2918,7 +2918,7 @@
   {
     "id": 30000338,
     "name": "Alan Quine",
-    "position": "FWD",
+    "position": "C",
     "value": 192.0
   },
   {
@@ -2942,31 +2942,31 @@
   {
     "id": 30000345,
     "name": "Chris VandeVelde",
-    "position": "FWD",
+    "position": "C",
     "value": 191.0
   },
   {
     "id": 30000686,
     "name": "Scottie Upshall",
-    "position": "FWD",
+    "position": "RW",
     "value": 189.0
   },
   {
     "id": 30002695,
     "name": "Nic Dowd",
-    "position": "FWD",
+    "position": "C",
     "value": 191.0
   },
   {
     "id": 30000896,
     "name": "Blake Comeau",
-    "position": "FWD",
+    "position": "LW",
     "value": 189.0
   },
   {
     "id": 30001315,
     "name": "Jori Lehtera",
-    "position": "FWD",
+    "position": "C",
     "value": 189.0
   },
   {
@@ -2978,13 +2978,13 @@
   {
     "id": 30000081,
     "name": "Carl Soderberg",
-    "position": "FWD",
+    "position": "C",
     "value": 188.0
   },
   {
     "id": 30000091,
     "name": "Jannik Hansen",
-    "position": "FWD",
+    "position": "RW",
     "value": 188.0
   },
   {
@@ -2996,13 +2996,13 @@
   {
     "id": 30000263,
     "name": "Nick Cousins",
-    "position": "FWD",
+    "position": "C",
     "value": 186.0
   },
   {
     "id": 30001183,
     "name": "Tim Schaller",
-    "position": "FWD",
+    "position": "LW",
     "value": 185.0
   },
   {
@@ -3020,37 +3020,37 @@
   {
     "id": 30000144,
     "name": "Kyle Clifford",
-    "position": "FWD",
+    "position": "LW",
     "value": 185.0
   },
   {
     "id": 30000844,
     "name": "Luke Glendening",
-    "position": "FWD",
+    "position": "C",
     "value": 184.0
   },
   {
     "id": 30000639,
     "name": "Joakim Nordstrom",
-    "position": "FWD",
+    "position": "C",
     "value": 183.0
   },
   {
     "id": 30000756,
     "name": "Curtis McKenzie",
-    "position": "FWD",
+    "position": "LW",
     "value": 183.0
   },
   {
     "id": 30001097,
     "name": "Tom Kuhnhackl",
-    "position": "FWD",
+    "position": "RW",
     "value": 179.0
   },
   {
     "id": 30000671,
     "name": "Kyle Brodziak",
-    "position": "FWD",
+    "position": "C",
     "value": 181.0
   },
   {
@@ -3062,7 +3062,7 @@
   {
     "id": 30000537,
     "name": "Benoit Pouliot",
-    "position": "FWD",
+    "position": "LW",
     "value": 178.0
   },
   {
@@ -3074,13 +3074,13 @@
   {
     "id": 30003079,
     "name": "Miles Wood",
-    "position": "FWD",
+    "position": "LW",
     "value": 177.0
   },
   {
     "id": 30000569,
     "name": "Nick Shore",
-    "position": "FWD",
+    "position": "C",
     "value": 176.0
   },
   {
@@ -3092,7 +3092,7 @@
   {
     "id": 30000978,
     "name": "Jamie McGinn",
-    "position": "FWD",
+    "position": "LW",
     "value": 176.0
   },
   {
@@ -3104,7 +3104,7 @@
   {
     "id": 30002530,
     "name": "Pavel Buchnevich",
-    "position": "FWD",
+    "position": "LW",
     "value": 174.0
   },
   {
@@ -3122,13 +3122,13 @@
   {
     "id": 30000743,
     "name": "Steven Stamkos",
-    "position": "FWD",
+    "position": "C",
     "value": 172.0
   },
   {
     "id": 30000780,
     "name": "Lukas Sedlak",
-    "position": "FWD",
+    "position": "C",
     "value": 171.0
   },
   {
@@ -3140,7 +3140,7 @@
   {
     "id": 30000141,
     "name": "Tommy Wingels",
-    "position": "FWD",
+    "position": "C",
     "value": 168.0
   },
   {
@@ -3152,7 +3152,7 @@
   {
     "id": 30001252,
     "name": "Cody Eakin",
-    "position": "FWD",
+    "position": "C",
     "value": 163.0
   },
   {
@@ -3170,13 +3170,13 @@
   {
     "id": 30000136,
     "name": "Matt Nieto",
-    "position": "FWD",
+    "position": "LW",
     "value": 161.0
   },
   {
     "id": 30001013,
     "name": "Vincent Hinostroza",
-    "position": "FWD",
+    "position": "C",
     "value": 161.0
   },
   {
@@ -3194,7 +3194,7 @@
   {
     "id": 30000071,
     "name": "Chris Kelly",
-    "position": "FWD",
+    "position": "C",
     "value": 159.0
   },
   {
@@ -3206,37 +3206,37 @@
   {
     "id": 30002816,
     "name": "Ondrej Kase",
-    "position": "FWD",
+    "position": "RW",
     "value": 159.0
   },
   {
     "id": 30000867,
     "name": "Dennis Rasmussen",
-    "position": "FWD",
+    "position": "LW",
     "value": 158.0
   },
   {
     "id": 30001301,
     "name": "Ryan Reaves",
-    "position": "FWD",
+    "position": "RW",
     "value": 158.0
   },
   {
     "id": 30001137,
     "name": "Josh Jooris",
-    "position": "FWD",
+    "position": "C",
     "value": 157.0
   },
   {
     "id": 30000973,
     "name": "Tyler Ennis",
-    "position": "FWD",
+    "position": "LW",
     "value": 157.0
   },
   {
     "id": 30001335,
     "name": "Eric Fehr",
-    "position": "FWD",
+    "position": "RW",
     "value": 157.0
   },
   {
@@ -3260,7 +3260,7 @@
   {
     "id": 30000682,
     "name": "Magnus Paajarvi",
-    "position": "FWD",
+    "position": "LW",
     "value": 154.0
   },
   {
@@ -3272,25 +3272,25 @@
   {
     "id": 30000637,
     "name": "Brock McGinn",
-    "position": "FWD",
+    "position": "LW",
     "value": 152.0
   },
   {
     "id": 30000571,
     "name": "Anthony Duclair",
-    "position": "FWD",
+    "position": "LW",
     "value": 151.0
   },
   {
     "id": 30000741,
     "name": "Cedric Paquette",
-    "position": "FWD",
+    "position": "C",
     "value": 150.0
   },
   {
     "id": 30000450,
     "name": "Shane Prince",
-    "position": "FWD",
+    "position": "C",
     "value": 150.0
   },
   {
@@ -3302,13 +3302,13 @@
   {
     "id": 30000191,
     "name": "Mike Ribeiro",
-    "position": "FWD",
+    "position": "C",
     "value": 149.0
   },
   {
     "id": 30000854,
     "name": "Riley Sheahan",
-    "position": "FWD",
+    "position": "C",
     "value": 148.0
   },
   {
@@ -3320,7 +3320,7 @@
   {
     "id": 30000712,
     "name": "Nikita Soshnikov",
-    "position": "FWD",
+    "position": "RW",
     "value": 147.0
   },
   {
@@ -3332,7 +3332,7 @@
   {
     "id": 30000189,
     "name": "Colton Sissons",
-    "position": "FWD",
+    "position": "C",
     "value": 144.0
   },
   {
@@ -3362,19 +3362,19 @@
   {
     "id": 30000350,
     "name": "Ryan White",
-    "position": "FWD",
+    "position": "C",
     "value": 143.0
   },
   {
     "id": 30000907,
     "name": "Jack Skille",
-    "position": "FWD",
+    "position": "RW",
     "value": 143.0
   },
   {
     "id": 30000886,
     "name": "Stefan Noesen",
-    "position": "FWD",
+    "position": "RW",
     "value": 141.0
   },
   {
@@ -3392,7 +3392,7 @@
   {
     "id": 30000011,
     "name": "David Desharnais",
-    "position": "FWD",
+    "position": "C",
     "value": 139.0
   },
   {
@@ -3404,19 +3404,19 @@
   {
     "id": 30000601,
     "name": "Austin Czarnik",
-    "position": "FWD",
+    "position": "C",
     "value": 136.0
   },
   {
     "id": 30000288,
     "name": "Matt Martin",
-    "position": "FWD",
+    "position": "LW",
     "value": 136.0
   },
   {
     "id": 30000428,
     "name": "Oliver Bjorkstrand",
-    "position": "FWD",
+    "position": "RW",
     "value": 136.0
   },
   {
@@ -3428,7 +3428,7 @@
   {
     "id": 30000225,
     "name": "Nick Bjugstad",
-    "position": "FWD",
+    "position": "C",
     "value": 135.0
   },
   {
@@ -3440,7 +3440,7 @@
   {
     "id": 30000094,
     "name": "Shawn Matthias",
-    "position": "FWD",
+    "position": "C",
     "value": 134.0
   },
   {
@@ -3458,19 +3458,19 @@
   {
     "id": 30000178,
     "name": "Logan Shaw",
-    "position": "FWD",
+    "position": "RW",
     "value": 131.0
   },
   {
     "id": 30000570,
     "name": "Jordan Weal",
-    "position": "FWD",
+    "position": "C",
     "value": 132.0
   },
   {
     "id": 30001111,
     "name": "Brian Flynn",
-    "position": "FWD",
+    "position": "RW",
     "value": 132.0
   },
   {
@@ -3482,13 +3482,13 @@
   {
     "id": 30000229,
     "name": "Lawson Crouse",
-    "position": "FWD",
+    "position": "LW",
     "value": 131.0
   },
   {
     "id": 30000056,
     "name": "Michael Raffl",
-    "position": "FWD",
+    "position": "LW",
     "value": 131.0
   },
   {
@@ -3500,55 +3500,55 @@
   {
     "id": 30000680,
     "name": "Dmitrij Jaskin",
-    "position": "FWD",
+    "position": "RW",
     "value": 130.0
   },
   {
     "id": 30000819,
     "name": "Alex Burmistrov",
-    "position": "FWD",
+    "position": "C",
     "value": 129.0
   },
   {
     "id": 30000551,
     "name": "Anton Slepyshev",
-    "position": "FWD",
+    "position": "LW",
     "value": 128.0
   },
   {
     "id": 30000318,
     "name": "Jayson Megna",
-    "position": "FWD",
+    "position": "RW",
     "value": 128.0
   },
   {
     "id": 30000526,
     "name": "Tyler Graovac",
-    "position": "FWD",
+    "position": "C",
     "value": 127.0
   },
   {
     "id": 30000105,
     "name": "Lance Bouma",
-    "position": "FWD",
+    "position": "LW",
     "value": 127.0
   },
   {
     "id": 30001192,
     "name": "Tyler Pitlick",
-    "position": "FWD",
+    "position": "RW",
     "value": 127.0
   },
   {
     "id": 30003231,
     "name": "Denis Malgin",
-    "position": "FWD",
+    "position": "C",
     "value": 126.0
   },
   {
     "id": 30000814,
     "name": "Jordan Schroeder",
-    "position": "FWD",
+    "position": "C",
     "value": 126.0
   },
   {
@@ -3560,7 +3560,7 @@
   {
     "id": 30000984,
     "name": "Reid Boucher",
-    "position": "FWD",
+    "position": "C",
     "value": 125.0
   },
   {
@@ -3572,7 +3572,7 @@
   {
     "id": 30000915,
     "name": "Micheal Haley",
-    "position": "FWD",
+    "position": "C",
     "value": 124.0
   },
   {
@@ -3584,7 +3584,7 @@
   {
     "id": 30001226,
     "name": "Timo Meier",
-    "position": "FWD",
+    "position": "RW",
     "value": 122.0
   },
   {
@@ -3614,19 +3614,19 @@
   {
     "id": 30000487,
     "name": "Devin Setoguchi",
-    "position": "FWD",
+    "position": "RW",
     "value": 117.0
   },
   {
     "id": 30000724,
     "name": "Devante Smith-Pelly",
-    "position": "FWD",
+    "position": "RW",
     "value": 116.0
   },
   {
     "id": 30000031,
     "name": "Peter Holland",
-    "position": "FWD",
+    "position": "C",
     "value": 115.0
   },
   {
@@ -3638,13 +3638,13 @@
   {
     "id": 30000598,
     "name": "Matt Beleskey",
-    "position": "FWD",
+    "position": "LW",
     "value": 115.0
   },
   {
     "id": 30000500,
     "name": "Johan Larsson",
-    "position": "FWD",
+    "position": "LW",
     "value": 115.0
   },
   {
@@ -3674,13 +3674,13 @@
   {
     "id": 30001149,
     "name": "John Mitchell",
-    "position": "FWD",
+    "position": "C",
     "value": 112.0
   },
   {
     "id": 30000861,
     "name": "Marko Dano",
-    "position": "FWD",
+    "position": "C",
     "value": 112.0
   },
   {
@@ -3692,7 +3692,7 @@
   {
     "id": 30000535,
     "name": "Matt Hendricks",
-    "position": "FWD",
+    "position": "C",
     "value": 111.0
   },
   {
@@ -3704,7 +3704,7 @@
   {
     "id": 30003077,
     "name": "Tyler Motte",
-    "position": "FWD",
+    "position": "C",
     "value": 110.0
   },
   {
@@ -3716,31 +3716,31 @@
   {
     "id": 30001044,
     "name": "J.T. Brown",
-    "position": "FWD",
+    "position": "RW",
     "value": 108.0
   },
   {
     "id": 30000419,
     "name": "Michael Chaput",
-    "position": "FWD",
+    "position": "C",
     "value": 109.0
   },
   {
     "id": 30001206,
     "name": "Joseph Cramarossa",
-    "position": "FWD",
+    "position": "C",
     "value": 107.0
   },
   {
     "id": 30000905,
     "name": "Andreas Martinsen",
-    "position": "FWD",
+    "position": "C",
     "value": 107.0
   },
   {
     "id": 30000891,
     "name": "Chris Wagner",
-    "position": "FWD",
+    "position": "RW",
     "value": 108.0
   },
   {
@@ -3752,7 +3752,7 @@
   {
     "id": 30000851,
     "name": "Drew Miller",
-    "position": "FWD",
+    "position": "LW",
     "value": 106.0
   },
   {
@@ -3764,13 +3764,13 @@
   {
     "id": 30000716,
     "name": "Daniel Carr",
-    "position": "FWD",
+    "position": "LW",
     "value": 104.0
   },
   {
     "id": 30001231,
     "name": "Jay McClement",
-    "position": "FWD",
+    "position": "C",
     "value": 103.0
   },
   {
@@ -3782,13 +3782,13 @@
   {
     "id": 30000828,
     "name": "Nic Petan",
-    "position": "FWD",
+    "position": "C",
     "value": 103.0
   },
   {
     "id": 30001089,
     "name": "Jimmy Hayes",
-    "position": "FWD",
+    "position": "RW",
     "value": 102.0
   },
   {
@@ -3800,19 +3800,19 @@
   {
     "id": 30000784,
     "name": "Ivan Barbashev",
-    "position": "FWD",
+    "position": "LW",
     "value": 102.0
   },
   {
     "id": 30000510,
     "name": "William Carrier",
-    "position": "FWD",
+    "position": "LW",
     "value": 100.0
   },
   {
     "id": 30002521,
     "name": "Zachary Sanford",
-    "position": "FWD",
+    "position": "LW",
     "value": 100.0
   },
   {
@@ -3824,7 +3824,7 @@
   {
     "id": 30000988,
     "name": "Jacob Josefson",
-    "position": "FWD",
+    "position": "C",
     "value": 97.0
   },
   {
@@ -3842,13 +3842,13 @@
   {
     "id": 30003133,
     "name": "Jesse Puljujarvi",
-    "position": "FWD",
+    "position": "RW",
     "value": 96.0
   },
   {
     "id": 30003053,
     "name": "Brandon Tanev",
-    "position": "FWD",
+    "position": "LW",
     "value": 93.0
   },
   {
@@ -3860,7 +3860,7 @@
   {
     "id": 30000791,
     "name": "Steve Ott",
-    "position": "FWD",
+    "position": "C",
     "value": 86.0
   },
   {
@@ -3884,19 +3884,19 @@
   {
     "id": 30000367,
     "name": "Phil Di Giuseppe",
-    "position": "FWD",
+    "position": "LW",
     "value": 85.0
   },
   {
     "id": 30000473,
     "name": "Matt Puempel",
-    "position": "FWD",
+    "position": "LW",
     "value": 85.0
   },
   {
     "id": 30003230,
     "name": "Roman Lyubimov",
-    "position": "FWD",
+    "position": "C",
     "value": 85.0
   },
   {
@@ -3908,19 +3908,19 @@
   {
     "id": 30002513,
     "name": "J.t. Compher",
-    "position": "FWD",
+    "position": "LW",
     "value": 83.0
   },
   {
     "id": 30000981,
     "name": "Evan Rodrigues",
-    "position": "FWD",
+    "position": "RW",
     "value": 82.0
   },
   {
     "id": 30000709,
     "name": "Josh Leivo",
-    "position": "FWD",
+    "position": "LW",
     "value": 82.0
   },
   {
@@ -3944,13 +3944,13 @@
   {
     "id": 30001266,
     "name": "Michael Sgarbossa",
-    "position": "FWD",
+    "position": "C",
     "value": 81.0
   },
   {
     "id": 30000175,
     "name": "Greg McKegg",
-    "position": "FWD",
+    "position": "C",
     "value": 80.0
   },
   {
@@ -3968,7 +3968,7 @@
   {
     "id": 30000929,
     "name": "Jared McCann",
-    "position": "FWD",
+    "position": "C",
     "value": 79.0
   },
   {
@@ -3980,19 +3980,19 @@
   {
     "id": 30000565,
     "name": "Nail Yakupov",
-    "position": "FWD",
+    "position": "RW",
     "value": 79.0
   },
   {
     "id": 30001196,
     "name": "Brendan Gaunce",
-    "position": "FWD",
+    "position": "C",
     "value": 79.0
   },
   {
     "id": 30000095,
     "name": "Brad Richardson",
-    "position": "FWD",
+    "position": "C",
     "value": 76.0
   },
   {
@@ -4004,55 +4004,55 @@
   {
     "id": 30000919,
     "name": "Ben Smith",
-    "position": "FWD",
+    "position": "RW",
     "value": 77.0
   },
   {
     "id": 30001380,
     "name": "Carter Rowney",
-    "position": "FWD",
+    "position": "RW",
     "value": 77.0
   },
   {
     "id": 30000390,
     "name": "Jakub Vrana",
-    "position": "FWD",
+    "position": "C",
     "value": 77.0
   },
   {
     "id": 30001178,
     "name": "Yanni Gourde",
-    "position": "FWD",
+    "position": "LW",
     "value": 75.0
   },
   {
     "id": 30002580,
     "name": "Josh Ho-sang",
-    "position": "FWD",
+    "position": "RW",
     "value": 76.0
   },
   {
     "id": 30001286,
     "name": "Jordan Nolan",
-    "position": "FWD",
+    "position": "C",
     "value": 76.0
   },
   {
     "id": 30001135,
     "name": "Derek Grant",
-    "position": "FWD",
+    "position": "C",
     "value": 75.0
   },
   {
     "id": 30000719,
     "name": "Gabriel Dumont",
-    "position": "FWD",
+    "position": "C",
     "value": 75.0
   },
   {
     "id": 30000113,
     "name": "Jiri Hudler",
-    "position": "FWD",
+    "position": "LW",
     "value": 75.0
   },
   {
@@ -4064,13 +4064,13 @@
   {
     "id": 30001120,
     "name": "Vernon Fiddler",
-    "position": "FWD",
+    "position": "C",
     "value": 71.0
   },
   {
     "id": 30001148,
     "name": "Cody McLeod",
-    "position": "FWD",
+    "position": "LW",
     "value": 72.0
   },
   {
@@ -4082,31 +4082,31 @@
   {
     "id": 30000509,
     "name": "Justin Bailey",
-    "position": "FWD",
+    "position": "RW",
     "value": 70.0
   },
   {
     "id": 30003004,
     "name": "Nick Lappin",
-    "position": "FWD",
+    "position": "RW",
     "value": 70.0
   },
   {
     "id": 30001303,
     "name": "Ales Hemsky",
-    "position": "FWD",
+    "position": "RW",
     "value": 70.0
   },
   {
     "id": 30000833,
     "name": "Chris Thorburn",
-    "position": "FWD",
+    "position": "RW",
     "value": 69.0
   },
   {
     "id": 30000309,
     "name": "Stephen Gionta",
-    "position": "FWD",
+    "position": "RW",
     "value": 68.0
   },
   {
@@ -4124,7 +4124,7 @@
   {
     "id": 30000749,
     "name": "Remi Elie",
-    "position": "FWD",
+    "position": "LW",
     "value": 66.0
   },
   {
@@ -4154,13 +4154,13 @@
   {
     "id": 30002582,
     "name": "Adrian Kempe",
-    "position": "FWD",
+    "position": "RW",
     "value": 63.0
   },
   {
     "id": 30000108,
     "name": "Joe Colborne",
-    "position": "FWD",
+    "position": "C",
     "value": 63.0
   },
   {
@@ -4172,7 +4172,7 @@
   {
     "id": 30001235,
     "name": "Noel Acciari",
-    "position": "FWD",
+    "position": "C",
     "value": 61.0
   },
   {
@@ -4184,13 +4184,13 @@
   {
     "id": 30001059,
     "name": "Luke Witkowski",
-    "position": "FWD",
+    "position": "RW",
     "value": 59.0
   },
   {
     "id": 30001368,
     "name": "Seth Griffith",
-    "position": "FWD",
+    "position": "C",
     "value": 59.0
   },
   {
@@ -4202,7 +4202,7 @@
   {
     "id": 30002820,
     "name": "Joel Eriksson-ek",
-    "position": "FWD",
+    "position": "C",
     "value": 59.0
   },
   {
@@ -4214,13 +4214,13 @@
   {
     "id": 30000447,
     "name": "Chris Neil",
-    "position": "FWD",
+    "position": "RW",
     "value": 58.0
   },
   {
     "id": 30001201,
     "name": "Garnet Hathaway",
-    "position": "FWD",
+    "position": "RW",
     "value": 58.0
   },
   {
@@ -4238,7 +4238,7 @@
   {
     "id": 30000208,
     "name": "Joseph Blandisi",
-    "position": "FWD",
+    "position": "C",
     "value": 57.0
   },
   {
@@ -4250,31 +4250,31 @@
   {
     "id": 30000720,
     "name": "Michael McCarron",
-    "position": "FWD",
+    "position": "RW",
     "value": 56.0
   },
   {
     "id": 30000230,
     "name": "Shawn Thornton",
-    "position": "FWD",
+    "position": "RW",
     "value": 56.0
   },
   {
     "id": 30001395,
     "name": "Laurent Dauphin",
-    "position": "FWD",
+    "position": "C",
     "value": 55.0
   },
   {
     "id": 30000130,
     "name": "Andrew Desjardins",
-    "position": "FWD",
+    "position": "C",
     "value": 55.0
   },
   {
     "id": 30000298,
     "name": "Jordin Tootoo",
-    "position": "FWD",
+    "position": "RW",
     "value": 55.0
   },
   {
@@ -4298,7 +4298,7 @@
   {
     "id": 30000764,
     "name": "Gemel Smith",
-    "position": "FWD",
+    "position": "C",
     "value": 53.0
   },
   {
@@ -4310,37 +4310,37 @@
   {
     "id": 30000735,
     "name": "Adam Erne",
-    "position": "FWD",
+    "position": "LW",
     "value": 53.0
   },
   {
     "id": 30000708,
     "name": "Frederik Gauthier",
-    "position": "FWD",
+    "position": "C",
     "value": 52.0
   },
   {
     "id": 30001268,
     "name": "Ryan Carpenter",
-    "position": "FWD",
+    "position": "C",
     "value": 52.0
   },
   {
     "id": 30000209,
     "name": "John Quenneville",
-    "position": "FWD",
+    "position": "C",
     "value": 50.0
   },
   {
     "id": 30000989,
     "name": "Sergey Kalinin",
-    "position": "FWD",
+    "position": "RW",
     "value": 50.0
   },
   {
     "id": 30000363,
     "name": "Andrej Nestrasil",
-    "position": "FWD",
+    "position": "RW",
     "value": 49.0
   },
   {
@@ -4352,31 +4352,31 @@
   {
     "id": 30000955,
     "name": "Andy Andreoff",
-    "position": "FWD",
+    "position": "C",
     "value": 49.0
   },
   {
     "id": 30003112,
     "name": "Marcus Sorensen",
-    "position": "FWD",
+    "position": "RW",
     "value": 49.0
   },
   {
     "id": 30000862,
     "name": "Ryan Garbutt",
-    "position": "FWD",
+    "position": "LW",
     "value": 48.0
   },
   {
     "id": 30002529,
     "name": "John Hayden",
-    "position": "FWD",
+    "position": "C",
     "value": 48.0
   },
   {
     "id": 30001176,
     "name": "Ryan Callahan",
-    "position": "FWD",
+    "position": "RW",
     "value": 47.0
   },
   {
@@ -4388,7 +4388,7 @@
   {
     "id": 30000892,
     "name": "Harry Zolnierczyk",
-    "position": "FWD",
+    "position": "RW",
     "value": 46.0
   },
   {
@@ -4400,13 +4400,13 @@
   {
     "id": 30000965,
     "name": "Curtis Lazar",
-    "position": "FWD",
+    "position": "RW",
     "value": 45.0
   },
   {
     "id": 30001413,
     "name": "Iiro Pakarinen",
-    "position": "FWD",
+    "position": "RW",
     "value": 45.0
   },
   {
@@ -4418,13 +4418,13 @@
   {
     "id": 30002772,
     "name": "Kyle Connor",
-    "position": "FWD",
+    "position": "LW",
     "value": 44.0
   },
   {
     "id": 30001331,
     "name": "Nate Thompson",
-    "position": "FWD",
+    "position": "C",
     "value": 44.0
   },
   {
@@ -4436,7 +4436,7 @@
   {
     "id": 30001376,
     "name": "Michael Bournival",
-    "position": "FWD",
+    "position": "LW",
     "value": 43.0
   },
   {
@@ -4448,7 +4448,7 @@
   {
     "id": 30000968,
     "name": "Nicholas Baptiste",
-    "position": "FWD",
+    "position": "RW",
     "value": 41.0
   },
   {
@@ -4460,19 +4460,19 @@
   {
     "id": 30001077,
     "name": "Anton Lander",
-    "position": "FWD",
+    "position": "C",
     "value": 41.0
   },
   {
     "id": 30000311,
     "name": "Blake Coleman",
-    "position": "FWD",
+    "position": "C",
     "value": 40.0
   },
   {
     "id": 30000205,
     "name": "Paul Thompson",
-    "position": "FWD",
+    "position": "LW",
     "value": 39.0
   },
   {
@@ -4484,7 +4484,7 @@
   {
     "id": 30000403,
     "name": "Josh Archibald",
-    "position": "FWD",
+    "position": "RW",
     "value": 37.0
   },
   {
@@ -4502,7 +4502,7 @@
   {
     "id": 30001440,
     "name": "Freddie Hamilton",
-    "position": "FWD",
+    "position": "C",
     "value": 37.0
   },
   {
@@ -4514,19 +4514,19 @@
   {
     "id": 30000599,
     "name": "Anton Blidh",
-    "position": "FWD",
+    "position": "LW",
     "value": 36.0
   },
   {
     "id": 30000088,
     "name": "Derek Dorsett",
-    "position": "FWD",
+    "position": "RW",
     "value": 36.0
   },
   {
     "id": 30000913,
     "name": "Nikolay Goldobin",
-    "position": "FWD",
+    "position": "RW",
     "value": 36.0
   },
   {
@@ -4538,19 +4538,19 @@
   {
     "id": 30000745,
     "name": "Joel Vermin",
-    "position": "FWD",
+    "position": "RW",
     "value": 35.0
   },
   {
     "id": 30001362,
     "name": "Cory Conacher",
-    "position": "FWD",
+    "position": "LW",
     "value": 35.0
   },
   {
     "id": 30001200,
     "name": "Ken Agostino",
-    "position": "FWD",
+    "position": "LW",
     "value": 35.0
   },
   {
@@ -4568,13 +4568,13 @@
   {
     "id": 30000644,
     "name": "Chris Terry",
-    "position": "FWD",
+    "position": "LW",
     "value": 34.0
   },
   {
     "id": 30000224,
     "name": "Kyle Rau",
-    "position": "FWD",
+    "position": "C",
     "value": 34.0
   },
   {
@@ -4592,13 +4592,13 @@
   {
     "id": 30002967,
     "name": "Johnny Brodzinski",
-    "position": "FWD",
+    "position": "C",
     "value": 33.0
   },
   {
     "id": 30000414,
     "name": "Jared Boll",
-    "position": "FWD",
+    "position": "RW",
     "value": 33.0
   },
   {
@@ -4610,7 +4610,7 @@
   {
     "id": 30002777,
     "name": "Brock Boeser",
-    "position": "FWD",
+    "position": "RW",
     "value": 32.0
   },
   {
@@ -4628,31 +4628,31 @@
   {
     "id": 30001035,
     "name": "Tomas Nosek",
-    "position": "FWD",
+    "position": "C",
     "value": 28.0
   },
   {
     "id": 30002802,
     "name": "Christian Fischer",
-    "position": "FWD",
+    "position": "RW",
     "value": 28.0
   },
   {
     "id": 30000501,
     "name": "Nicolas Deslauriers",
-    "position": "FWD",
+    "position": "LW",
     "value": 27.0
   },
   {
     "id": 30000223,
     "name": "Shane Harper",
-    "position": "FWD",
+    "position": "RW",
     "value": 27.0
   },
   {
     "id": 30001092,
     "name": "Zac Dalpe",
-    "position": "FWD",
+    "position": "C",
     "value": 27.0
   },
   {
@@ -4664,13 +4664,13 @@
   {
     "id": 30001032,
     "name": "Tomas Jurco",
-    "position": "FWD",
+    "position": "RW",
     "value": 26.0
   },
   {
     "id": 30000645,
     "name": "Lucas Wallmark",
-    "position": "FWD",
+    "position": "C",
     "value": 24.0
   },
   {
@@ -4700,49 +4700,49 @@
   {
     "id": 30000332,
     "name": "Marek Hrivik",
-    "position": "FWD",
+    "position": "LW",
     "value": 23.0
   },
   {
     "id": 30001321,
     "name": "Markus Hannikainen",
-    "position": "FWD",
+    "position": "LW",
     "value": 23.0
   },
   {
     "id": 30000547,
     "name": "Jujhar Khaira",
-    "position": "FWD",
+    "position": "LW",
     "value": 23.0
   },
   {
     "id": 30000932,
     "name": "Jake Virtanen",
-    "position": "FWD",
+    "position": "RW",
     "value": 23.0
   },
   {
     "id": 30000328,
     "name": "Tanner Glass",
-    "position": "FWD",
+    "position": "LW",
     "value": 22.0
   },
   {
     "id": 30002522,
     "name": "Peter Cehlarik",
-    "position": "FWD",
+    "position": "LW",
     "value": 21.0
   },
   {
     "id": 30000448,
     "name": "Milan Michalek",
-    "position": "FWD",
+    "position": "LW",
     "value": 21.0
   },
   {
     "id": 30000853,
     "name": "Teemu Pulkkinen",
-    "position": "FWD",
+    "position": "LW",
     "value": 21.0
   },
   {
@@ -4760,19 +4760,19 @@
   {
     "id": 30001251,
     "name": "Justin Dowling",
-    "position": "FWD",
+    "position": "C",
     "value": 20.0
   },
   {
     "id": 30000188,
     "name": "Pontus Aberg",
-    "position": "FWD",
+    "position": "LW",
     "value": 20.0
   },
   {
     "id": 30001317,
     "name": "Teddy Purcell",
-    "position": "FWD",
+    "position": "RW",
     "value": 20.0
   },
   {
@@ -4784,13 +4784,13 @@
   {
     "id": 30000748,
     "name": "Jason Dickinson",
-    "position": "FWD",
+    "position": "C",
     "value": 19.0
   },
   {
     "id": 30002711,
     "name": "Frederick Gaudreau",
-    "position": "FWD",
+    "position": "C",
     "value": 19.0
   },
   {
@@ -4802,7 +4802,7 @@
   {
     "id": 30000683,
     "name": "Ty Rattie",
-    "position": "FWD",
+    "position": "RW",
     "value": 18.0
   },
   {
@@ -4814,7 +4814,7 @@
   {
     "id": 30000474,
     "name": "Cole Schneider",
-    "position": "FWD",
+    "position": "LW",
     "value": 16.0
   },
   {
@@ -4826,25 +4826,25 @@
   {
     "id": 30000556,
     "name": "Drew Shore",
-    "position": "FWD",
+    "position": "C",
     "value": 16.0
   },
   {
     "id": 30001054,
     "name": "Matthew Peca",
-    "position": "FWD",
+    "position": "C",
     "value": 15.0
   },
   {
     "id": 30000443,
     "name": "Kasperi Kapanen",
-    "position": "FWD",
+    "position": "RW",
     "value": 15.0
   },
   {
     "id": 30000265,
     "name": "Taylor Leier",
-    "position": "FWD",
+    "position": "LW",
     "value": 15.0
   },
   {
@@ -4868,13 +4868,13 @@
   {
     "id": 30001152,
     "name": "Ben Street",
-    "position": "FWD",
+    "position": "RW",
     "value": 14.0
   },
   {
     "id": 30003228,
     "name": "Wade Megan",
-    "position": "FWD",
+    "position": "C",
     "value": 14.0
   },
   {
@@ -4886,31 +4886,31 @@
   {
     "id": 30001112,
     "name": "Charles Hudon",
-    "position": "FWD",
+    "position": "LW",
     "value": 13.0
   },
   {
     "id": 30002578,
     "name": "Nikita Scherbak",
-    "position": "FWD",
+    "position": "LW",
     "value": 13.0
   },
   {
     "id": 30000621,
     "name": "Colin McDonald",
-    "position": "FWD",
+    "position": "RW",
     "value": 13.0
   },
   {
     "id": 30000396,
     "name": "Tom Sestito",
-    "position": "FWD",
+    "position": "LW",
     "value": 13.0
   },
   {
     "id": 30000177,
     "name": "Rocco Grimaldi",
-    "position": "FWD",
+    "position": "C",
     "value": 13.0
   },
   {
@@ -4928,7 +4928,7 @@
   {
     "id": 30000704,
     "name": "Casey Bailey",
-    "position": "FWD",
+    "position": "C",
     "value": 12.0
   },
   {
@@ -4940,13 +4940,13 @@
   {
     "id": 30002208,
     "name": "Christoph Bertschy",
-    "position": "FWD",
+    "position": "C",
     "value": 12.0
   },
   {
     "id": 30002517,
     "name": "Nick Sorensen",
-    "position": "FWD",
+    "position": "RW",
     "value": 12.0
   },
   {
@@ -4964,13 +4964,13 @@
   {
     "id": 30002511,
     "name": "Valentin Zykov",
-    "position": "FWD",
+    "position": "RW",
     "value": 11.0
   },
   {
     "id": 30000944,
     "name": "Boyd Gordon",
-    "position": "FWD",
+    "position": "C",
     "value": 11.0
   },
   {
@@ -4982,7 +4982,7 @@
   {
     "id": 30002839,
     "name": "A.j. Greer",
-    "position": "FWD",
+    "position": "LW",
     "value": 11.0
   },
   {
@@ -4994,49 +4994,49 @@
   {
     "id": 30000529,
     "name": "Zack Mitchell",
-    "position": "FWD",
+    "position": "RW",
     "value": 11.0
   },
   {
     "id": 30001010,
     "name": "Bryan Bickell",
-    "position": "FWD",
+    "position": "LW",
     "value": 10.0
   },
   {
     "id": 30002853,
     "name": "Sean Kuraly",
-    "position": "FWD",
+    "position": "C",
     "value": 10.0
   },
   {
     "id": 30002554,
     "name": "Hudson Fasching",
-    "position": "FWD",
+    "position": "RW",
     "value": 10.0
   },
   {
     "id": 30001243,
     "name": "Matt Lorito",
-    "position": "FWD",
+    "position": "LW",
     "value": 10.0
   },
   {
     "id": 30000249,
     "name": "Gabriel Bourque",
-    "position": "FWD",
+    "position": "LW",
     "value": 10.0
   },
   {
     "id": 30000187,
     "name": "Miikka Salomaki",
-    "position": "FWD",
+    "position": "RW",
     "value": 10.0
   },
   {
     "id": 30002551,
     "name": "Danny O'regan",
-    "position": "FWD",
+    "position": "C",
     "value": 10.0
   },
   {
@@ -5072,7 +5072,7 @@
   {
     "id": 30002738,
     "name": "Samuel Henley",
-    "position": "FWD",
+    "position": "C",
     "value": 9.0
   },
   {
@@ -5084,13 +5084,13 @@
   {
     "id": 30002577,
     "name": "Alex Tuch",
-    "position": "FWD",
+    "position": "RW",
     "value": 9.0
   },
   {
     "id": 30002390,
     "name": "Anton Rodin",
-    "position": "FWD",
+    "position": "RW",
     "value": 9.0
   },
   {
@@ -5102,7 +5102,7 @@
   {
     "id": 30000993,
     "name": "Blake Pietila",
-    "position": "FWD",
+    "position": "LW",
     "value": 8.0
   },
   {
@@ -5114,31 +5114,31 @@
   {
     "id": 30003140,
     "name": "Tyson Jost",
-    "position": "FWD",
+    "position": "C",
     "value": 8.0
   },
   {
     "id": 30001485,
     "name": "Vladimir Sobotka",
-    "position": "FWD",
+    "position": "C",
     "value": 8.0
   },
   {
     "id": 30000527,
     "name": "Kurtis Gabriel",
-    "position": "FWD",
+    "position": "RW",
     "value": 8.0
   },
   {
     "id": 30000914,
     "name": "Barclay Goodrow",
-    "position": "FWD",
+    "position": "LW",
     "value": 8.0
   },
   {
     "id": 30001436,
     "name": "Tyler Gaudet",
-    "position": "FWD",
+    "position": "C",
     "value": 8.0
   },
   {
@@ -5162,19 +5162,19 @@
   {
     "id": 30003540,
     "name": "Chris Didomenico",
-    "position": "FWD",
+    "position": "C",
     "value": 7.0
   },
   {
     "id": 30000732,
     "name": "Erik Condra",
-    "position": "FWD",
+    "position": "RW",
     "value": 7.0
   },
   {
     "id": 30002753,
     "name": "Connor Jones",
-    "position": "FWD",
+    "position": "LW",
     "value": 7.0
   },
   {
@@ -5186,7 +5186,7 @@
   {
     "id": 30000174,
     "name": "Quinton Howden",
-    "position": "FWD",
+    "position": "C",
     "value": 7.0
   },
   {
@@ -5198,13 +5198,13 @@
   {
     "id": 30003136,
     "name": "Alexander Nylander",
-    "position": "FWD",
+    "position": "LW",
     "value": 6.0
   },
   {
     "id": 30000408,
     "name": "Bobby Farnham",
-    "position": "FWD",
+    "position": "RW",
     "value": 6.0
   },
   {
@@ -5216,25 +5216,25 @@
   {
     "id": 30000369,
     "name": "Sergey Tolchinsky",
-    "position": "FWD",
+    "position": "LW",
     "value": 6.0
   },
   {
     "id": 30001277,
     "name": "Nicklas Jensen",
-    "position": "FWD",
+    "position": "LW",
     "value": 6.0
   },
   {
     "id": 30000931,
     "name": "Hunter Shinkaruk",
-    "position": "FWD",
+    "position": "C",
     "value": 6.0
   },
   {
     "id": 30000857,
     "name": "Evgeny Svechnikov",
-    "position": "FWD",
+    "position": "LW",
     "value": 5.0
   },
   {
@@ -5252,19 +5252,19 @@
   {
     "id": 30000630,
     "name": "Patrick Brown",
-    "position": "FWD",
+    "position": "C",
     "value": 5.0
   },
   {
     "id": 30001186,
     "name": "Luke Gazdic",
-    "position": "FWD",
+    "position": "LW",
     "value": 5.0
   },
   {
     "id": 30000586,
     "name": "Paul Carey",
-    "position": "FWD",
+    "position": "C",
     "value": 5.0
   },
   {
@@ -5288,13 +5288,13 @@
   {
     "id": 30003570,
     "name": "C.j. Smith",
-    "position": "FWD",
+    "position": "LW",
     "value": 4.0
   },
   {
     "id": 30001026,
     "name": "Mitch Callahan",
-    "position": "FWD",
+    "position": "LW",
     "value": 4.0
   },
   {
@@ -5306,7 +5306,7 @@
   {
     "id": 30000451,
     "name": "Clarke MacArthur",
-    "position": "FWD",
+    "position": "LW",
     "value": 4.0
   },
   {
@@ -5318,13 +5318,13 @@
   {
     "id": 30001947,
     "name": "Buddy Robinson",
-    "position": "FWD",
+    "position": "RW",
     "value": 4.0
   },
   {
     "id": 30000441,
     "name": "Byron Froese",
-    "position": "FWD",
+    "position": "C",
     "value": 4.0
   },
   {
@@ -5336,19 +5336,19 @@
   {
     "id": 30002805,
     "name": "Blake Speers",
-    "position": "FWD",
+    "position": "C",
     "value": 4.0
   },
   {
     "id": 30000264,
     "name": "Scott Laughton",
-    "position": "FWD",
+    "position": "C",
     "value": 4.0
   },
   {
     "id": 30001102,
     "name": "Dominik Simon",
-    "position": "FWD",
+    "position": "C",
     "value": 4.0
   },
   {
@@ -5366,19 +5366,19 @@
   {
     "id": 30001211,
     "name": "Nic Kerdiles",
-    "position": "FWD",
+    "position": "LW",
     "value": 4.0
   },
   {
     "id": 30002631,
     "name": "Danton Heinen",
-    "position": "FWD",
+    "position": "LW",
     "value": 3.0
   },
   {
     "id": 30000717,
     "name": "Jacob De La Rose",
-    "position": "FWD",
+    "position": "LW",
     "value": 3.0
   },
   {
@@ -5390,7 +5390,7 @@
   {
     "id": 30000289,
     "name": "Bracken Kearns",
-    "position": "FWD",
+    "position": "C",
     "value": 3.0
   },
   {
@@ -5402,7 +5402,7 @@
   {
     "id": 30000405,
     "name": "Oskar Sundqvist",
-    "position": "FWD",
+    "position": "C",
     "value": 3.0
   },
   {
@@ -5414,7 +5414,7 @@
   {
     "id": 30000596,
     "name": "Chandler Stephenson",
-    "position": "FWD",
+    "position": "C",
     "value": 3.0
   },
   {
@@ -5426,13 +5426,13 @@
   {
     "id": 30000247,
     "name": "Cody Bass",
-    "position": "FWD",
+    "position": "C",
     "value": 3.0
   },
   {
     "id": 30000673,
     "name": "Patrick Cannone",
-    "position": "FWD",
+    "position": "C",
     "value": 3.0
   },
   {
@@ -5450,13 +5450,13 @@
   {
     "id": 30002793,
     "name": "Joseph Labate",
-    "position": "FWD",
+    "position": "C",
     "value": 3.0
   },
   {
     "id": 30003141,
     "name": "Clayton Keller",
-    "position": "FWD",
+    "position": "C",
     "value": 3.0
   },
   {
@@ -5468,7 +5468,7 @@
   {
     "id": 30000460,
     "name": "Max McCormick",
-    "position": "FWD",
+    "position": "LW",
     "value": 2.0
   },
   {
@@ -5486,19 +5486,19 @@
   {
     "id": 30000389,
     "name": "Riley Barber",
-    "position": "FWD",
+    "position": "RW",
     "value": 2.0
   },
   {
     "id": 30000697,
     "name": "T.J. Tynan",
-    "position": "FWD",
+    "position": "C",
     "value": 2.0
   },
   {
     "id": 30001417,
     "name": "Trevor Smith",
-    "position": "FWD",
+    "position": "C",
     "value": 2.0
   },
   {
@@ -5516,13 +5516,13 @@
   {
     "id": 30000954,
     "name": "Dylan Strome",
-    "position": "FWD",
+    "position": "C",
     "value": 2.0
   },
   {
     "id": 30000612,
     "name": "Emerson Etem",
-    "position": "FWD",
+    "position": "RW",
     "value": 2.0
   },
   {
@@ -5564,7 +5564,7 @@
   {
     "id": 30000842,
     "name": "Tyler Bertuzzi",
-    "position": "FWD",
+    "position": "LW",
     "value": 1.0
   },
   {
@@ -5576,37 +5576,37 @@
   {
     "id": 30001043,
     "name": "Mike Blunden",
-    "position": "FWD",
+    "position": "RW",
     "value": 1.0
   },
   {
     "id": 30002776,
     "name": "Colin White",
-    "position": "FWD",
+    "position": "C",
     "value": 1.0
   },
   {
     "id": 30000652,
     "name": "Jean-Sebastien Dea",
-    "position": "FWD",
+    "position": "C",
     "value": 1.0
   },
   {
     "id": 30001495,
     "name": "Spencer Abbott",
-    "position": "FWD",
+    "position": "RW",
     "value": 1.0
   },
   {
     "id": 30002812,
     "name": "Denis Gurianov",
-    "position": "FWD",
+    "position": "RW",
     "value": 1.0
   },
   {
     "id": 30001151,
     "name": "Borna Rendulic",
-    "position": "FWD",
+    "position": "RW",
     "value": 1.0
   },
   {
@@ -5618,7 +5618,7 @@
   {
     "id": 30003055,
     "name": "Kalle Kossila",
-    "position": "FWD",
+    "position": "C",
     "value": 1.0
   },
   {
@@ -5642,7 +5642,7 @@
   {
     "id": 30002801,
     "name": "Jakob Forsbacka-karlsson",
-    "position": "FWD",
+    "position": "C",
     "value": 0.0
   },
   {
@@ -5672,7 +5672,7 @@
   {
     "id": 30000477,
     "name": "Nicholas Paul",
-    "position": "FWD",
+    "position": "LW",
     "value": 0.0
   },
   {
@@ -5738,7 +5738,7 @@
   {
     "id": 30002959,
     "name": "Ben Thompson",
-    "position": "FWD",
+    "position": "LW",
     "value": 0.0
   },
   {
@@ -5768,19 +5768,19 @@
   {
     "id": 30000591,
     "name": "Garrett Mitchell",
-    "position": "FWD",
+    "position": "RW",
     "value": 0.0
   },
   {
     "id": 30000593,
     "name": "Liam O'Brien",
-    "position": "FWD",
+    "position": "LW",
     "value": 0.0
   },
   {
     "id": 30003022,
     "name": "Travis Boyd",
-    "position": "FWD",
+    "position": "C",
     "value": 0.0
   },
   {
@@ -5792,7 +5792,7 @@
   {
     "id": 30003088,
     "name": "Justin Scott",
-    "position": "FWD",
+    "position": "C",
     "value": 0.0
   },
   {
@@ -5816,19 +5816,19 @@
   {
     "id": 30001019,
     "name": "Mark McNeill",
-    "position": "FWD",
+    "position": "C",
     "value": 0.0
   },
   {
     "id": 30000308,
     "name": "Jim O'Brien",
-    "position": "FWD",
+    "position": "C",
     "value": 0.0
   },
   {
     "id": 30000190,
     "name": "Vladislav Kamenev",
-    "position": "FWD",
+    "position": "LW",
     "value": 0.0
   },
   {
@@ -5840,19 +5840,19 @@
   {
     "id": 30001065,
     "name": "Chase De Leo",
-    "position": "FWD",
+    "position": "C",
     "value": 0.0
   },
   {
     "id": 30002824,
     "name": "Jack Roslovic",
-    "position": "FWD",
+    "position": "C",
     "value": 0.0
   },
   {
     "id": 30003084,
     "name": "Adam Gilmour",
-    "position": "FWD",
+    "position": "C",
     "value": 0.0
   },
   {
@@ -5864,7 +5864,7 @@
   {
     "id": 30002309,
     "name": "Mark Jankowski",
-    "position": "FWD",
+    "position": "C",
     "value": 0.0
   },
   {
@@ -5900,7 +5900,7 @@
   {
     "id": 30002523,
     "name": "Yan pavel Laplante",
-    "position": "FWD",
+    "position": "C",
     "value": 0.0
   },
   {
@@ -5924,7 +5924,7 @@
   {
     "id": 30003567,
     "name": "Griffen Molino",
-    "position": "FWD",
+    "position": "C",
     "value": 0.0
   },
   {
@@ -5960,7 +5960,7 @@
   {
     "id": 30001055,
     "name": "Tanner Richard",
-    "position": "FWD",
+    "position": "C",
     "value": -1.0
   },
   {
@@ -5972,25 +5972,25 @@
   {
     "id": 30001160,
     "name": "Taylor Beck",
-    "position": "FWD",
+    "position": "LW",
     "value": -1.0
   },
   {
     "id": 30002311,
     "name": "Boo Nieves",
-    "position": "FWD",
+    "position": "C",
     "value": -1.0
   },
   {
     "id": 30003574,
     "name": "Michael Vecchione",
-    "position": "FWD",
+    "position": "C",
     "value": -1.0
   },
   {
     "id": 30000662,
     "name": "Kevin Porter",
-    "position": "FWD",
+    "position": "C",
     "value": -1.0
   },
   {
