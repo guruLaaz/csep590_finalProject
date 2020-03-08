@@ -1,9 +1,6 @@
 import copy
-import importlib
-import inspect
 from typing import List
 
-from drafts.team import HockeyTeam
 from strategies.strategy import Strategy
 
 

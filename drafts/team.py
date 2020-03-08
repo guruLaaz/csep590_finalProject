@@ -22,7 +22,7 @@ class Team(object):
         return self.remaining_pos[player.position] > 0
 
     def eligible_players(self, remaining_players):
-        return filter(self.can_sign_player, remaining_players)
+        return list(filter(self.can_sign_player, remaining_players))
 
     def __hash__(self):
         return hash(self.draft_pos)

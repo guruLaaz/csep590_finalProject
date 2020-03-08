@@ -2,6 +2,7 @@ import argparse
 import json
 from random import shuffle
 from drafts.snakedraft import SnakeDraft
+from strategies.strategy import Strategy
 from drafts.player import Player
 from drafts.team import HockeyTeam, HockeyTeamWithForwards
 import importlib
@@ -19,8 +20,9 @@ def new_strategy(strategy_name, *args, **kwargs):
     Passes all arguments as-is.
     """
     mod = importlib.import_module(f"strategies.{strategy_name}")
-    for _, obj in inspect.getmembers(mod, inspect.isclass):
-        return obj(*args, **kwargs)
+    for _, obj in inspect.getmembers(mod):
+        if inspect.isclass(obj) and issubclass(obj, Strategy):
+            return obj(*args, **kwargs)
 
 
 team_types = {
@@ -57,7 +59,7 @@ if __name__ == '__main__':
     strategies = []
     teams = []
     for i, name in enumerate(strategy_names):
-        strategies.append(new_strategy(name, num_teams=num_teams, draft_pos=i))
+        strategies.append(new_strategy(name, num_teams, i))
         teams.append(TeamClazz(i, name))
 
     draft = SnakeDraft(players, strategies, teams)
