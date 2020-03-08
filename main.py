@@ -6,9 +6,11 @@ from drafts.player import Player
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--year", default=2019, type=str)
-    parser.add_argument("--teams", default='./data/teams.txt', type=argparse.FileType('r'))
-    parser.add_argument("--shuffle", default=False, action='store_true')
+    parser.add_argument("--year", default=2019, type=str, help="Which year's player data to use")
+    parser.add_argument("--teams", default='./data/teams.txt', type=argparse.FileType('r'),
+                        help="File that contains list of strategies")
+    parser.add_argument("--shuffle", default=False, action='store_true',
+                        help="Shuffle strategies before starting the draft?")
     args = parser.parse_args()
 
     raw_players = json.load(open(f'./data/stats_{args.year}.json', 'r'))

@@ -3,6 +3,9 @@ from .strategy import Strategy
 
 
 class Best(Strategy):
+    """
+    Returns the remaining player with the highest value.
+    """
 
     def __init__(self, *args, **kwargs):
         super(Best, self).__init__(*args, **kwargs)

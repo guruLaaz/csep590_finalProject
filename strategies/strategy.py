@@ -9,6 +9,9 @@ class Strategy(object):
 
     def pick(self, remaining_players):
         """
-        Select a player to draft
+        Select a player to draft. Given remaining players only include
+        who are eligible for a team. For example, if the team using this
+        strategy already has the maximum allowed Forwards, remaining_players
+        will not include any Forwards.
         """
         pass

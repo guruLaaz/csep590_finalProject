@@ -50,6 +50,7 @@ class SnakeDraft(object):
         self.num_players = len(players)
         self.players = players
 
+        # initialize strategies and teams
         self.num_teams = len(strategy_names)
         self.strategy_names = strategy_names
         self.strategies = [new_strategy(strategy_name, num_teams=self.num_teams, draft_position=i)
@@ -60,19 +61,36 @@ class SnakeDraft(object):
     def run(self):
         num_rounds = 20
         remaining_players = set(copy.copy(self.players))
-        for i in range(num_rounds):
-            for j in range(self.num_teams):
-                snaked_idx = j if i % 2 == 0 else (self.num_teams - j - 1)
-                eligible_players = self.hockey_teams[snaked_idx].eligible_players(list(remaining_players))
-                chosen = self.strategies[snaked_idx].pick(eligible_players)
-                self.hockey_teams[snaked_idx].sign_player(chosen)
-                remaining_players.remove(chosen)
+        for rnd in range(num_rounds):
+            for i in range(self.num_teams):
+                snaked_idx = i if rnd % 2 == 0 else (self.num_teams - i - 1)
+                team = self.hockey_teams[snaked_idx]
+                strategy = self.strategies[snaked_idx]
+
+                # apply strategy to select player to draft
+                eligible_players = team.eligible_players(list(remaining_players))
+                chosen_player = strategy.pick(eligible_players)
+                if chosen_player is None:
+                    raise ValueError(f'Team {team.draft_pos} Must select a player')
+
+                # update team & remove player from future selections
+                self.hockey_teams[snaked_idx].sign_player(chosen_player)
+                remaining_players.remove(chosen_player)
 
     def teams(self):
         return self.hockey_teams
 
 
 def new_strategy(strategy_name, *args, **kwargs):
+    """
+    Dynamically initialize strategy classes.
+
+    Initializes class found in module "strategy.<name>". If there
+    are more than one classes, returns an arbitrary one.
+    (There should only one class in each file, for now).
+
+    Passes all arguments as-is.
+    """
     mod = importlib.import_module(f"strategies.{strategy_name}")
     for name, obj in inspect.getmembers(mod, inspect.isclass):
         return obj(*args, **kwargs)

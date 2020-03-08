@@ -1,6 +1,5 @@
 """
-
-pipenv run python download_data.py --year 2019
+python download_data.py --year 2019
 """
 
 import json
