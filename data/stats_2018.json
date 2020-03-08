@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 30001233,
+    "name": "Connor McDavid",
+    "position": "FWD",
+    "value": 894.0
+  },
+  {
+    "id": 30000378,
+    "name": "Alex Ovechkin",
+    "position": "FWD",
+    "value": 859.0
+  },
+  {
+    "id": 30001187,
+    "name": "Taylor Hall",
+    "position": "FWD",
+    "value": 837.0
+  },
+  {
+    "id": 30001047,
+    "name": "Nikita Kucherov",
+    "position": "FWD",
+    "value": 838.0
+  },
+  {
+    "id": 30000904,
+    "name": "Nathan MacKinnon",
+    "position": "FWD",
+    "value": 826.0
+  },
+  {
+    "id": 30000762,
+    "name": "Tyler Seguin",
+    "position": "FWD",
+    "value": 820.0
+  },
+  {
+    "id": 30000660,
+    "name": "Evgeni Malkin",
+    "position": "FWD",
+    "value": 817.0
+  },
+  {
+    "id": 30000835,
+    "name": "Blake Wheeler",
+    "position": "FWD",
+    "value": 788.0
+  },
+  {
+    "id": 30000052,
+    "name": "Claude Giroux",
+    "position": "FWD",
+    "value": 784.0
+  },
+  {
+    "id": 30000149,
+    "name": "Anze Kopitar",
+    "position": "FWD",
+    "value": 771.0
+  },
+  {
+    "id": 30000127,
+    "name": "Brent Burns",
+    "position": "D",
+    "value": 755.0
+  },
+  {
+    "id": 30001302,
+    "name": "Jamie Benn",
+    "position": "FWD",
+    "value": 753.0
+  },
+  {
+    "id": 30000033,
+    "name": "Phil Kessel",
+    "position": "FWD",
+    "value": 748.0
+  },
+  {
+    "id": 30000422,
+    "name": "William Karlsson",
+    "position": "FWD",
+    "value": 741.0
+  },
+  {
+    "id": 30000801,
+    "name": "Connor Hellebuyck",
+    "position": "G",
+    "value": 930.0
+  },
+  {
+    "id": 30001048,
+    "name": "Jonathan Marchessault",
+    "position": "FWD",
+    "value": 737.0
+  },
+  {
+    "id": 30000651,
+    "name": "Sidney Crosby",
+    "position": "FWD",
+    "value": 734.0
+  },
+  {
+    "id": 30001377,
+    "name": "Andrei Vasilevskiy",
+    "position": "G",
+    "value": 924.0
+  },
+  {
+    "id": 30000228,
+    "name": "Aleksander Barkov",
+    "position": "FWD",
+    "value": 724.0
+  },
+  {
+    "id": 30000797,
+    "name": "Vladimir Tarasenko",
+    "position": "FWD",
+    "value": 719.0
+  },
+  {
+    "id": 30000050,
+    "name": "Sean Couturier",
+    "position": "FWD",
+    "value": 719.0
+  },
+  {
+    "id": 30000226,
+    "name": "Vincent Trocheck",
+    "position": "FWD",
+    "value": 713.0
+  },
+  {
+    "id": 30000587,
+    "name": "John Carlson",
+    "position": "D",
+    "value": 717.0
+  },
+  {
+    "id": 30000743,
+    "name": "Steven Stamkos",
+    "position": "FWD",
+    "value": 714.0
+  },
+  {
+    "id": 30000356,
+    "name": "Eric Staal",
+    "position": "FWD",
+    "value": 711.0
+  },
+  {
+    "id": 30000607,
+    "name": "David Pastrnak",
+    "position": "FWD",
+    "value": 713.0
+  },
+  {
+    "id": 30000275,
+    "name": "John Tavares",
+    "position": "FWD",
+    "value": 707.0
+  },
+  {
+    "id": 30000737,
+    "name": "Victor Hedman",
+    "position": "D",
+    "value": 702.0
+  },
+  {
+    "id": 30000221,
+    "name": "Pekka Rinne",
+    "position": "G",
+    "value": 873.0
+  },
+  {
+    "id": 30003131,
+    "name": "Patrik Laine",
+    "position": "FWD",
+    "value": 699.0
+  },
+  {
+    "id": 30001203,
+    "name": "Frederik Andersen",
+    "position": "G",
+    "value": 902.5
+  },
+  {
+    "id": 30001322,
+    "name": "Artemi Panarin",
+    "position": "FWD",
+    "value": 696.0
+  },
+  {
+    "id": 30000064,
+    "name": "Jakub Voracek",
+    "position": "FWD",
+    "value": 695.0
+  },
+  {
+    "id": 30000074,
+    "name": "Brad Marchand",
+    "position": "FWD",
+    "value": 688.0
+  },
+  {
+    "id": 30000184,
+    "name": "Roman Josi",
+    "position": "D",
+    "value": 681.0
+  },
+  {
+    "id": 30000253,
+    "name": "Seth Jones",
+    "position": "D",
+    "value": 677.0
+  },
+  {
+    "id": 30000271,
+    "name": "Shayne Gostisbehere",
+    "position": "D",
+    "value": 676.0
+  },
+  {
+    "id": 30000667,
+    "name": "Sergei Bobrovsky",
+    "position": "G",
+    "value": 856.5
+  },
+  {
+    "id": 30000145,
+    "name": "Drew Doughty",
+    "position": "D",
+    "value": 659.0
+  },
+  {
+    "id": 30000110,
+    "name": "Johnny Gaudreau",
+    "position": "FWD",
+    "value": 657.0
+  },
+  {
+    "id": 30000742,
+    "name": "Brayden Point",
+    "position": "FWD",
+    "value": 649.0
+  },
+  {
+    "id": 30000793,
+    "name": "Alex Pietrangelo",
+    "position": "D",
+    "value": 655.0
+  },
+  {
+    "id": 30001858,
+    "name": "Alexander Radulov",
+    "position": "FWD",
+    "value": 654.0
+  },
+  {
+    "id": 30000245,
+    "name": "Viktor Arvidsson",
+    "position": "FWD",
+    "value": 649.0
+  },
+  {
+    "id": 30000906,
+    "name": "Mikko Rantanen",
+    "position": "FWD",
+    "value": 647.0
+  },
+  {
+    "id": 30000065,
+    "name": "Patrice Bergeron",
+    "position": "FWD",
+    "value": 641.0
+  },
+  {
+    "id": 30000754,
+    "name": "John Klingberg",
+    "position": "D",
+    "value": 640.0
+  },
+  {
+    "id": 30000866,
+    "name": "Patrick Kane",
+    "position": "FWD",
+    "value": 639.0
+  },
+  {
+    "id": 30000382,
+    "name": "Evgeny Kuznetsov",
+    "position": "FWD",
+    "value": 635.0
+  },
+  {
+    "id": 30000888,
+    "name": "Rickard Rakell",
+    "position": "FWD",
+    "value": 634.0
+  },
+  {
+    "id": 30000142,
+    "name": "Dustin Brown",
+    "position": "FWD",
+    "value": 632.0
+  },
+  {
+    "id": 30003130,
+    "name": "Auston Matthews",
+    "position": "FWD",
+    "value": 631.0
+  },
+  {
+    "id": 30000123,
+    "name": "Jonathan Quick",
+    "position": "G",
+    "value": 800.0
+  },
+  {
+    "id": 30000137,
+    "name": "Joe Pavelski",
+    "position": "FWD",
+    "value": 625.0
+  },
+  {
+    "id": 30000024,
+    "name": "P.K. Subban",
+    "position": "D",
+    "value": 626.0
+  },
+  {
+    "id": 30000523,
+    "name": "Jason Zucker",
+    "position": "FWD",
+    "value": 623.0
+  },
+  {
+    "id": 30000059,
+    "name": "Brayden Schenn",
+    "position": "FWD",
+    "value": 622.0
+  },
+  {
+    "id": 30000874,
+    "name": "John Gibson",
+    "position": "G",
+    "value": 794.5
+  },
+  {
+    "id": 30000292,
+    "name": "Mathew Barzal",
+    "position": "FWD",
+    "value": 614.0
+  },
+  {
+    "id": 30000128,
+    "name": "Logan Couture",
+    "position": "FWD",
+    "value": 605.0
+  },
+  {
+    "id": 30000623,
+    "name": "Ivan Provorov",
+    "position": "D",
+    "value": 609.0
+  },
+  {
+    "id": 30000976,
+    "name": "Evander Kane",
+    "position": "FWD",
+    "value": 605.0
+  },
+  {
+    "id": 30001091,
+    "name": "Devan Dubnyk",
+    "position": "G",
+    "value": 764.0
+  },
+  {
+    "id": 30000183,
+    "name": "Filip Forsberg",
+    "position": "FWD",
+    "value": 599.0
+  },
+  {
+    "id": 30000822,
+    "name": "Nikolaj Ehlers",
+    "position": "FWD",
+    "value": 597.0
+  },
+  {
+    "id": 30000515,
+    "name": "Mikael Granlund",
+    "position": "FWD",
+    "value": 593.0
+  },
+  {
+    "id": 30000766,
+    "name": "Jonathan Huberdeau",
+    "position": "FWD",
+    "value": 591.0
+  },
+  {
+    "id": 30000656,
+    "name": "Patric Hornqvist",
+    "position": "FWD",
+    "value": 590.0
+  },
+  {
+    "id": 30000015,
+    "name": "Brendan Gallagher",
+    "position": "FWD",
+    "value": 588.0
+  },
+  {
+    "id": 30000903,
+    "name": "Gabriel Landeskog",
+    "position": "FWD",
+    "value": 581.0
+  },
+  {
+    "id": 30000043,
+    "name": "James Van Riemsdyk",
+    "position": "FWD",
+    "value": 581.0
+  },
+  {
+    "id": 30001334,
+    "name": "Nicklas Backstrom",
+    "position": "FWD",
+    "value": 577.0
+  },
+  {
+    "id": 30000070,
+    "name": "Dougie Hamilton",
+    "position": "D",
+    "value": 574.0
+  },
+  {
+    "id": 30000195,
+    "name": "Craig Smith",
+    "position": "FWD",
+    "value": 572.0
+  },
+  {
+    "id": 30001786,
+    "name": "Evgenii Dadonov",
+    "position": "FWD",
+    "value": 570.0
+  },
+  {
+    "id": 30001178,
+    "name": "Yanni Gourde",
+    "position": "FWD",
+    "value": 565.0
+  },
+  {
+    "id": 30003342,
+    "name": "Mitchell Marner",
+    "position": "FWD",
+    "value": 564.0
+  },
+  {
+    "id": 30001079,
+    "name": "Henrik Lundqvist",
+    "position": "G",
+    "value": 751.0
+  },
+  {
+    "id": 30000111,
+    "name": "Mark Giordano",
+    "position": "D",
+    "value": 563.0
+  },
+  {
+    "id": 30000115,
+    "name": "Sean Monahan",
+    "position": "FWD",
+    "value": 561.0
+  },
+  {
+    "id": 30002819,
+    "name": "Sebastian Aho",
+    "position": "FWD",
+    "value": 559.0
+  },
+  {
+    "id": 30000072,
+    "name": "Torey Krug",
+    "position": "D",
+    "value": 558.0
+  },
+  {
+    "id": 30000496,
+    "name": "Jack Eichel",
+    "position": "FWD",
+    "value": 557.0
+  },
+  {
+    "id": 30000806,
+    "name": "Matt Dumba",
+    "position": "D",
+    "value": 558.0
+  },
+  {
+    "id": 30000563,
+    "name": "Cam Talbot",
+    "position": "G",
+    "value": 742.0
+  },
+  {
+    "id": 30000658,
+    "name": "Kris Letang",
+    "position": "D",
+    "value": 554.0
+  },
+  {
+    "id": 30000326,
+    "name": "Keith Yandle",
+    "position": "D",
+    "value": 552.0
+  },
+  {
+    "id": 30003141,
+    "name": "Clayton Keller",
+    "position": "FWD",
+    "value": 552.0
+  },
+  {
+    "id": 30000979,
+    "name": "Ryan O'Reilly",
+    "position": "FWD",
+    "value": 547.0
+  },
+  {
+    "id": 30000846,
+    "name": "Dylan Larkin",
+    "position": "FWD",
+    "value": 548.0
+  },
+  {
+    "id": 30000445,
+    "name": "Erik Karlsson",
+    "position": "D",
+    "value": 550.0
+  },
+  {
+    "id": 30001076,
+    "name": "Leon Draisaitl",
+    "position": "FWD",
+    "value": 545.0
+  },
+  {
+    "id": 30000080,
+    "name": "Reilly Smith",
+    "position": "FWD",
+    "value": 546.0
+  },
+  {
+    "id": 30000871,
+    "name": "Teuvo Teravainen",
+    "position": "FWD",
+    "value": 545.0
+  },
+  {
+    "id": 30000276,
+    "name": "Anders Lee",
+    "position": "FWD",
+    "value": 545.0
+  },
+  {
+    "id": 30000032,
+    "name": "Nazem Kadri",
+    "position": "FWD",
+    "value": 544.0
+  },
+  {
+    "id": 30000820,
+    "name": "Dustin Byfuglien",
+    "position": "D",
+    "value": 541.0
+  },
+  {
+    "id": 30000421,
+    "name": "Cam Atkinson",
+    "position": "FWD",
+    "value": 540.0
+  },
+  {
+    "id": 30000465,
+    "name": "Mike Hoffman",
+    "position": "FWD",
+    "value": 540.0
+  },
+  {
+    "id": 30000486,
+    "name": "William Nylander",
+    "position": "FWD",
+    "value": 538.0
+  },
+  {
+    "id": 30002772,
+    "name": "Kyle Connor",
+    "position": "FWD",
+    "value": 535.0
+  },
+  {
+    "id": 30000157,
+    "name": "Tyler Toffoli",
+    "position": "FWD",
+    "value": 533.0
+  },
+  {
+    "id": 30000046,
+    "name": "Tuukka Rask",
+    "position": "G",
+    "value": 669.0
+  },
+  {
+    "id": 30000122,
+    "name": "Martin Jones",
+    "position": "G",
+    "value": 683.0
+  },
+  {
+    "id": 30000516,
+    "name": "Ryan Suter",
+    "position": "D",
+    "value": 524.0
+  },
+  {
+    "id": 30000239,
+    "name": "Aaron Ekblad",
+    "position": "D",
+    "value": 523.0
+  },
+  {
+    "id": 30000321,
+    "name": "Derek Stepan",
+    "position": "FWD",
+    "value": 520.0
+  },
+  {
+    "id": 30000539,
+    "name": "Jordan Eberle",
+    "position": "FWD",
+    "value": 519.0
+  },
+  {
+    "id": 30000893,
+    "name": "Tyson Barrie",
+    "position": "D",
+    "value": 514.0
+  },
+  {
+    "id": 30000794,
+    "name": "Jaden Schwartz",
+    "position": "FWD",
+    "value": 512.0
+  },
+  {
+    "id": 30000140,
+    "name": "Marc-Edouard Vlasic",
+    "position": "D",
+    "value": 506.0
+  },
+  {
+    "id": 30001290,
+    "name": "Mike Smith",
+    "position": "G",
+    "value": 660.5
+  },
+  {
+    "id": 30000199,
+    "name": "Kevin Fiala",
+    "position": "FWD",
+    "value": 505.0
+  },
+  {
+    "id": 30002770,
+    "name": "Zach Werenski",
+    "position": "D",
+    "value": 505.0
+  },
+  {
+    "id": 30000628,
+    "name": "Marc-Andre Fleury",
+    "position": "G",
+    "value": 632.0
+  },
+  {
+    "id": 30000040,
+    "name": "Morgan Rielly",
+    "position": "D",
+    "value": 503.0
+  },
+  {
+    "id": 30000349,
+    "name": "Travis Konecny",
+    "position": "FWD",
+    "value": 503.0
+  },
+  {
+    "id": 30000089,
+    "name": "Alexander Edler",
+    "position": "D",
+    "value": 502.0
+  },
+  {
+    "id": 30000830,
+    "name": "Mark Scheifele",
+    "position": "FWD",
+    "value": 496.0
+  },
+  {
+    "id": 30000642,
+    "name": "Jeff Skinner",
+    "position": "FWD",
+    "value": 500.0
+  },
+  {
+    "id": 30000792,
+    "name": "Colton Parayko",
+    "position": "D",
+    "value": 500.0
+  },
+  {
+    "id": 30001146,
+    "name": "Matt Duchene",
+    "position": "FWD",
+    "value": 498.0
+  },
+  {
+    "id": 30000987,
+    "name": "Adam Henrique",
+    "position": "FWD",
+    "value": 495.0
+  },
+  {
+    "id": 30000225,
+    "name": "Nick Bjugstad",
+    "position": "FWD",
+    "value": 496.0
+  },
+  {
+    "id": 30001046,
+    "name": "Tyler Johnson",
+    "position": "FWD",
+    "value": 494.0
+  },
+  {
+    "id": 30000354,
+    "name": "Braden Holtby",
+    "position": "G",
+    "value": 645.5
+  },
+  {
+    "id": 30000961,
+    "name": "Jake Muzzin",
+    "position": "D",
+    "value": 495.0
+  },
+  {
+    "id": 30001208,
+    "name": "Ryan Getzlaf",
+    "position": "FWD",
+    "value": 493.0
+  },
+  {
+    "id": 30000467,
+    "name": "Mika Zibanejad",
+    "position": "FWD",
+    "value": 493.0
+  },
+  {
+    "id": 30000280,
+    "name": "Josh Bailey",
+    "position": "FWD",
+    "value": 495.0
+  },
+  {
+    "id": 30003160,
+    "name": "Alex Debrincat",
+    "position": "FWD",
+    "value": 494.0
+  },
+  {
+    "id": 30002777,
+    "name": "Brock Boeser",
+    "position": "FWD",
+    "value": 494.0
+  },
+  {
+    "id": 30003639,
+    "name": "Nico Hischier",
+    "position": "FWD",
+    "value": 493.0
+  },
+  {
+    "id": 30000872,
+    "name": "Jonathan Toews",
+    "position": "FWD",
+    "value": 493.0
+  },
+  {
+    "id": 30000549,
+    "name": "Darnell Nurse",
+    "position": "D",
+    "value": 493.0
+  },
+  {
+    "id": 30001246,
+    "name": "Mark Stone",
+    "position": "FWD",
+    "value": 488.0
+  },
+  {
+    "id": 30000132,
+    "name": "Tomas Hertl",
+    "position": "FWD",
+    "value": 486.0
+  },
+  {
+    "id": 30001087,
+    "name": "Mats Zuccarello",
+    "position": "FWD",
+    "value": 486.0
+  },
+  {
+    "id": 30000573,
+    "name": "Jacob Markstrom",
+    "position": "G",
+    "value": 646.5
+  },
+  {
+    "id": 30000030,
+    "name": "Jake Gardiner",
+    "position": "D",
+    "value": 487.0
+  },
+  {
+    "id": 30000875,
+    "name": "Semyon Varlamov",
+    "position": "G",
+    "value": 629.5
+  },
+  {
+    "id": 30000133,
+    "name": "Patrick Marleau",
+    "position": "FWD",
+    "value": 482.0
+  },
+  {
+    "id": 30000810,
+    "name": "Erik Haula",
+    "position": "FWD",
+    "value": 482.0
+  },
+  {
+    "id": 30001041,
+    "name": "Henrik Zetterberg",
+    "position": "FWD",
+    "value": 481.0
+  },
+  {
+    "id": 30000452,
+    "name": "Kyle Turris",
+    "position": "FWD",
+    "value": 476.0
+  },
+  {
+    "id": 30000204,
+    "name": "Kyle Palmieri",
+    "position": "FWD",
+    "value": 476.0
+  },
+  {
+    "id": 30000848,
+    "name": "Anthony Mantha",
+    "position": "FWD",
+    "value": 476.0
+  },
+  {
+    "id": 30003132,
+    "name": "Pierre-Luc Dubois",
+    "position": "FWD",
+    "value": 474.0
+  },
+  {
+    "id": 30000250,
+    "name": "Mattias Ekholm",
+    "position": "D",
+    "value": 471.0
+  },
+  {
+    "id": 30000723,
+    "name": "Jeff Petry",
+    "position": "D",
+    "value": 471.0
+  },
+  {
+    "id": 30000159,
+    "name": "Justin Williams",
+    "position": "FWD",
+    "value": 470.0
+  },
+  {
+    "id": 30001173,
+    "name": "Ben Bishop",
+    "position": "G",
+    "value": 599.5
+  },
+  {
+    "id": 30000817,
+    "name": "Thomas Vanek",
+    "position": "FWD",
+    "value": 467.0
+  },
+  {
+    "id": 30000836,
+    "name": "Jimmy Howard",
+    "position": "G",
+    "value": 625.0
+  },
+  {
+    "id": 30003134,
+    "name": "Matthew Tkachuk",
+    "position": "FWD",
+    "value": 463.0
+  },
+  {
+    "id": 30000519,
+    "name": "Mikko Koivu",
+    "position": "FWD",
+    "value": 463.0
+  },
+  {
+    "id": 30001050,
+    "name": "Vladislav Namestnikov",
+    "position": "FWD",
+    "value": 463.0
+  },
+  {
+    "id": 30001267,
+    "name": "Jakob Silfverberg",
+    "position": "FWD",
+    "value": 461.0
+  },
+  {
+    "id": 30000540,
+    "name": "Ryan Nugent-Hopkins",
+    "position": "FWD",
+    "value": 459.0
+  },
+  {
+    "id": 30000397,
+    "name": "David Perron",
+    "position": "FWD",
+    "value": 461.0
+  },
+  {
+    "id": 30001299,
+    "name": "Tyler Myers",
+    "position": "D",
+    "value": 460.0
+  },
+  {
+    "id": 30000296,
+    "name": "Antti Raanta",
+    "position": "G",
+    "value": 589.5
+  },
+  {
+    "id": 30000617,
+    "name": "J.T. Miller",
+    "position": "FWD",
+    "value": 457.0
+  },
+  {
+    "id": 30001036,
+    "name": "Gustav Nyquist",
+    "position": "FWD",
+    "value": 455.0
+  },
+  {
+    "id": 30000014,
+    "name": "Alex Galchenyuk",
+    "position": "FWD",
+    "value": 454.0
+  },
+  {
+    "id": 30001082,
+    "name": "Derick Brassard",
+    "position": "FWD",
+    "value": 454.0
+  },
+  {
+    "id": 30000980,
+    "name": "Sam Reinhart",
+    "position": "FWD",
+    "value": 453.0
+  },
+  {
+    "id": 30000692,
+    "name": "Ryan Johansen",
+    "position": "FWD",
+    "value": 451.0
+  },
+  {
+    "id": 30000795,
+    "name": "Paul Stastny",
+    "position": "FWD",
+    "value": 452.0
+  },
+  {
+    "id": 30000151,
+    "name": "Alec Martinez",
+    "position": "D",
+    "value": 452.0
+  },
+  {
+    "id": 30000739,
+    "name": "Alex Killorn",
+    "position": "FWD",
+    "value": 452.0
+  },
+  {
+    "id": 30001226,
+    "name": "Timo Meier",
+    "position": "FWD",
+    "value": 452.0
+  },
+  {
+    "id": 30000665,
+    "name": "Jake Allen",
+    "position": "G",
+    "value": 597.0
+  },
+  {
+    "id": 30000643,
+    "name": "Jaccob Slavin",
+    "position": "D",
+    "value": 448.0
+  },
+  {
+    "id": 30000061,
+    "name": "Wayne Simmonds",
+    "position": "FWD",
+    "value": 447.0
+  },
+  {
+    "id": 30002532,
+    "name": "Jake Guentzel",
+    "position": "FWD",
+    "value": 448.0
+  },
+  {
+    "id": 30000879,
+    "name": "Josh Manson",
+    "position": "D",
+    "value": 446.0
+  },
+  {
+    "id": 30000615,
+    "name": "Kevin Hayes",
+    "position": "FWD",
+    "value": 444.0
+  },
+  {
+    "id": 30000192,
+    "name": "James Neal",
+    "position": "FWD",
+    "value": 445.0
+  },
+  {
+    "id": 30001294,
+    "name": "Rasmus Ristolainen",
+    "position": "D",
+    "value": 442.0
+  },
+  {
+    "id": 30000440,
+    "name": "Zach Hyman",
+    "position": "FWD",
+    "value": 437.0
+  },
+  {
+    "id": 30000097,
+    "name": "Daniel Sedin",
+    "position": "FWD",
+    "value": 438.0
+  },
+  {
+    "id": 30001265,
+    "name": "Corey Perry",
+    "position": "FWD",
+    "value": 436.0
+  },
+  {
+    "id": 30001258,
+    "name": "Duncan Keith",
+    "position": "D",
+    "value": 436.0
+  },
+  {
+    "id": 30000227,
+    "name": "Michael Matheson",
+    "position": "D",
+    "value": 434.0
+  },
+  {
+    "id": 30000882,
+    "name": "Brandon Montour",
+    "position": "D",
+    "value": 433.0
+  },
+  {
+    "id": 30000260,
+    "name": "Jaroslav Halak",
+    "position": "G",
+    "value": 593.5
+  },
+  {
+    "id": 30000943,
+    "name": "Oliver Ekman-Larsson",
+    "position": "D",
+    "value": 435.0
+  },
+  {
+    "id": 30000212,
+    "name": "Colin Miller",
+    "position": "D",
+    "value": 434.0
+  },
+  {
+    "id": 30000103,
+    "name": "Mikael Backlund",
+    "position": "FWD",
+    "value": 431.0
+  },
+  {
+    "id": 30001085,
+    "name": "Rick Nash",
+    "position": "FWD",
+    "value": 433.0
+  },
+  {
+    "id": 30000796,
+    "name": "Alexander Steen",
+    "position": "FWD",
+    "value": 432.0
+  },
+  {
+    "id": 30000153,
+    "name": "Tanner Pearson",
+    "position": "FWD",
+    "value": 433.0
+  },
+  {
+    "id": 30001147,
+    "name": "Erik Johnson",
+    "position": "D",
+    "value": 430.0
+  },
+  {
+    "id": 30000778,
+    "name": "Boone Jenner",
+    "position": "FWD",
+    "value": 429.0
+  },
+  {
+    "id": 30000483,
+    "name": "Michael Grabner",
+    "position": "FWD",
+    "value": 425.0
+  },
+  {
+    "id": 30000755,
+    "name": "Esa Lindell",
+    "position": "D",
+    "value": 428.0
+  },
+  {
+    "id": 30000594,
+    "name": "Nate Schmidt",
+    "position": "D",
+    "value": 428.0
+  },
+  {
+    "id": 30000379,
+    "name": "T.J. Oshie",
+    "position": "FWD",
+    "value": 427.0
+  },
+  {
+    "id": 30000869,
+    "name": "Brent Seabrook",
+    "position": "D",
+    "value": 426.0
+  },
+  {
+    "id": 30001229,
+    "name": "Brandon Saad",
+    "position": "FWD",
+    "value": 426.0
+  },
+  {
+    "id": 30002583,
+    "name": "Nick Schmaltz",
+    "position": "FWD",
+    "value": 422.0
+  },
+  {
+    "id": 30000124,
+    "name": "Justin Braun",
+    "position": "D",
+    "value": 423.0
+  },
+  {
+    "id": 30000432,
+    "name": "Craig Anderson",
+    "position": "G",
+    "value": 580.0
+  },
+  {
+    "id": 30002631,
+    "name": "Danton Heinen",
+    "position": "FWD",
+    "value": 420.0
+  },
+  {
+    "id": 30003137,
+    "name": "Mikhail Sergachev",
+    "position": "D",
+    "value": 421.0
+  },
+  {
+    "id": 30001003,
+    "name": "Ryan Pulock",
+    "position": "D",
+    "value": 421.0
+  },
+  {
+    "id": 30000358,
+    "name": "Jordan Staal",
+    "position": "FWD",
+    "value": 418.0
+  },
+  {
+    "id": 30000629,
+    "name": "Matt Murray",
+    "position": "G",
+    "value": 549.0
+  },
+  {
+    "id": 30000826,
+    "name": "Josh Morrissey",
+    "position": "D",
+    "value": 419.0
+  },
+  {
+    "id": 30001276,
+    "name": "Bo Horvat",
+    "position": "FWD",
+    "value": 418.0
+  },
+  {
+    "id": 30001264,
+    "name": "Hampus Lindholm",
+    "position": "D",
+    "value": 418.0
+  },
+  {
+    "id": 30000066,
+    "name": "Zdeno Chara",
+    "position": "D",
+    "value": 416.0
+  },
+  {
+    "id": 30000545,
+    "name": "Oscar Klefbom",
+    "position": "D",
+    "value": 416.0
+  },
+  {
+    "id": 30000659,
+    "name": "Olli Maatta",
+    "position": "D",
+    "value": 414.0
+  },
+  {
+    "id": 30000430,
+    "name": "James Reimer",
+    "position": "G",
+    "value": 538.5
+  },
+  {
+    "id": 30001084,
+    "name": "Ryan McDonagh",
+    "position": "D",
+    "value": 411.0
+  },
+  {
+    "id": 30000012,
+    "name": "Lars Eller",
+    "position": "FWD",
+    "value": 412.0
+  },
+  {
+    "id": 30001261,
+    "name": "Andrew Cogliano",
+    "position": "FWD",
+    "value": 408.0
+  },
+  {
+    "id": 30000359,
+    "name": "Riley Nash",
+    "position": "FWD",
+    "value": 409.0
+  },
+  {
+    "id": 30000384,
+    "name": "Dmitry Orlov",
+    "position": "D",
+    "value": 409.0
+  },
+  {
+    "id": 30001238,
+    "name": "Jake DeBrusk",
+    "position": "FWD",
+    "value": 408.0
+  },
+  {
+    "id": 30000631,
+    "name": "Justin Faulk",
+    "position": "D",
+    "value": 408.0
+  },
+  {
+    "id": 30002577,
+    "name": "Alex Tuch",
+    "position": "FWD",
+    "value": 407.0
+  },
+  {
+    "id": 30000428,
+    "name": "Oliver Bjorkstrand",
+    "position": "FWD",
+    "value": 405.0
+  },
+  {
+    "id": 30000019,
+    "name": "Max Pacioretty",
+    "position": "FWD",
+    "value": 404.0
+  },
+  {
+    "id": 30000517,
+    "name": "Jared Spurgeon",
+    "position": "D",
+    "value": 404.0
+  },
+  {
+    "id": 30002816,
+    "name": "Ondrej Kase",
+    "position": "FWD",
+    "value": 403.0
+  },
+  {
+    "id": 30000027,
+    "name": "Tyler Bozak",
+    "position": "FWD",
+    "value": 401.0
+  },
+  {
+    "id": 30000182,
+    "name": "Ryan Ellis",
+    "position": "D",
+    "value": 397.0
+  },
+  {
+    "id": 30000201,
+    "name": "Keith Kinkaid",
+    "position": "G",
+    "value": 511.0
+  },
+  {
+    "id": 30000081,
+    "name": "Carl Soderberg",
+    "position": "FWD",
+    "value": 399.0
+  },
+  {
+    "id": 30000605,
+    "name": "David Krejci",
+    "position": "FWD",
+    "value": 397.0
+  },
+  {
+    "id": 30000380,
+    "name": "Matt Niskanen",
+    "position": "D",
+    "value": 396.0
+  },
+  {
+    "id": 30000636,
+    "name": "Elias Lindholm",
+    "position": "FWD",
+    "value": 395.0
+  },
+  {
+    "id": 30000554,
+    "name": "Micheal Ferland",
+    "position": "FWD",
+    "value": 396.0
+  },
+  {
+    "id": 30001207,
+    "name": "Cam Fowler",
+    "position": "D",
+    "value": 391.0
+  },
+  {
+    "id": 30000117,
+    "name": "Kris Russell",
+    "position": "D",
+    "value": 393.0
+  },
+  {
+    "id": 30000747,
+    "name": "Roberto Luongo",
+    "position": "G",
+    "value": 499.0
+  },
+  {
+    "id": 30001253,
+    "name": "Alex Goligoski",
+    "position": "D",
+    "value": 386.0
+  },
+  {
+    "id": 30001214,
+    "name": "Sami Vatanen",
+    "position": "D",
+    "value": 385.0
+  },
+  {
+    "id": 30000152,
+    "name": "Brayden McNabb",
+    "position": "D",
+    "value": 386.0
+  },
+  {
+    "id": 30000038,
+    "name": "Dion Phaneuf",
+    "position": "D",
+    "value": 385.0
+  },
+  {
+    "id": 30000750,
+    "name": "Radek Faksa",
+    "position": "FWD",
+    "value": 382.0
+  },
+  {
+    "id": 30001298,
+    "name": "Bryan Little",
+    "position": "FWD",
+    "value": 382.0
+  },
+  {
+    "id": 30002530,
+    "name": "Pavel Buchnevich",
+    "position": "FWD",
+    "value": 381.0
+  },
+  {
+    "id": 30001124,
+    "name": "Patrik Nemeth",
+    "position": "D",
+    "value": 378.0
+  },
+  {
+    "id": 30000963,
+    "name": "Robin Lehner",
+    "position": "G",
+    "value": 521.0
+  },
+  {
+    "id": 30000827,
+    "name": "Mathieu Perreault",
+    "position": "FWD",
+    "value": 376.0
+  },
+  {
+    "id": 30000287,
+    "name": "Nick Leddy",
+    "position": "D",
+    "value": 376.0
+  },
+  {
+    "id": 30001001,
+    "name": "Frans Nielsen",
+    "position": "FWD",
+    "value": 369.0
+  },
+  {
+    "id": 30000541,
+    "name": "Justin Schultz",
+    "position": "D",
+    "value": 373.0
+  },
+  {
+    "id": 30001121,
+    "name": "Stephen Johns",
+    "position": "D",
+    "value": 372.0
+  },
+  {
+    "id": 30000425,
+    "name": "Josh Anderson",
+    "position": "FWD",
+    "value": 372.0
+  },
+  {
+    "id": 30000109,
+    "name": "Deryk Engelland",
+    "position": "D",
+    "value": 372.0
+  },
+  {
+    "id": 30000940,
+    "name": "Max Domi",
+    "position": "FWD",
+    "value": 371.0
+  },
+  {
+    "id": 30000805,
+    "name": "Charlie Coyle",
+    "position": "FWD",
+    "value": 369.0
+  },
+  {
+    "id": 30001241,
+    "name": "Dan Girardi",
+    "position": "D",
+    "value": 369.0
+  },
+  {
+    "id": 30000880,
+    "name": "Patrick Maroon",
+    "position": "FWD",
+    "value": 370.0
+  },
+  {
+    "id": 30001100,
+    "name": "Bryan Rust",
+    "position": "FWD",
+    "value": 367.0
+  },
+  {
+    "id": 30001179,
+    "name": "Anton Stralman",
+    "position": "D",
+    "value": 369.0
+  },
+  {
+    "id": 30000355,
+    "name": "Ron Hainsey",
+    "position": "D",
+    "value": 367.0
+  },
+  {
+    "id": 30001000,
+    "name": "Brock Nelson",
+    "position": "FWD",
+    "value": 368.0
+  },
+  {
+    "id": 30000771,
+    "name": "Brian Elliott",
+    "position": "G",
+    "value": 480.0
+  },
+  {
+    "id": 30000139,
+    "name": "Chris Tierney",
+    "position": "FWD",
+    "value": 364.0
+  },
+  {
+    "id": 30000834,
+    "name": "Jacob Trouba",
+    "position": "D",
+    "value": 367.0
+  },
+  {
+    "id": 30000734,
+    "name": "Jonathan Drouin",
+    "position": "FWD",
+    "value": 367.0
+  },
+  {
+    "id": 30001319,
+    "name": "Carl Hagelin",
+    "position": "FWD",
+    "value": 365.0
+  },
+  {
+    "id": 30000418,
+    "name": "David Savard",
+    "position": "D",
+    "value": 364.0
+  },
+  {
+    "id": 30000691,
+    "name": "Nick Foligno",
+    "position": "FWD",
+    "value": 365.0
+  },
+  {
+    "id": 30000375,
+    "name": "Tom Wilson",
+    "position": "FWD",
+    "value": 363.0
+  },
+  {
+    "id": 30002680,
+    "name": "Kevin Labanc",
+    "position": "FWD",
+    "value": 361.0
+  },
+  {
+    "id": 30000890,
+    "name": "Shea Theodore",
+    "position": "D",
+    "value": 361.0
+  },
+  {
+    "id": 30001052,
+    "name": "Ondrej Palat",
+    "position": "FWD",
+    "value": 360.0
+  },
+  {
+    "id": 30002553,
+    "name": "Will Butcher",
+    "position": "D",
+    "value": 361.0
+  },
+  {
+    "id": 30000524,
+    "name": "Jonas Brodin",
+    "position": "D",
+    "value": 361.0
+  },
+  {
+    "id": 30000488,
+    "name": "Richard Panik",
+    "position": "FWD",
+    "value": 361.0
+  },
+  {
+    "id": 30000341,
+    "name": "Anthony Beauvillier",
+    "position": "FWD",
+    "value": 359.0
+  },
+  {
+    "id": 30000783,
+    "name": "David Backes",
+    "position": "FWD",
+    "value": 355.0
+  },
+  {
+    "id": 30001040,
+    "name": "Tomas Tatar",
+    "position": "FWD",
+    "value": 354.0
+  },
+  {
+    "id": 30000675,
+    "name": "Joel Edmundson",
+    "position": "D",
+    "value": 354.0
+  },
+  {
+    "id": 30000241,
+    "name": "Calle Jarnkrok",
+    "position": "FWD",
+    "value": 352.0
+  },
+  {
+    "id": 30000522,
+    "name": "Nino Niederreiter",
+    "position": "FWD",
+    "value": 353.0
+  },
+  {
+    "id": 30001002,
+    "name": "Kyle Okposo",
+    "position": "FWD",
+    "value": 353.0
+  },
+  {
+    "id": 30000627,
+    "name": "Cam Ward",
+    "position": "G",
+    "value": 459.5
+  },
+  {
+    "id": 30000476,
+    "name": "Cody Ceci",
+    "position": "D",
+    "value": 351.0
+  },
+  {
+    "id": 30000107,
+    "name": "Paul Byron",
+    "position": "FWD",
+    "value": 346.0
+  },
+  {
+    "id": 30000633,
+    "name": "Noah Hanifin",
+    "position": "D",
+    "value": 349.0
+  },
+  {
+    "id": 30003079,
+    "name": "Miles Wood",
+    "position": "FWD",
+    "value": 349.0
+  },
+  {
+    "id": 30000320,
+    "name": "Chris Kreider",
+    "position": "FWD",
+    "value": 349.0
+  },
+  {
+    "id": 30000671,
+    "name": "Kyle Brodziak",
+    "position": "FWD",
+    "value": 346.0
+  },
+  {
+    "id": 30000290,
+    "name": "Adam Pelech",
+    "position": "D",
+    "value": 347.0
+  },
+  {
+    "id": 30000286,
+    "name": "Thomas Hickey",
+    "position": "D",
+    "value": 347.0
+  },
+  {
+    "id": 30003147,
+    "name": "Charlie McAvoy",
+    "position": "D",
+    "value": 346.0
+  },
+  {
+    "id": 30000311,
+    "name": "Blake Coleman",
+    "position": "FWD",
+    "value": 343.0
+  },
+  {
+    "id": 30000942,
+    "name": "Christian Dvorak",
+    "position": "FWD",
+    "value": 346.0
+  },
+  {
+    "id": 30002582,
+    "name": "Adrian Kempe",
+    "position": "FWD",
+    "value": 344.0
+  },
+  {
+    "id": 30000520,
+    "name": "Jason Pominville",
+    "position": "FWD",
+    "value": 344.0
+  },
+  {
+    "id": 30000958,
+    "name": "Derek Forbort",
+    "position": "D",
+    "value": 344.0
+  },
+  {
+    "id": 30000051,
+    "name": "Michael Del Zotto",
+    "position": "D",
+    "value": 344.0
+  },
+  {
+    "id": 30000761,
+    "name": "Colton Sceviour",
+    "position": "FWD",
+    "value": 340.0
+  },
+  {
+    "id": 30001112,
+    "name": "Charles Hudon",
+    "position": "FWD",
+    "value": 341.0
+  },
+  {
+    "id": 30000301,
+    "name": "John Moore",
+    "position": "D",
+    "value": 340.0
+  },
+  {
+    "id": 30001192,
+    "name": "Tyler Pitlick",
+    "position": "FWD",
+    "value": 340.0
+  },
+  {
+    "id": 30000007,
+    "name": "Carey Price",
+    "position": "G",
+    "value": 473.5
+  },
+  {
+    "id": 30001030,
+    "name": "Mike Green",
+    "position": "D",
+    "value": 339.0
+  },
+  {
+    "id": 30000461,
+    "name": "Ryan Dzingel",
+    "position": "FWD",
+    "value": 339.0
+  },
+  {
+    "id": 30000912,
+    "name": "Joonas Donskoi",
+    "position": "FWD",
+    "value": 338.0
+  },
+  {
+    "id": 30001338,
+    "name": "Darren Helm",
+    "position": "FWD",
+    "value": 333.0
+  },
+  {
+    "id": 30000896,
+    "name": "Blake Comeau",
+    "position": "FWD",
+    "value": 333.0
+  },
+  {
+    "id": 30000008,
+    "name": "Jonathan Bernier",
+    "position": "G",
+    "value": 434.5
+  },
+  {
+    "id": 30000841,
+    "name": "Andreas Athanasiou",
+    "position": "FWD",
+    "value": 335.0
+  },
+  {
+    "id": 30000966,
+    "name": "Jean-Gabriel Pageau",
+    "position": "FWD",
+    "value": 334.0
+  },
+  {
+    "id": 30000410,
+    "name": "Conor Sheary",
+    "position": "FWD",
+    "value": 335.0
+  },
+  {
+    "id": 30000269,
+    "name": "Radko Gudas",
+    "position": "D",
+    "value": 333.0
+  },
+  {
+    "id": 30000324,
+    "name": "Brady Skjei",
+    "position": "D",
+    "value": 332.0
+  },
+  {
+    "id": 30000106,
+    "name": "T.J. Brodie",
+    "position": "D",
+    "value": 333.0
+  },
+  {
+    "id": 30000082,
+    "name": "Ryan Spooner",
+    "position": "FWD",
+    "value": 332.0
+  },
+  {
+    "id": 30000752,
+    "name": "Mattias Janmark",
+    "position": "FWD",
+    "value": 330.0
+  },
+  {
+    "id": 30000929,
+    "name": "Jared McCann",
+    "position": "FWD",
+    "value": 328.0
+  },
+  {
+    "id": 30003753,
+    "name": "Alexander Kerfoot",
+    "position": "FWD",
+    "value": 329.0
+  },
+  {
+    "id": 30000938,
+    "name": "Mikkel Boedker",
+    "position": "FWD",
+    "value": 329.0
+  },
+  {
+    "id": 30000886,
+    "name": "Stefan Noesen",
+    "position": "FWD",
+    "value": 326.0
+  },
+  {
+    "id": 30000055,
+    "name": "Andrew MacDonald",
+    "position": "D",
+    "value": 325.0
+  },
+  {
+    "id": 30000426,
+    "name": "Alexander Wennberg",
+    "position": "FWD",
+    "value": 325.0
+  },
+  {
+    "id": 30000813,
+    "name": "Marco Scandella",
+    "position": "D",
+    "value": 324.0
+  },
+  {
+    "id": 30001005,
+    "name": "Ryan Strome",
+    "position": "FWD",
+    "value": 324.0
+  },
+  {
+    "id": 30001220,
+    "name": "Brendan Perlini",
+    "position": "FWD",
+    "value": 324.0
+  },
+  {
+    "id": 30000294,
+    "name": "Cory Schneider",
+    "position": "G",
+    "value": 435.0
+  },
+  {
+    "id": 30001117,
+    "name": "Jordie Benn",
+    "position": "D",
+    "value": 323.0
+  },
+  {
+    "id": 30000277,
+    "name": "Johnny Boychuk",
+    "position": "D",
+    "value": 323.0
+  },
+  {
+    "id": 30000372,
+    "name": "Derek Ryan",
+    "position": "FWD",
+    "value": 321.0
+  },
+  {
+    "id": 30000299,
+    "name": "Andy Greene",
+    "position": "D",
+    "value": 321.0
+  },
+  {
+    "id": 30000854,
+    "name": "Riley Sheahan",
+    "position": "FWD",
+    "value": 319.0
+  },
+  {
+    "id": 30000650,
+    "name": "Ian Cole",
+    "position": "D",
+    "value": 319.0
+  },
+  {
+    "id": 30001485,
+    "name": "Vladimir Sobotka",
+    "position": "FWD",
+    "value": 318.0
+  },
+  {
+    "id": 30000818,
+    "name": "Joel Armia",
+    "position": "FWD",
+    "value": 317.0
+  },
+  {
+    "id": 30000640,
+    "name": "Victor Rask",
+    "position": "FWD",
+    "value": 318.0
+  },
+  {
+    "id": 30001297,
+    "name": "Andrew Ladd",
+    "position": "FWD",
+    "value": 315.0
+  },
+  {
+    "id": 30001012,
+    "name": "Ryan Hartman",
+    "position": "FWD",
+    "value": 317.0
+  },
+  {
+    "id": 30001142,
+    "name": "Francois Beauchemin",
+    "position": "D",
+    "value": 314.0
+  },
+  {
+    "id": 30000722,
+    "name": "Greg Pateryn",
+    "position": "D",
+    "value": 314.0
+  },
+  {
+    "id": 30000674,
+    "name": "Vince Dunn",
+    "position": "D",
+    "value": 314.0
+  },
+  {
+    "id": 30000821,
+    "name": "Andrew Copp",
+    "position": "FWD",
+    "value": 311.0
+  },
+  {
+    "id": 30000858,
+    "name": "Artem Anisimov",
+    "position": "FWD",
+    "value": 312.0
+  },
+  {
+    "id": 30002802,
+    "name": "Christian Fischer",
+    "position": "FWD",
+    "value": 313.0
+  },
+  {
+    "id": 30001023,
+    "name": "Trevor Van Riemsdyk",
+    "position": "D",
+    "value": 312.0
+  },
+  {
+    "id": 30000577,
+    "name": "Philipp Grubauer",
+    "position": "G",
+    "value": 400.0
+  },
+  {
+    "id": 30000303,
+    "name": "Adam Larsson",
+    "position": "D",
+    "value": 312.0
+  },
+  {
+    "id": 30000620,
+    "name": "Sam Gagner",
+    "position": "FWD",
+    "value": 311.0
+  },
+  {
+    "id": 30000073,
+    "name": "Milan Lucic",
+    "position": "FWD",
+    "value": 311.0
+  },
+  {
+    "id": 30000637,
+    "name": "Brock McGinn",
+    "position": "FWD",
+    "value": 307.0
+  },
+  {
+    "id": 30000189,
+    "name": "Colton Sissons",
+    "position": "FWD",
+    "value": 304.0
+  },
+  {
+    "id": 30000653,
+    "name": "Brian Dumoulin",
+    "position": "D",
+    "value": 306.0
+  },
+  {
+    "id": 30000162,
+    "name": "Carter Hutton",
+    "position": "G",
+    "value": 379.0
+  },
+  {
+    "id": 30000860,
+    "name": "Trevor Daley",
+    "position": "D",
+    "value": 300.0
+  },
+  {
+    "id": 30000021,
+    "name": "Tomas Plekanec",
+    "position": "FWD",
+    "value": 303.0
+  },
+  {
+    "id": 30000909,
+    "name": "Nikita Zadorov",
+    "position": "D",
+    "value": 303.0
+  },
+  {
+    "id": 30001024,
+    "name": "Justin Abdelkader",
+    "position": "FWD",
+    "value": 302.0
+  },
+  {
+    "id": 30003641,
+    "name": "Nolan Patrick",
+    "position": "FWD",
+    "value": 302.0
+  },
+  {
+    "id": 30003014,
+    "name": "Matt Benning",
+    "position": "D",
+    "value": 301.0
+  },
+  {
+    "id": 30003588,
+    "name": "Alex Iafallo",
+    "position": "FWD",
+    "value": 302.0
+  },
+  {
+    "id": 30000449,
+    "name": "Bobby Ryan",
+    "position": "FWD",
+    "value": 298.0
+  },
+  {
+    "id": 30001183,
+    "name": "Tim Schaller",
+    "position": "FWD",
+    "value": 294.0
+  },
+  {
+    "id": 30001006,
+    "name": "Corey Crawford",
+    "position": "G",
+    "value": 375.0
+  },
+  {
+    "id": 30002309,
+    "name": "Mark Jankowski",
+    "position": "FWD",
+    "value": 292.0
+  },
+  {
+    "id": 30000150,
+    "name": "Trevor Lewis",
+    "position": "FWD",
+    "value": 289.0
+  },
+  {
+    "id": 30000491,
+    "name": "Connor Brown",
+    "position": "FWD",
+    "value": 289.0
+  },
+  {
+    "id": 30000390,
+    "name": "Jakub Vrana",
+    "position": "FWD",
+    "value": 290.0
+  },
+  {
+    "id": 30000304,
+    "name": "Mike Cammalleri",
+    "position": "FWD",
+    "value": 288.0
+  },
+  {
+    "id": 30000136,
+    "name": "Matt Nieto",
+    "position": "FWD",
+    "value": 286.0
+  },
+  {
+    "id": 30000086,
+    "name": "Nick Bonino",
+    "position": "FWD",
+    "value": 287.0
+  },
+  {
+    "id": 30000186,
+    "name": "Austin Watson",
+    "position": "FWD",
+    "value": 282.0
+  },
+  {
+    "id": 30000889,
+    "name": "Nick Ritchie",
+    "position": "FWD",
+    "value": 286.0
+  },
+  {
+    "id": 30001034,
+    "name": "Niklas Kronwall",
+    "position": "D",
+    "value": 286.0
+  },
+  {
+    "id": 30000553,
+    "name": "Michael Frolik",
+    "position": "FWD",
+    "value": 284.0
+  },
+  {
+    "id": 30000417,
+    "name": "Kevin Connauton",
+    "position": "D",
+    "value": 286.0
+  },
+  {
+    "id": 30000514,
+    "name": "Zach Parise",
+    "position": "FWD",
+    "value": 285.0
+  },
+  {
+    "id": 30000207,
+    "name": "Damon Severson",
+    "position": "D",
+    "value": 285.0
+  },
+  {
+    "id": 30000559,
+    "name": "Sam Bennett",
+    "position": "FWD",
+    "value": 284.0
+  },
+  {
+    "id": 30001199,
+    "name": "Brandon Sutter",
+    "position": "FWD",
+    "value": 280.0
+  },
+  {
+    "id": 30002761,
+    "name": "Jimmy Vesey",
+    "position": "FWD",
+    "value": 283.0
+  },
+  {
+    "id": 30000505,
+    "name": "Mark Pysyk",
+    "position": "D",
+    "value": 283.0
+  },
+  {
+    "id": 30000316,
+    "name": "Brian Gibbons",
+    "position": "FWD",
+    "value": 278.0
+  },
+  {
+    "id": 30001343,
+    "name": "Patrik Berglund",
+    "position": "FWD",
+    "value": 282.0
+  },
+  {
+    "id": 30000763,
+    "name": "Devin Shore",
+    "position": "FWD",
+    "value": 281.0
+  },
+  {
+    "id": 30000953,
+    "name": "Michael Stone",
+    "position": "D",
+    "value": 281.0
+  },
+  {
+    "id": 30000056,
+    "name": "Michael Raffl",
+    "position": "FWD",
+    "value": 279.0
+  },
+  {
+    "id": 30001225,
+    "name": "Brenden Dillon",
+    "position": "D",
+    "value": 279.0
+  },
+  {
+    "id": 30002512,
+    "name": "Artturi Lehkonen",
+    "position": "FWD",
+    "value": 277.0
+  },
+  {
+    "id": 30000346,
+    "name": "Brandon Manning",
+    "position": "D",
+    "value": 278.0
+  },
+  {
+    "id": 30001009,
+    "name": "Petr Mrazek",
+    "position": "G",
+    "value": 375.0
+  },
+  {
+    "id": 30001502,
+    "name": "Tom Pyatt",
+    "position": "FWD",
+    "value": 274.0
+  },
+  {
+    "id": 30000978,
+    "name": "Jamie McGinn",
+    "position": "FWD",
+    "value": 276.0
+  },
+  {
+    "id": 30000076,
+    "name": "Kevan Miller",
+    "position": "D",
+    "value": 273.0
+  },
+  {
+    "id": 30001115,
+    "name": "Kari Lehtonen",
+    "position": "G",
+    "value": 359.5
+  },
+  {
+    "id": 30001252,
+    "name": "Cody Eakin",
+    "position": "FWD",
+    "value": 270.0
+  },
+  {
+    "id": 30001260,
+    "name": "Anton Khudobin",
+    "position": "G",
+    "value": 352.0
+  },
+  {
+    "id": 30001125,
+    "name": "Jason Spezza",
+    "position": "FWD",
+    "value": 271.0
+  },
+  {
+    "id": 30000657,
+    "name": "Chris Kunitz",
+    "position": "FWD",
+    "value": 270.0
+  },
+  {
+    "id": 30000736,
+    "name": "Valtteri Filppula",
+    "position": "FWD",
+    "value": 269.0
+  },
+  {
+    "id": 30000090,
+    "name": "Dan Hamhuis",
+    "position": "D",
+    "value": 271.0
+  },
+  {
+    "id": 30003612,
+    "name": "Jesper Bratt",
+    "position": "FWD",
+    "value": 268.0
+  },
+  {
+    "id": 30001194,
+    "name": "Sven Baertschi",
+    "position": "FWD",
+    "value": 270.0
+  },
+  {
+    "id": 30000222,
+    "name": "Juuse Saros",
+    "position": "G",
+    "value": 344.5
+  },
+  {
+    "id": 30003085,
+    "name": "Nikita Zaitsev",
+    "position": "D",
+    "value": 266.0
+  },
+  {
+    "id": 30001314,
+    "name": "Robert Bortuzzo",
+    "position": "D",
+    "value": 266.0
+  },
+  {
+    "id": 30000495,
+    "name": "Darcy Kuemper",
+    "position": "G",
+    "value": 342.0
+  },
+  {
+    "id": 30000381,
+    "name": "Karl Alzner",
+    "position": "D",
+    "value": 264.0
+  },
+  {
+    "id": 30002513,
+    "name": "J.T. Compher",
+    "position": "FWD",
+    "value": 263.0
+  },
+  {
+    "id": 30000098,
+    "name": "Henrik Sedin",
+    "position": "FWD",
+    "value": 265.0
+  },
+  {
+    "id": 30000331,
+    "name": "Jesper Fast",
+    "position": "FWD",
+    "value": 262.0
+  },
+  {
+    "id": 30001219,
+    "name": "Connor Murphy",
+    "position": "D",
+    "value": 264.0
+  },
+  {
+    "id": 30000680,
+    "name": "Dmitrij Jaskin",
+    "position": "FWD",
+    "value": 263.0
+  },
+  {
+    "id": 30003133,
+    "name": "Jesse Puljujarvi",
+    "position": "FWD",
+    "value": 263.0
+  },
+  {
+    "id": 30000138,
+    "name": "Joe Thornton",
+    "position": "FWD",
+    "value": 263.0
+  },
+  {
+    "id": 30000693,
+    "name": "Jack Johnson",
+    "position": "D",
+    "value": 261.0
+  },
+  {
+    "id": 30000129,
+    "name": "Jason Demers",
+    "position": "D",
+    "value": 261.0
+  },
+  {
+    "id": 30000446,
+    "name": "Thomas Chabot",
+    "position": "D",
+    "value": 260.0
+  },
+  {
+    "id": 30000368,
+    "name": "Brett Pesce",
+    "position": "D",
+    "value": 259.0
+  },
+  {
+    "id": 30000997,
+    "name": "Travis Hamonic",
+    "position": "D",
+    "value": 259.0
+  },
+  {
+    "id": 30001293,
+    "name": "Tobias Rieder",
+    "position": "FWD",
+    "value": 258.0
+  },
+  {
+    "id": 30002763,
+    "name": "Joakim Ryan",
+    "position": "D",
+    "value": 257.0
+  },
+  {
+    "id": 30000083,
+    "name": "Ryan Miller",
+    "position": "G",
+    "value": 325.0
+  },
+  {
+    "id": 30000034,
+    "name": "Leo Komarov",
+    "position": "FWD",
+    "value": 255.0
+  },
+  {
+    "id": 30001099,
+    "name": "Derrick Pouliot",
+    "position": "D",
+    "value": 255.0
+  },
+  {
+    "id": 30000394,
+    "name": "Matt Cullen",
+    "position": "FWD",
+    "value": 255.0
+  },
+  {
+    "id": 30001027,
+    "name": "Danny DeKeyser",
+    "position": "D",
+    "value": 254.0
+  },
+  {
+    "id": 30001175,
+    "name": "Brian Boyle",
+    "position": "FWD",
+    "value": 253.0
+  },
+  {
+    "id": 30003104,
+    "name": "Markus Nutivaara",
+    "position": "D",
+    "value": 253.0
+  },
+  {
+    "id": 30000973,
+    "name": "Tyler Ennis",
+    "position": "FWD",
+    "value": 253.0
+  },
+  {
+    "id": 30003053,
+    "name": "Brandon Tanev",
+    "position": "FWD",
+    "value": 249.0
+  },
+  {
+    "id": 30002693,
+    "name": "Aaron Dell",
+    "position": "G",
+    "value": 322.0
+  },
+  {
+    "id": 30001424,
+    "name": "Phillip Danault",
+    "position": "FWD",
+    "value": 250.0
+  },
+  {
+    "id": 30000995,
+    "name": "Pavel Zacha",
+    "position": "FWD",
+    "value": 249.0
+  },
+  {
+    "id": 30000758,
+    "name": "Jamie Oleksiak",
+    "position": "D",
+    "value": 250.0
+  },
+  {
+    "id": 30000044,
+    "name": "Daniel Winnik",
+    "position": "FWD",
+    "value": 250.0
+  },
+  {
+    "id": 30002820,
+    "name": "Joel Eriksson-Ek",
+    "position": "FWD",
+    "value": 250.0
+  },
+  {
+    "id": 30000305,
+    "name": "Travis Zajac",
+    "position": "FWD",
+    "value": 247.0
+  },
+  {
+    "id": 30000068,
+    "name": "Loui Eriksson",
+    "position": "FWD",
+    "value": 246.0
+  },
+  {
+    "id": 30001078,
+    "name": "Jordan Oesterle",
+    "position": "D",
+    "value": 247.0
+  },
+  {
+    "id": 30003138,
+    "name": "Jakob Chychrun",
+    "position": "D",
+    "value": 246.0
+  },
+  {
+    "id": 30000263,
+    "name": "Nick Cousins",
+    "position": "FWD",
+    "value": 245.0
+  },
+  {
+    "id": 30000685,
+    "name": "Kevin Shattenkirk",
+    "position": "D",
+    "value": 245.0
+  },
+  {
+    "id": 30000844,
+    "name": "Luke Glendening",
+    "position": "FWD",
+    "value": 242.0
+  },
+  {
+    "id": 30001255,
+    "name": "Patrick Sharp",
+    "position": "FWD",
+    "value": 244.0
+  },
+  {
+    "id": 30000585,
+    "name": "Andre Burakovsky",
+    "position": "FWD",
+    "value": 244.0
+  },
+  {
+    "id": 30001337,
+    "name": "Brooks Orpik",
+    "position": "D",
+    "value": 244.0
+  },
+  {
+    "id": 30003183,
+    "name": "Samuel Girard",
+    "position": "D",
+    "value": 244.0
+  },
+  {
+    "id": 30000273,
+    "name": "Robert Hagg",
+    "position": "D",
+    "value": 241.0
+  },
+  {
+    "id": 30000048,
+    "name": "Pierre-Edouard Bellemare",
+    "position": "FWD",
+    "value": 241.0
+  },
+  {
+    "id": 30000845,
+    "name": "Nick Jensen",
+    "position": "D",
+    "value": 240.0
+  },
+  {
+    "id": 30000688,
+    "name": "Matt Calvert",
+    "position": "FWD",
+    "value": 238.0
+  },
+  {
+    "id": 30003117,
+    "name": "Michal Kempny",
+    "position": "D",
+    "value": 238.0
+  },
+  {
+    "id": 30003140,
+    "name": "Tyson Jost",
+    "position": "FWD",
+    "value": 238.0
+  },
+  {
+    "id": 30000677,
+    "name": "Carl Gunnarsson",
+    "position": "D",
+    "value": 237.0
+  },
+  {
+    "id": 30000499,
+    "name": "Marcus Foligno",
+    "position": "FWD",
+    "value": 237.0
+  },
+  {
+    "id": 30000932,
+    "name": "Jake Virtanen",
+    "position": "FWD",
+    "value": 237.0
+  },
+  {
+    "id": 30002539,
+    "name": "Matt Grzelcyk",
+    "position": "D",
+    "value": 234.0
+  },
+  {
+    "id": 30001135,
+    "name": "Derek Grant",
+    "position": "FWD",
+    "value": 233.0
+  },
+  {
+    "id": 30000902,
+    "name": "Nick Holden",
+    "position": "D",
+    "value": 232.0
+  },
+  {
+    "id": 30000838,
+    "name": "Scott Darling",
+    "position": "G",
+    "value": 336.0
+  },
+  {
+    "id": 30001013,
+    "name": "Vincent Hinostroza",
+    "position": "FWD",
+    "value": 232.0
+  },
+  {
+    "id": 30000724,
+    "name": "Devante Smith-Pelly",
+    "position": "FWD",
+    "value": 231.0
+  },
+  {
+    "id": 30000571,
+    "name": "Anthony Duclair",
+    "position": "FWD",
+    "value": 230.0
+  },
+  {
+    "id": 30003634,
+    "name": "Jan Rutta",
+    "position": "D",
+    "value": 229.0
+  },
+  {
+    "id": 30000668,
+    "name": "Anton Forsberg",
+    "position": "G",
+    "value": 313.0
+  },
+  {
+    "id": 30000285,
+    "name": "Cal Clutterbuck",
+    "position": "FWD",
+    "value": 228.0
+  },
+  {
+    "id": 30000412,
+    "name": "Scott Hartnell",
+    "position": "FWD",
+    "value": 228.0
+  },
+  {
+    "id": 30000143,
+    "name": "Jeff Carter",
+    "position": "FWD",
+    "value": 227.0
+  },
+  {
+    "id": 30001430,
+    "name": "Melker Karlsson",
+    "position": "FWD",
+    "value": 227.0
+  },
+  {
+    "id": 30003231,
+    "name": "Denis Malgin",
+    "position": "FWD",
+    "value": 227.0
+  },
+  {
+    "id": 30000538,
+    "name": "Mark Letestu",
+    "position": "FWD",
+    "value": 224.0
+  },
+  {
+    "id": 30000531,
+    "name": "Christian Folin",
+    "position": "D",
+    "value": 224.0
+  },
+  {
+    "id": 30000392,
+    "name": "Tristan Jarry",
+    "position": "G",
+    "value": 286.0
+  },
+  {
+    "id": 30000013,
+    "name": "Alexei Emelin",
+    "position": "D",
+    "value": 224.0
+  },
+  {
+    "id": 30000606,
+    "name": "Joe Morrow",
+    "position": "D",
+    "value": 223.0
+  },
+  {
+    "id": 30001176,
+    "name": "Ryan Callahan",
+    "position": "FWD",
+    "value": 220.0
+  },
+  {
+    "id": 30000213,
+    "name": "Brett Connolly",
+    "position": "FWD",
+    "value": 222.0
+  },
+  {
+    "id": 30001063,
+    "name": "Ben Chiarot",
+    "position": "D",
+    "value": 222.0
+  },
+  {
+    "id": 30003109,
+    "name": "Drake Caggiula",
+    "position": "FWD",
+    "value": 220.0
+  },
+  {
+    "id": 30001242,
+    "name": "Marc Staal",
+    "position": "D",
+    "value": 220.0
+  },
+  {
+    "id": 30000842,
+    "name": "Tyler Bertuzzi",
+    "position": "FWD",
+    "value": 219.0
+  },
+  {
+    "id": 30000581,
+    "name": "Jay Beagle",
+    "position": "FWD",
+    "value": 217.0
+  },
+  {
+    "id": 30001070,
+    "name": "Adam Lowry",
+    "position": "FWD",
+    "value": 218.0
+  },
+  {
+    "id": 30001224,
+    "name": "Dylan DeMelo",
+    "position": "D",
+    "value": 218.0
+  },
+  {
+    "id": 30000049,
+    "name": "Braydon Coburn",
+    "position": "D",
+    "value": 216.0
+  },
+  {
+    "id": 30000264,
+    "name": "Scott Laughton",
+    "position": "FWD",
+    "value": 215.0
+  },
+  {
+    "id": 30002853,
+    "name": "Sean Kuraly",
+    "position": "FWD",
+    "value": 214.0
+  },
+  {
+    "id": 30001028,
+    "name": "Jonathan Ericsson",
+    "position": "D",
+    "value": 214.0
+  },
+  {
+    "id": 30000981,
+    "name": "Evan Rodrigues",
+    "position": "FWD",
+    "value": 214.0
+  },
+  {
+    "id": 30000672,
+    "name": "Troy Brouwer",
+    "position": "FWD",
+    "value": 212.0
+  },
+  {
+    "id": 30001029,
+    "name": "Martin Frk",
+    "position": "FWD",
+    "value": 212.0
+  },
+  {
+    "id": 30000713,
+    "name": "Sven Andrighetto",
+    "position": "FWD",
+    "value": 212.0
+  },
+  {
+    "id": 30001021,
+    "name": "Andrew Shaw",
+    "position": "FWD",
+    "value": 211.0
+  },
+  {
+    "id": 30000398,
+    "name": "Ben Lovejoy",
+    "position": "D",
+    "value": 210.0
+  },
+  {
+    "id": 30000774,
+    "name": "Brandon Dubinsky",
+    "position": "FWD",
+    "value": 209.0
+  },
+  {
+    "id": 30000570,
+    "name": "Jordan Weal",
+    "position": "FWD",
+    "value": 210.0
+  },
+  {
+    "id": 30000682,
+    "name": "Magnus Paajarvi",
+    "position": "FWD",
+    "value": 210.0
+  },
+  {
+    "id": 30000769,
+    "name": "Curtis McElhinney",
+    "position": "G",
+    "value": 258.5
+  },
+  {
+    "id": 30001215,
+    "name": "Alex Stalock",
+    "position": "G",
+    "value": 280.0
+  },
+  {
+    "id": 30000371,
+    "name": "Haydn Fleury",
+    "position": "D",
+    "value": 208.0
+  },
+  {
+    "id": 30000760,
+    "name": "Antoine Roussel",
+    "position": "FWD",
+    "value": 207.0
+  },
+  {
+    "id": 30000547,
+    "name": "Jujhar Khaira",
+    "position": "FWD",
+    "value": 205.0
+  },
+  {
+    "id": 30000490,
+    "name": "Brendan Leipsic",
+    "position": "FWD",
+    "value": 207.0
+  },
+  {
+    "id": 30000537,
+    "name": "Benoit Pouliot",
+    "position": "FWD",
+    "value": 204.0
+  },
+  {
+    "id": 30000333,
+    "name": "Thomas Greiss",
+    "position": "G",
+    "value": 284.0
+  },
+  {
+    "id": 30001088,
+    "name": "Brandon Carlo",
+    "position": "D",
+    "value": 204.0
+  },
+  {
+    "id": 30000146,
+    "name": "Marian Gaborik",
+    "position": "FWD",
+    "value": 205.0
+  },
+  {
+    "id": 30000891,
+    "name": "Chris Wagner",
+    "position": "FWD",
+    "value": 203.0
+  },
+  {
+    "id": 30001222,
+    "name": "Antoine Vermette",
+    "position": "FWD",
+    "value": 203.0
+  },
+  {
+    "id": 30001035,
+    "name": "Tomas Nosek",
+    "position": "FWD",
+    "value": 202.0
+  },
+  {
+    "id": 30000376,
+    "name": "Christian Djoos",
+    "position": "D",
+    "value": 203.0
+  },
+  {
+    "id": 30003083,
+    "name": "Troy Stecher",
+    "position": "D",
+    "value": 202.0
+  },
+  {
+    "id": 30000178,
+    "name": "Logan Shaw",
+    "position": "FWD",
+    "value": 201.0
+  },
+  {
+    "id": 30001437,
+    "name": "Brett Ritchie",
+    "position": "FWD",
+    "value": 202.0
+  },
+  {
+    "id": 30001060,
+    "name": "Shea Weber",
+    "position": "D",
+    "value": 199.0
+  },
+  {
+    "id": 30000501,
+    "name": "Nicolas Deslauriers",
+    "position": "FWD",
+    "value": 197.0
+  },
+  {
+    "id": 30000502,
+    "name": "Zemgus Girgensons",
+    "position": "FWD",
+    "value": 195.0
+  },
+  {
+    "id": 30002758,
+    "name": "Gustav Forsling",
+    "position": "D",
+    "value": 196.0
+  },
+  {
+    "id": 30001011,
+    "name": "Erik Gustafsson",
+    "position": "D",
+    "value": 196.0
+  },
+  {
+    "id": 30001188,
+    "name": "Brad Hunt",
+    "position": "D",
+    "value": 196.0
+  },
+  {
+    "id": 30000141,
+    "name": "Tommy Wingels",
+    "position": "FWD",
+    "value": 192.0
+  },
+  {
+    "id": 30001045,
+    "name": "Jake Dotchin",
+    "position": "D",
+    "value": 193.0
+  },
+  {
+    "id": 30000039,
+    "name": "Roman Polak",
+    "position": "D",
+    "value": 193.0
+  },
+  {
+    "id": 30000565,
+    "name": "Nail Yakupov",
+    "position": "FWD",
+    "value": 193.0
+  },
+  {
+    "id": 30000533,
+    "name": "Anders Nilsson",
+    "position": "G",
+    "value": 269.0
+  },
+  {
+    "id": 30000580,
+    "name": "Malcolm Subban",
+    "position": "G",
+    "value": 247.5
+  },
+  {
+    "id": 30000493,
+    "name": "Chad Johnson",
+    "position": "G",
+    "value": 276.0
+  },
+  {
+    "id": 30001105,
+    "name": "Mike Condon",
+    "position": "G",
+    "value": 269.0
+  },
+  {
+    "id": 30000232,
+    "name": "Dmitry Kulikov",
+    "position": "D",
+    "value": 188.0
+  },
+  {
+    "id": 30000714,
+    "name": "Mark Barberio",
+    "position": "D",
+    "value": 185.0
+  },
+  {
+    "id": 30000166,
+    "name": "Alex Petrovic",
+    "position": "D",
+    "value": 186.0
+  },
+  {
+    "id": 30001155,
+    "name": "Casey Cizikas",
+    "position": "FWD",
+    "value": 185.0
+  },
+  {
+    "id": 30000472,
+    "name": "Mark Borowiecki",
+    "position": "D",
+    "value": 185.0
+  },
+  {
+    "id": 30000475,
+    "name": "Alex Chiasson",
+    "position": "FWD",
+    "value": 181.0
+  },
+  {
+    "id": 30000429,
+    "name": "Sonny Milano",
+    "position": "FWD",
+    "value": 184.0
+  },
+  {
+    "id": 30000686,
+    "name": "Scottie Upshall",
+    "position": "FWD",
+    "value": 183.0
+  },
+  {
+    "id": 30001257,
+    "name": "Niklas Hjalmarsson",
+    "position": "D",
+    "value": 183.0
+  },
+  {
+    "id": 30001268,
+    "name": "Ryan Carpenter",
+    "position": "FWD",
+    "value": 182.0
+  },
+  {
+    "id": 30000164,
+    "name": "Jussi Jokinen",
+    "position": "FWD",
+    "value": 182.0
+  },
+  {
+    "id": 30001263,
+    "name": "Ryan Kesler",
+    "position": "FWD",
+    "value": 182.0
+  },
+  {
+    "id": 30000996,
+    "name": "Calvin De Haan",
+    "position": "D",
+    "value": 181.0
+  },
+  {
+    "id": 30000121,
+    "name": "Antti Niemi",
+    "position": "G",
+    "value": 245.0
+  },
+  {
+    "id": 30000927,
+    "name": "Ben Hutton",
+    "position": "D",
+    "value": 179.0
+  },
+  {
+    "id": 30000469,
+    "name": "Zack Smith",
+    "position": "FWD",
+    "value": 178.0
+  },
+  {
+    "id": 30000170,
+    "name": "Derek MacKenzie",
+    "position": "FWD",
+    "value": 175.0
+  },
+  {
+    "id": 30000596,
+    "name": "Chandler Stephenson",
+    "position": "FWD",
+    "value": 179.0
+  },
+  {
+    "id": 30000948,
+    "name": "Jordan Martinook",
+    "position": "FWD",
+    "value": 178.0
+  },
+  {
+    "id": 30000011,
+    "name": "David Desharnais",
+    "position": "FWD",
+    "value": 178.0
+  },
+  {
+    "id": 30000248,
+    "name": "Colin Wilson",
+    "position": "FWD",
+    "value": 178.0
+  },
+  {
+    "id": 30000087,
+    "name": "Alexandre Burrows",
+    "position": "FWD",
+    "value": 177.0
+  },
+  {
+    "id": 30001285,
+    "name": "Johnny Oduya",
+    "position": "D",
+    "value": 177.0
+  },
+  {
+    "id": 30001274,
+    "name": "Alex Biega",
+    "position": "D",
+    "value": 176.0
+  },
+  {
+    "id": 30000388,
+    "name": "Connor Carrick",
+    "position": "D",
+    "value": 176.0
+  },
+  {
+    "id": 30000706,
+    "name": "Travis Dermott",
+    "position": "D",
+    "value": 176.0
+  },
+  {
+    "id": 30000569,
+    "name": "Nick Shore",
+    "position": "FWD",
+    "value": 175.0
+  },
+  {
+    "id": 30000095,
+    "name": "Brad Richardson",
+    "position": "FWD",
+    "value": 175.0
+  },
+  {
+    "id": 30000525,
+    "name": "Mike Reilly",
+    "position": "D",
+    "value": 174.0
+  },
+  {
+    "id": 30002516,
+    "name": "Steve Santini",
+    "position": "D",
+    "value": 173.0
+  },
+  {
+    "id": 30000237,
+    "name": "MacKenzie Weegar",
+    "position": "D",
+    "value": 173.0
+  },
+  {
+    "id": 30000093,
+    "name": "Zack Kassian",
+    "position": "FWD",
+    "value": 170.0
+  },
+  {
+    "id": 30000999,
+    "name": "Scott Mayfield",
+    "position": "D",
+    "value": 171.0
+  },
+  {
+    "id": 30000521,
+    "name": "Nate Prosser",
+    "position": "D",
+    "value": 169.0
+  },
+  {
+    "id": 30000060,
+    "name": "Luke Schenn",
+    "position": "D",
+    "value": 170.0
+  },
+  {
+    "id": 30000188,
+    "name": "Pontus Aberg",
+    "position": "FWD",
+    "value": 169.0
+  },
+  {
+    "id": 30001331,
+    "name": "Nate Thompson",
+    "position": "FWD",
+    "value": 168.0
+  },
+  {
+    "id": 30000749,
+    "name": "Remi Elie",
+    "position": "FWD",
+    "value": 168.0
+  },
+  {
+    "id": 30000424,
+    "name": "Ryan Murray",
+    "position": "D",
+    "value": 167.0
+  },
+  {
+    "id": 30001201,
+    "name": "Garnet Hathaway",
+    "position": "FWD",
+    "value": 166.0
+  },
+  {
+    "id": 30000335,
+    "name": "Michal Neuvirth",
+    "position": "G",
+    "value": 214.5
+  },
+  {
+    "id": 30000507,
+    "name": "Jake McCabe",
+    "position": "D",
+    "value": 165.0
+  },
+  {
+    "id": 30000100,
+    "name": "Christopher Tanev",
+    "position": "D",
+    "value": 163.0
+  },
+  {
+    "id": 30001184,
+    "name": "Brandon Davidson",
+    "position": "D",
+    "value": 162.0
+  },
+  {
+    "id": 30001235,
+    "name": "Noel Acciari",
+    "position": "FWD",
+    "value": 159.0
+  },
+  {
+    "id": 30000404,
+    "name": "Scott Wilson",
+    "position": "FWD",
+    "value": 160.0
+  },
+  {
+    "id": 30000459,
+    "name": "Fredrik Claesson",
+    "position": "D",
+    "value": 160.0
+  },
+  {
+    "id": 30000102,
+    "name": "Radim Vrbata",
+    "position": "FWD",
+    "value": 160.0
+  },
+  {
+    "id": 30000119,
+    "name": "Matt Stajan",
+    "position": "FWD",
+    "value": 160.0
+  },
+  {
+    "id": 30000914,
+    "name": "Barclay Goodrow",
+    "position": "FWD",
+    "value": 159.0
+  },
+  {
+    "id": 30000831,
+    "name": "Drew Stafford",
+    "position": "FWD",
+    "value": 158.0
+  },
+  {
+    "id": 30001213,
+    "name": "Chris Stewart",
+    "position": "FWD",
+    "value": 157.0
+  },
+  {
+    "id": 30000535,
+    "name": "Matt Hendricks",
+    "position": "FWD",
+    "value": 158.0
+  },
+  {
+    "id": 30000096,
+    "name": "Luca Sbisa",
+    "position": "D",
+    "value": 157.0
+  },
+  {
+    "id": 30003544,
+    "name": "Victor Mete",
+    "position": "D",
+    "value": 156.0
+  },
+  {
+    "id": 30003603,
+    "name": "Neal Pionk",
+    "position": "D",
+    "value": 156.0
+  },
+  {
+    "id": 30000211,
+    "name": "Matt Irwin",
+    "position": "D",
+    "value": 156.0
+  },
+  {
+    "id": 30000085,
+    "name": "Kevin Bieksa",
+    "position": "D",
+    "value": 156.0
+  },
+  {
+    "id": 30000564,
+    "name": "Markus Granlund",
+    "position": "FWD",
+    "value": 152.0
+  },
+  {
+    "id": 30000557,
+    "name": "Brett Kulak",
+    "position": "D",
+    "value": 152.0
+  },
+  {
+    "id": 30000500,
+    "name": "Johan Larsson",
+    "position": "FWD",
+    "value": 149.0
+  },
+  {
+    "id": 30000716,
+    "name": "Daniel Carr",
+    "position": "FWD",
+    "value": 151.0
+  },
+  {
+    "id": 30000639,
+    "name": "Joakim Nordstrom",
+    "position": "FWD",
+    "value": 148.0
+  },
+  {
+    "id": 30000322,
+    "name": "Oscar Lindberg",
+    "position": "FWD",
+    "value": 148.0
+  },
+  {
+    "id": 30000609,
+    "name": "Frank Vatrano",
+    "position": "FWD",
+    "value": 147.0
+  },
+  {
+    "id": 30000439,
+    "name": "Matt Hunwick",
+    "position": "D",
+    "value": 145.0
+  },
+  {
+    "id": 30000249,
+    "name": "Gabriel Bourque",
+    "position": "FWD",
+    "value": 145.0
+  },
+  {
+    "id": 30000785,
+    "name": "Jay Bouwmeester",
+    "position": "D",
+    "value": 145.0
+  },
+  {
+    "id": 30003120,
+    "name": "Yohann Auvitu",
+    "position": "D",
+    "value": 145.0
+  },
+  {
+    "id": 30000233,
+    "name": "Erik Gudbranson",
+    "position": "D",
+    "value": 144.0
+  },
+  {
+    "id": 30000551,
+    "name": "Anton Slepyshev",
+    "position": "FWD",
+    "value": 143.0
+  },
+  {
+    "id": 30000717,
+    "name": "Jacob De La Rose",
+    "position": "FWD",
+    "value": 141.0
+  },
+  {
+    "id": 30000855,
+    "name": "Brendan Smith",
+    "position": "D",
+    "value": 142.0
+  },
+  {
+    "id": 30003115,
+    "name": "Tim Heed",
+    "position": "D",
+    "value": 141.0
+  },
+  {
+    "id": 30000441,
+    "name": "Byron Froese",
+    "position": "FWD",
+    "value": 141.0
+  },
+  {
+    "id": 30000367,
+    "name": "Phil Di Giuseppe",
+    "position": "FWD",
+    "value": 140.0
+  },
+  {
+    "id": 30001311,
+    "name": "David Schlemko",
+    "position": "D",
+    "value": 140.0
+  },
+  {
+    "id": 30003618,
+    "name": "Andreas Borgman",
+    "position": "D",
+    "value": 140.0
+  },
+  {
+    "id": 30000624,
+    "name": "Travis Sanheim",
+    "position": "D",
+    "value": 139.0
+  },
+  {
+    "id": 30001097,
+    "name": "Tom Kuhnhackl",
+    "position": "FWD",
+    "value": 138.0
+  },
+  {
+    "id": 30000091,
+    "name": "Jannik Hansen",
+    "position": "FWD",
+    "value": 137.0
+  },
+  {
+    "id": 30003126,
+    "name": "David Rittich",
+    "position": "G",
+    "value": 181.5
+  },
+  {
+    "id": 30000393,
+    "name": "Joonas Korpisalo",
+    "position": "G",
+    "value": 185.0
+  },
+  {
+    "id": 30000167,
+    "name": "Connor Brickley",
+    "position": "FWD",
+    "value": 134.0
+  },
+  {
+    "id": 30000784,
+    "name": "Ivan Barbashev",
+    "position": "FWD",
+    "value": 134.0
+  },
+  {
+    "id": 30000009,
+    "name": "Nathan Beaulieu",
+    "position": "D",
+    "value": 133.0
+  },
+  {
+    "id": 30000741,
+    "name": "Cedric Paquette",
+    "position": "FWD",
+    "value": 133.0
+  },
+  {
+    "id": 30000144,
+    "name": "Kyle Clifford",
+    "position": "FWD",
+    "value": 133.0
+  },
+  {
+    "id": 30000325,
+    "name": "Dominic Moore",
+    "position": "FWD",
+    "value": 131.0
+  },
+  {
+    "id": 30002529,
+    "name": "John Hayden",
+    "position": "FWD",
+    "value": 131.0
+  },
+  {
+    "id": 30000583,
+    "name": "Madison Bowey",
+    "position": "D",
+    "value": 131.0
+  },
+  {
+    "id": 30000721,
+    "name": "Torrey Mitchell",
+    "position": "FWD",
+    "value": 130.0
+  },
+  {
+    "id": 30000377,
+    "name": "Jason Chimera",
+    "position": "FWD",
+    "value": 130.0
+  },
+  {
+    "id": 30000105,
+    "name": "Lance Bouma",
+    "position": "FWD",
+    "value": 128.0
+  },
+  {
+    "id": 30000965,
+    "name": "Curtis Lazar",
+    "position": "FWD",
+    "value": 127.0
+  },
+  {
+    "id": 30000934,
+    "name": "Louis Domingue",
+    "position": "G",
+    "value": 178.5
+  },
+  {
+    "id": 30001362,
+    "name": "Cory Conacher",
+    "position": "FWD",
+    "value": 124.0
+  },
+  {
+    "id": 30000823,
+    "name": "Toby Enstrom",
+    "position": "D",
+    "value": 124.0
+  },
+  {
+    "id": 30002824,
+    "name": "Jack Roslovic",
+    "position": "FWD",
+    "value": 123.0
+  },
+  {
+    "id": 30001289,
+    "name": "Xavier Ouellet",
+    "position": "D",
+    "value": 122.0
+  },
+  {
+    "id": 30000802,
+    "name": "Ondrej Pavelec",
+    "position": "G",
+    "value": 168.0
+  },
+  {
+    "id": 30000764,
+    "name": "Gemel Smith",
+    "position": "FWD",
+    "value": 121.0
+  },
+  {
+    "id": 30000922,
+    "name": "Joel Ward",
+    "position": "FWD",
+    "value": 121.0
+  },
+  {
+    "id": 30003077,
+    "name": "Tyler Motte",
+    "position": "FWD",
+    "value": 121.0
+  },
+  {
+    "id": 30000586,
+    "name": "Paul Carey",
+    "position": "FWD",
+    "value": 118.0
+  },
+  {
+    "id": 30000982,
+    "name": "Chad Ruhwedel",
+    "position": "D",
+    "value": 118.0
+  },
+  {
+    "id": 30000200,
+    "name": "Scott Wedgewood",
+    "position": "G",
+    "value": 170.0
+  },
+  {
+    "id": 30003376,
+    "name": "Casey Desmith",
+    "position": "G",
+    "value": 148.0
+  },
+  {
+    "id": 30000740,
+    "name": "Slater Koekkoek",
+    "position": "D",
+    "value": 115.0
+  },
+  {
+    "id": 30003026,
+    "name": "Charlie Lindgren",
+    "position": "G",
+    "value": 155.5
+  },
+  {
+    "id": 30001102,
+    "name": "Dominik Simon",
+    "position": "FWD",
+    "value": 114.0
+  },
+  {
+    "id": 30000443,
+    "name": "Kasperi Kapanen",
+    "position": "FWD",
+    "value": 112.0
+  },
+  {
+    "id": 30003598,
+    "name": "Jakub Jerabek",
+    "position": "D",
+    "value": 113.0
+  },
+  {
+    "id": 30001245,
+    "name": "Marc Methot",
+    "position": "D",
+    "value": 113.0
+  },
+  {
+    "id": 30000733,
+    "name": "Anthony Deangelo",
+    "position": "D",
+    "value": 112.0
+  },
+  {
+    "id": 30000075,
+    "name": "Adam McQuaid",
+    "position": "D",
+    "value": 111.0
+  },
+  {
+    "id": 30000780,
+    "name": "Lukas Sedlak",
+    "position": "FWD",
+    "value": 110.0
+  },
+  {
+    "id": 30001032,
+    "name": "Tomas Jurco",
+    "position": "FWD",
+    "value": 110.0
+  },
+  {
+    "id": 30002845,
+    "name": "Anthony Cirelli",
+    "position": "FWD",
+    "value": 108.0
+  },
+  {
+    "id": 30000288,
+    "name": "Matt Martin",
+    "position": "FWD",
+    "value": 109.0
+  },
+  {
+    "id": 30000946,
+    "name": "Martin Hanzal",
+    "position": "FWD",
+    "value": 108.0
+  },
+  {
+    "id": 30000403,
+    "name": "Josh Archibald",
+    "position": "FWD",
+    "value": 108.0
+  },
+  {
+    "id": 30000187,
+    "name": "Miikka Salomaki",
+    "position": "FWD",
+    "value": 106.0
+  },
+  {
+    "id": 30000045,
+    "name": "Steve Mason",
+    "position": "G",
+    "value": 141.5
+  },
+  {
+    "id": 30002632,
+    "name": "Anders Bjork",
+    "position": "FWD",
+    "value": 104.0
+  },
+  {
+    "id": 30003602,
+    "name": "Viktor Antipin",
+    "position": "D",
+    "value": 104.0
+  },
+  {
+    "id": 30003604,
+    "name": "David Kampf",
+    "position": "FWD",
+    "value": 103.0
+  },
+  {
+    "id": 30000933,
+    "name": "Yannick Weber",
+    "position": "D",
+    "value": 103.0
+  },
+  {
+    "id": 30000913,
+    "name": "Nikolay Goldobin",
+    "position": "FWD",
+    "value": 103.0
+  },
+  {
+    "id": 30000058,
+    "name": "Zac Rinaldo",
+    "position": "FWD",
+    "value": 103.0
+  },
+  {
+    "id": 30001301,
+    "name": "Ryan Reaves",
+    "position": "FWD",
+    "value": 103.0
+  },
+  {
+    "id": 30002967,
+    "name": "Johnny Brodzinski",
+    "position": "FWD",
+    "value": 102.0
+  },
+  {
+    "id": 30000497,
+    "name": "Cody Franson",
+    "position": "D",
+    "value": 101.0
+  },
+  {
+    "id": 30001056,
+    "name": "Andrej Sustr",
+    "position": "D",
+    "value": 100.0
+  },
+  {
+    "id": 30000991,
+    "name": "Jon Merrill",
+    "position": "D",
+    "value": 100.0
+  },
+  {
+    "id": 30001196,
+    "name": "Brendan Gaunce",
+    "position": "FWD",
+    "value": 99.0
+  },
+  {
+    "id": 30001309,
+    "name": "Marcus Johansson",
+    "position": "FWD",
+    "value": 98.0
+  },
+  {
+    "id": 30000812,
+    "name": "Gustav Olofsson",
+    "position": "D",
+    "value": 98.0
+  },
+  {
+    "id": 30003606,
+    "name": "Oscar Fantenberg",
+    "position": "D",
+    "value": 98.0
+  },
+  {
+    "id": 30003011,
+    "name": "Casey Nelson",
+    "position": "D",
+    "value": 95.0
+  },
+  {
+    "id": 30000442,
+    "name": "Scott Harrington",
+    "position": "D",
+    "value": 96.0
+  },
+  {
+    "id": 30003119,
+    "name": "Anton Lindholm",
+    "position": "D",
+    "value": 97.0
+  },
+  {
+    "id": 30000954,
+    "name": "Dylan Strome",
+    "position": "FWD",
+    "value": 95.0
+  },
+  {
+    "id": 30000915,
+    "name": "Micheal Haley",
+    "position": "FWD",
+    "value": 94.0
+  },
+  {
+    "id": 30002311,
+    "name": "Boo Nieves",
+    "position": "FWD",
+    "value": 92.0
+  },
+  {
+    "id": 30003746,
+    "name": "Alexandar Georgiev",
+    "position": "G",
+    "value": 122.0
+  },
+  {
+    "id": 30003240,
+    "name": "John Gilmour",
+    "position": "D",
+    "value": 91.0
+  },
+  {
+    "id": 30000088,
+    "name": "Derek Dorsett",
+    "position": "FWD",
+    "value": 88.0
+  },
+  {
+    "id": 30001315,
+    "name": "Jori Lehtera",
+    "position": "FWD",
+    "value": 88.0
+  },
+  {
+    "id": 30003412,
+    "name": "Jeff Glass",
+    "position": "G",
+    "value": 129.0
+  },
+  {
+    "id": 30000955,
+    "name": "Andy Andreoff",
+    "position": "FWD",
+    "value": 88.0
+  },
+  {
+    "id": 30000939,
+    "name": "Klas Dahlbeck",
+    "position": "D",
+    "value": 87.0
+  },
+  {
+    "id": 30000751,
+    "name": "Julius Honka",
+    "position": "D",
+    "value": 87.0
+  },
+  {
+    "id": 30003529,
+    "name": "Oskar Lindblom",
+    "position": "FWD",
+    "value": 86.0
+  },
+  {
+    "id": 30003540,
+    "name": "Chris Didomenico",
+    "position": "FWD",
+    "value": 85.0
+  },
+  {
+    "id": 30000364,
+    "name": "Ryan Murphy",
+    "position": "D",
+    "value": 85.0
+  },
+  {
+    "id": 30001413,
+    "name": "Iiro Pakarinen",
+    "position": "FWD",
+    "value": 85.0
+  },
+  {
+    "id": 30001532,
+    "name": "Darren Archibald",
+    "position": "FWD",
+    "value": 84.0
+  },
+  {
+    "id": 30001044,
+    "name": "J.T. Brown",
+    "position": "FWD",
+    "value": 85.0
+  },
+  {
+    "id": 30000026,
+    "name": "Dale Weise",
+    "position": "FWD",
+    "value": 84.0
+  },
+  {
+    "id": 30000683,
+    "name": "Ty Rattie",
+    "position": "FWD",
+    "value": 84.0
+  },
+  {
+    "id": 30002695,
+    "name": "Nic Dowd",
+    "position": "FWD",
+    "value": 84.0
+  },
+  {
+    "id": 30001312,
+    "name": "Noah Juulsen",
+    "position": "D",
+    "value": 83.0
+  },
+  {
+    "id": 30000967,
+    "name": "Chris Wideman",
+    "position": "D",
+    "value": 83.0
+  },
+  {
+    "id": 30001107,
+    "name": "Taylor Chorney",
+    "position": "D",
+    "value": 83.0
+  },
+  {
+    "id": 30003158,
+    "name": "Tage Thompson",
+    "position": "FWD",
+    "value": 83.0
+  },
+  {
+    "id": 30000767,
+    "name": "Jaromir Jagr",
+    "position": "FWD",
+    "value": 83.0
+  },
+  {
+    "id": 30000219,
+    "name": "Al Montoya",
+    "position": "G",
+    "value": 113.5
+  },
+  {
+    "id": 30001089,
+    "name": "Jimmy Hayes",
+    "position": "FWD",
+    "value": 82.0
+  },
+  {
+    "id": 30000357,
+    "name": "Kris Versteeg",
+    "position": "FWD",
+    "value": 82.0
+  },
+  {
+    "id": 30000566,
+    "name": "Andrej Sekera",
+    "position": "D",
+    "value": 82.0
+  },
+  {
+    "id": 30000974,
+    "name": "Brian Gionta",
+    "position": "FWD",
+    "value": 81.0
+  },
+  {
+    "id": 30001286,
+    "name": "Jordan Nolan",
+    "position": "FWD",
+    "value": 81.0
+  },
+  {
+    "id": 30000135,
+    "name": "Mirco Mueller",
+    "position": "D",
+    "value": 79.0
+  },
+  {
+    "id": 30003292,
+    "name": "Tanner Fritz",
+    "position": "FWD",
+    "value": 81.0
+  },
+  {
+    "id": 30000988,
+    "name": "Jacob Josefson",
+    "position": "FWD",
+    "value": 80.0
+  },
+  {
+    "id": 30002588,
+    "name": "Ryan Donato",
+    "position": "FWD",
+    "value": 80.0
+  },
+  {
+    "id": 30002578,
+    "name": "Nikita Scherbak",
+    "position": "FWD",
+    "value": 79.0
+  },
+  {
+    "id": 30002550,
+    "name": "Kevin Roy",
+    "position": "FWD",
+    "value": 80.0
+  },
+  {
+    "id": 30000994,
+    "name": "Lee Stempniak",
+    "position": "FWD",
+    "value": 79.0
+  },
+  {
+    "id": 30003016,
+    "name": "Nick Seeler",
+    "position": "D",
+    "value": 78.0
+  },
+  {
+    "id": 30000775,
+    "name": "Justin Falk",
+    "position": "D",
+    "value": 76.0
+  },
+  {
+    "id": 30001137,
+    "name": "Josh Jooris",
+    "position": "FWD",
+    "value": 77.0
+  },
+  {
+    "id": 30000567,
+    "name": "Jean-Francois Berube",
+    "position": "G",
+    "value": 112.0
+  },
+  {
+    "id": 30000079,
+    "name": "Dennis Seidenberg",
+    "position": "D",
+    "value": 76.0
+  },
+  {
+    "id": 30002630,
+    "name": "Michael Amadio",
+    "position": "FWD",
+    "value": 76.0
+  },
+  {
+    "id": 30000265,
+    "name": "Taylor Leier",
+    "position": "FWD",
+    "value": 75.0
+  },
+  {
+    "id": 30001321,
+    "name": "Markus Hannikainen",
+    "position": "FWD",
+    "value": 74.0
+  },
+  {
+    "id": 30001335,
+    "name": "Eric Fehr",
+    "position": "FWD",
+    "value": 75.0
+  },
+  {
+    "id": 30002364,
+    "name": "Harri Sateri",
+    "position": "G",
+    "value": 99.5
+  },
+  {
+    "id": 30000968,
+    "name": "Nicholas Baptiste",
+    "position": "FWD",
+    "value": 73.0
+  },
+  {
+    "id": 30000833,
+    "name": "Chris Thorburn",
+    "position": "FWD",
+    "value": 73.0
+  },
+  {
+    "id": 30002587,
+    "name": "Marcus Pettersson",
+    "position": "D",
+    "value": 72.0
+  },
+  {
+    "id": 30002488,
+    "name": "Max Lagace",
+    "position": "G",
+    "value": 108.5
+  },
+  {
+    "id": 30002510,
+    "name": "Ian McCoshen",
+    "position": "D",
+    "value": 71.0
+  },
+  {
+    "id": 30000510,
+    "name": "William Carrier",
+    "position": "FWD",
+    "value": 70.0
+  },
+  {
+    "id": 30000975,
+    "name": "Josh Gorges",
+    "position": "D",
+    "value": 69.0
+  },
+  {
+    "id": 30002776,
+    "name": "Colin White",
+    "position": "FWD",
+    "value": 69.0
+  },
+  {
+    "id": 30000400,
+    "name": "David Warsofsky",
+    "position": "D",
+    "value": 68.0
+  },
+  {
+    "id": 30000193,
+    "name": "Anthony Bitetto",
+    "position": "D",
+    "value": 68.0
+  },
+  {
+    "id": 30003112,
+    "name": "Marcus Sorensen",
+    "position": "FWD",
+    "value": 68.0
+  },
+  {
+    "id": 30000405,
+    "name": "Oskar Sundqvist",
+    "position": "FWD",
+    "value": 67.0
+  },
+  {
+    "id": 30000719,
+    "name": "Gabriel Dumont",
+    "position": "FWD",
+    "value": 66.0
+  },
+  {
+    "id": 30003074,
+    "name": "Alex Lyon",
+    "position": "G",
+    "value": 85.0
+  },
+  {
+    "id": 30000334,
+    "name": "Christopher Gibson",
+    "position": "G",
+    "value": 89.0
+  },
+  {
+    "id": 30001456,
+    "name": "Laurent Brossoit",
+    "position": "G",
+    "value": 93.5
+  },
+  {
+    "id": 30003631,
+    "name": "Maxim Mamin",
+    "position": "FWD",
+    "value": 63.0
+  },
+  {
+    "id": 30003012,
+    "name": "Rob O'Gara",
+    "position": "D",
+    "value": 63.0
+  },
+  {
+    "id": 30003549,
+    "name": "Zach Aston-Reese",
+    "position": "FWD",
+    "value": 63.0
+  },
+  {
+    "id": 30000173,
+    "name": "Steven Kampfer",
+    "position": "D",
+    "value": 62.0
+  },
+  {
+    "id": 30001054,
+    "name": "Matthew Peca",
+    "position": "FWD",
+    "value": 61.0
+  },
+  {
+    "id": 30002511,
+    "name": "Valentin Zykov",
+    "position": "FWD",
+    "value": 61.0
+  },
+  {
+    "id": 30002546,
+    "name": "Jon Gillies",
+    "position": "G",
+    "value": 85.5
+  },
+  {
+    "id": 30001313,
+    "name": "Marcus Kruger",
+    "position": "FWD",
+    "value": 60.0
+  },
+  {
+    "id": 30000998,
+    "name": "Ross Johnston",
+    "position": "FWD",
+    "value": 60.0
+  },
+  {
+    "id": 30000867,
+    "name": "Dennis Rasmussen",
+    "position": "FWD",
+    "value": 60.0
+  },
+  {
+    "id": 30000172,
+    "name": "David Booth",
+    "position": "FWD",
+    "value": 59.0
+  },
+  {
+    "id": 30003571,
+    "name": "Tucker Poolman",
+    "position": "D",
+    "value": 59.0
+  },
+  {
+    "id": 30000460,
+    "name": "Max McCormick",
+    "position": "FWD",
+    "value": 57.0
+  },
+  {
+    "id": 30000735,
+    "name": "Adam Erne",
+    "position": "FWD",
+    "value": 57.0
+  },
+  {
+    "id": 30002580,
+    "name": "Josh Ho-Sang",
+    "position": "FWD",
+    "value": 57.0
+  },
+  {
+    "id": 30003100,
+    "name": "Paul Ladue",
+    "position": "D",
+    "value": 57.0
+  },
+  {
+    "id": 30000959,
+    "name": "Kurtis MacDermid",
+    "position": "D",
+    "value": 56.0
+  },
+  {
+    "id": 30003150,
+    "name": "Luke Kunin",
+    "position": "FWD",
+    "value": 54.0
+  },
+  {
+    "id": 30000544,
+    "name": "Eric Gryba",
+    "position": "D",
+    "value": 54.0
+  },
+  {
+    "id": 30000513,
+    "name": "Brendan Guhle",
+    "position": "D",
+    "value": 53.0
+  },
+  {
+    "id": 30000094,
+    "name": "Shawn Matthias",
+    "position": "FWD",
+    "value": 52.0
+  },
+  {
+    "id": 30001148,
+    "name": "Cody McLeod",
+    "position": "FWD",
+    "value": 51.0
+  },
+  {
+    "id": 30000529,
+    "name": "Zack Mitchell",
+    "position": "FWD",
+    "value": 50.0
+  },
+  {
+    "id": 30003615,
+    "name": "Mario Kempe",
+    "position": "FWD",
+    "value": 49.0
+  },
+  {
+    "id": 30000709,
+    "name": "Josh Leivo",
+    "position": "FWD",
+    "value": 48.0
+  },
+  {
+    "id": 30000240,
+    "name": "Mike Fisher",
+    "position": "FWD",
+    "value": 48.0
+  },
+  {
+    "id": 30001381,
+    "name": "Oscar Dansk",
+    "position": "G",
+    "value": 56.0
+  },
+  {
+    "id": 30003739,
+    "name": "Sebastian Aho",
+    "position": "D",
+    "value": 47.0
+  },
+  {
+    "id": 30003751,
+    "name": "Dominic Toninato",
+    "position": "FWD",
+    "value": 47.0
+  },
+  {
+    "id": 30000509,
+    "name": "Justin Bailey",
+    "position": "FWD",
+    "value": 46.0
+  },
+  {
+    "id": 30000663,
+    "name": "Daniel Sprong",
+    "position": "FWD",
+    "value": 46.0
+  },
+  {
+    "id": 30003226,
+    "name": "Ethan Bear",
+    "position": "D",
+    "value": 46.0
+  },
+  {
+    "id": 30000481,
+    "name": "Filip Chlapik",
+    "position": "FWD",
+    "value": 44.0
+  },
+  {
+    "id": 30000175,
+    "name": "Greg McKegg",
+    "position": "FWD",
+    "value": 43.0
+  },
+  {
+    "id": 30001380,
+    "name": "Carter Rowney",
+    "position": "FWD",
+    "value": 43.0
+  },
+  {
+    "id": 30000984,
+    "name": "Reid Boucher",
+    "position": "FWD",
+    "value": 44.0
+  },
+  {
+    "id": 30000746,
+    "name": "Jack Campbell",
+    "position": "G",
+    "value": 57.0
+  },
+  {
+    "id": 30001059,
+    "name": "Luke Witkowski",
+    "position": "FWD",
+    "value": 43.0
+  },
+  {
+    "id": 30000856,
+    "name": "Ryan Sproul",
+    "position": "D",
+    "value": 43.0
+  },
+  {
+    "id": 30000695,
+    "name": "Dean Kukan",
+    "position": "D",
+    "value": 42.0
+  },
+  {
+    "id": 30001204,
+    "name": "Kevin Gravel",
+    "position": "D",
+    "value": 42.0
+  },
+  {
+    "id": 30000819,
+    "name": "Alex Burmistrov",
+    "position": "FWD",
+    "value": 42.0
+  },
+  {
+    "id": 30000031,
+    "name": "Peter Holland",
+    "position": "FWD",
+    "value": 40.0
+  },
+  {
+    "id": 30000861,
+    "name": "Marko Dano",
+    "position": "FWD",
+    "value": 41.0
+  },
+  {
+    "id": 30000936,
+    "name": "Peter Budaj",
+    "position": "G",
+    "value": 59.0
+  },
+  {
+    "id": 30000576,
+    "name": "Matt Bartkowski",
+    "position": "D",
+    "value": 40.0
+  },
+  {
+    "id": 30001355,
+    "name": "Zach Bogosian",
+    "position": "D",
+    "value": 38.0
+  },
+  {
+    "id": 30003541,
+    "name": "Matthew Highmore",
+    "position": "FWD",
+    "value": 38.0
+  },
+  {
+    "id": 30000198,
+    "name": "Trevor Murphy",
+    "position": "D",
+    "value": 38.0
+  },
+  {
+    "id": 30000857,
+    "name": "Evgeny Svechnikov",
+    "position": "FWD",
+    "value": 37.0
+  },
+  {
+    "id": 30002657,
+    "name": "Joe Hicketts",
+    "position": "D",
+    "value": 37.0
+  },
+  {
+    "id": 30002826,
+    "name": "Andreas Johnson",
+    "position": "FWD",
+    "value": 37.0
+  },
+  {
+    "id": 30003613,
+    "name": "Andrei Mironov",
+    "position": "D",
+    "value": 37.0
+  },
+  {
+    "id": 30000916,
+    "name": "Paul Martin",
+    "position": "D",
+    "value": 37.0
+  },
+  {
+    "id": 30002310,
+    "name": "Tomas Hyka",
+    "position": "FWD",
+    "value": 37.0
+  },
+  {
+    "id": 30001374,
+    "name": "Linus Ullmark",
+    "position": "G",
+    "value": 47.5
+  },
+  {
+    "id": 30002551,
+    "name": "Danny O'Regan",
+    "position": "FWD",
+    "value": 36.0
+  },
+  {
+    "id": 30003643,
+    "name": "Casey Mittelstadt",
+    "position": "FWD",
+    "value": 36.0
+  },
+  {
+    "id": 30000284,
+    "name": "Nikolay Kulemin",
+    "position": "FWD",
+    "value": 36.0
+  },
+  {
+    "id": 30002813,
+    "name": "Gabriel Carlsson",
+    "position": "D",
+    "value": 36.0
+  },
+  {
+    "id": 30001460,
+    "name": "Duncan Siemens",
+    "position": "D",
+    "value": 35.0
+  },
+  {
+    "id": 30003663,
+    "name": "Kailer Yamamoto",
+    "position": "FWD",
+    "value": 35.0
+  },
+  {
+    "id": 30000168,
+    "name": "Brandon Pirri",
+    "position": "FWD",
+    "value": 35.0
+  },
+  {
+    "id": 30002839,
+    "name": "A.J. Greer",
+    "position": "FWD",
+    "value": 34.0
+  },
+  {
+    "id": 30002711,
+    "name": "Frederick Gaudreau",
+    "position": "FWD",
+    "value": 34.0
+  },
+  {
+    "id": 30003562,
+    "name": "Vinni Lettieri",
+    "position": "FWD",
+    "value": 33.0
+  },
+  {
+    "id": 30001037,
+    "name": "Kyle Quincey",
+    "position": "D",
+    "value": 33.0
+  },
+  {
+    "id": 30003736,
+    "name": "Spencer Foo",
+    "position": "FWD",
+    "value": 33.0
+  },
+  {
+    "id": 30000881,
+    "name": "Jaycob Megna",
+    "position": "D",
+    "value": 33.0
+  },
+  {
+    "id": 30001308,
+    "name": "Jordan Szwarz",
+    "position": "FWD",
+    "value": 32.0
+  },
+  {
+    "id": 30000338,
+    "name": "Alan Quine",
+    "position": "FWD",
+    "value": 32.0
+  },
+  {
+    "id": 30000828,
+    "name": "Nic Petan",
+    "position": "FWD",
+    "value": 32.0
+  },
+  {
+    "id": 30000720,
+    "name": "Michael McCarron",
+    "position": "FWD",
+    "value": 31.0
+  },
+  {
+    "id": 30000638,
+    "name": "Roland McKeown",
+    "position": "D",
+    "value": 30.0
+  },
+  {
+    "id": 30001014,
+    "name": "Tanner Kero",
+    "position": "FWD",
+    "value": 30.0
+  },
+  {
+    "id": 30001177,
+    "name": "Jason Garrison",
+    "position": "D",
+    "value": 30.0
+  },
+  {
+    "id": 30001062,
+    "name": "Michael Hutchinson",
+    "position": "G",
+    "value": 36.0
+  },
+  {
+    "id": 30002611,
+    "name": "Warren Foegele",
+    "position": "FWD",
+    "value": 29.0
+  },
+  {
+    "id": 30000057,
+    "name": "Matt Read",
+    "position": "FWD",
+    "value": 29.0
+  },
+  {
+    "id": 30002518,
+    "name": "Carl Dahlstrom",
+    "position": "D",
+    "value": 29.0
+  },
+  {
+    "id": 30000670,
+    "name": "Samuel Blais",
+    "position": "FWD",
+    "value": 28.0
+  },
+  {
+    "id": 30000352,
+    "name": "Eddie Lack",
+    "position": "G",
+    "value": 43.0
+  },
+  {
+    "id": 30001132,
+    "name": "Reto Berra",
+    "position": "G",
+    "value": 36.0
+  },
+  {
+    "id": 30001113,
+    "name": "Brett Lernout",
+    "position": "D",
+    "value": 26.0
+  },
+  {
+    "id": 30002424,
+    "name": "Justin Holl",
+    "position": "D",
+    "value": 27.0
+  },
+  {
+    "id": 30000450,
+    "name": "Shane Prince",
+    "position": "FWD",
+    "value": 27.0
+  },
+  {
+    "id": 30003949,
+    "name": "Dylan Sikura",
+    "position": "FWD",
+    "value": 27.0
+  },
+  {
+    "id": 30001453,
+    "name": "Mark Alt",
+    "position": "D",
+    "value": 27.0
+  },
+  {
+    "id": 30003655,
+    "name": "Filip Chytil",
+    "position": "FWD",
+    "value": 26.0
+  },
+  {
+    "id": 30000756,
+    "name": "Curtis McKenzie",
+    "position": "FWD",
+    "value": 26.0
+  },
+  {
+    "id": 30000177,
+    "name": "Rocco Grimaldi",
+    "position": "FWD",
+    "value": 26.0
+  },
+  {
+    "id": 30004003,
+    "name": "Christian Wolanin",
+    "position": "D",
+    "value": 25.0
+  },
+  {
+    "id": 30000748,
+    "name": "Jason Dickinson",
+    "position": "FWD",
+    "value": 25.0
+  },
+  {
+    "id": 30000712,
+    "name": "Nikita Soshnikov",
+    "position": "FWD",
+    "value": 25.0
+  },
+  {
+    "id": 30001300,
+    "name": "Paul Postma",
+    "position": "D",
+    "value": 24.0
+  },
+  {
+    "id": 30001368,
+    "name": "Seth Griffith",
+    "position": "FWD",
+    "value": 24.0
+  },
+  {
+    "id": 30000814,
+    "name": "Jordan Schroeder",
+    "position": "FWD",
+    "value": 24.0
+  },
+  {
+    "id": 30002947,
+    "name": "Ashton Sautner",
+    "position": "D",
+    "value": 24.0
+  },
+  {
+    "id": 30002783,
+    "name": "Adin Hill",
+    "position": "G",
+    "value": 35.5
+  },
+  {
+    "id": 30000478,
+    "name": "Ben Harpur",
+    "position": "D",
+    "value": 23.0
+  },
+  {
+    "id": 30001143,
+    "name": "Chris Bigras",
+    "position": "D",
+    "value": 23.0
+  },
+  {
+    "id": 30000601,
+    "name": "Austin Czarnik",
+    "position": "FWD",
+    "value": 22.0
+  },
+  {
+    "id": 30000905,
+    "name": "Andreas Martinsen",
+    "position": "FWD",
+    "value": 22.0
+  },
+  {
+    "id": 30000684,
+    "name": "Jordan Schmaltz",
+    "position": "D",
+    "value": 21.0
+  },
+  {
+    "id": 30000071,
+    "name": "Chris Kelly",
+    "position": "FWD",
+    "value": 21.0
+  },
+  {
+    "id": 30002522,
+    "name": "Peter Cehlarik",
+    "position": "FWD",
+    "value": 20.0
+  },
+  {
+    "id": 30000921,
+    "name": "Matt Tennyson",
+    "position": "D",
+    "value": 20.0
+  },
+  {
+    "id": 30000925,
+    "name": "Taylor Fedun",
+    "position": "D",
+    "value": 20.0
+  },
+  {
+    "id": 30003645,
+    "name": "Lias Andersson",
+    "position": "FWD",
+    "value": 20.0
+  },
+  {
+    "id": 30002453,
+    "name": "Andy Welinski",
+    "position": "D",
+    "value": 20.0
+  },
+  {
+    "id": 30003004,
+    "name": "Nick Lappin",
+    "position": "FWD",
+    "value": 19.0
+  },
+  {
+    "id": 30000308,
+    "name": "Jim O'Brien",
+    "position": "FWD",
+    "value": 18.0
+  },
+  {
+    "id": 30000385,
+    "name": "Aaron Ness",
+    "position": "D",
+    "value": 18.0
+  },
+  {
+    "id": 30003952,
+    "name": "Blake Hillman",
+    "position": "D",
+    "value": 17.0
+  },
+  {
+    "id": 30000777,
+    "name": "Dillon Heatherington",
+    "position": "D",
+    "value": 18.0
+  },
+  {
+    "id": 30001262,
+    "name": "Korbinian Holzer",
+    "position": "D",
+    "value": 18.0
+  },
+  {
+    "id": 30000825,
+    "name": "Brendan Lemieux",
+    "position": "FWD",
+    "value": 17.0
+  },
+  {
+    "id": 30001440,
+    "name": "Freddie Hamilton",
+    "position": "FWD",
+    "value": 16.0
+  },
+  {
+    "id": 30001008,
+    "name": "Jared Coreau",
+    "position": "G",
+    "value": 34.0
+  },
+  {
+    "id": 30001092,
+    "name": "Zac Dalpe",
+    "position": "FWD",
+    "value": 16.0
+  },
+  {
+    "id": 30001133,
+    "name": "Rasmus Andersson",
+    "position": "D",
+    "value": 16.0
+  },
+  {
+    "id": 30003989,
+    "name": "Adam Gaudette",
+    "position": "FWD",
+    "value": 16.0
+  },
+  {
+    "id": 30000649,
+    "name": "Adam Clendening",
+    "position": "D",
+    "value": 16.0
+  },
+  {
+    "id": 30001200,
+    "name": "Ken Agostino",
+    "position": "FWD",
+    "value": 15.0
+  },
+  {
+    "id": 30000427,
+    "name": "Kerby Rychel",
+    "position": "FWD",
+    "value": 15.0
+  },
+  {
+    "id": 30000708,
+    "name": "Frederik Gauthier",
+    "position": "FWD",
+    "value": 15.0
+  },
+  {
+    "id": 30003653,
+    "name": "Owen Tippett",
+    "position": "FWD",
+    "value": 15.0
+  },
+  {
+    "id": 30000645,
+    "name": "Lucas Wallmark",
+    "position": "FWD",
+    "value": 15.0
+  },
+  {
+    "id": 30003614,
+    "name": "Victor Ejdsell",
+    "position": "FWD",
+    "value": 15.0
+  },
+  {
+    "id": 30003055,
+    "name": "Kalle Kossila",
+    "position": "FWD",
+    "value": 15.0
+  },
+  {
+    "id": 30003607,
+    "name": "Vadim Shipachyov",
+    "position": "FWD",
+    "value": 15.0
+  },
+  {
+    "id": 30002869,
+    "name": "Ken Appleby",
+    "position": "G",
+    "value": 20.0
+  },
+  {
+    "id": 30001061,
+    "name": "Eric Comrie",
+    "position": "G",
+    "value": 23.0
+  },
+  {
+    "id": 30003749,
+    "name": "Collin Delia",
+    "position": "G",
+    "value": 20.0
+  },
+  {
+    "id": 30000160,
+    "name": "Mike McKenna",
+    "position": "G",
+    "value": 18.5
+  },
+  {
+    "id": 30000477,
+    "name": "Nicholas Paul",
+    "position": "FWD",
+    "value": 13.0
+  },
+  {
+    "id": 30000274,
+    "name": "Danick Martel",
+    "position": "FWD",
+    "value": 13.0
+  },
+  {
+    "id": 30002617,
+    "name": "Nathan Walker",
+    "position": "FWD",
+    "value": 13.0
+  },
+  {
+    "id": 30000328,
+    "name": "Tanner Glass",
+    "position": "FWD",
+    "value": 13.0
+  },
+  {
+    "id": 30000229,
+    "name": "Lawson Crouse",
+    "position": "FWD",
+    "value": 13.0
+  },
+  {
+    "id": 30000312,
+    "name": "Stefan Matteau",
+    "position": "FWD",
+    "value": 13.0
+  },
+  {
+    "id": 30002673,
+    "name": "Erik Burgdoerfer",
+    "position": "D",
+    "value": 12.0
+  },
+  {
+    "id": 30000362,
+    "name": "Brad Malone",
+    "position": "FWD",
+    "value": 12.0
+  },
+  {
+    "id": 30001150,
+    "name": "Zach Redmond",
+    "position": "D",
+    "value": 11.0
+  },
+  {
+    "id": 30003159,
+    "name": "Henrik Borgstrom",
+    "position": "FWD",
+    "value": 11.0
+  },
+  {
+    "id": 30003022,
+    "name": "Travis Boyd",
+    "position": "FWD",
+    "value": 11.0
+  },
+  {
+    "id": 30003616,
+    "name": "Sami Niku",
+    "position": "D",
+    "value": 11.0
+  },
+  {
+    "id": 30000843,
+    "name": "Landon Ferraro",
+    "position": "FWD",
+    "value": 11.0
+  },
+  {
+    "id": 30002620,
+    "name": "Louis Belpedio",
+    "position": "D",
+    "value": 11.0
+  },
+  {
+    "id": 30002774,
+    "name": "Jordan Greenway",
+    "position": "FWD",
+    "value": 11.0
+  },
+  {
+    "id": 30001376,
+    "name": "Michael Bournival",
+    "position": "FWD",
+    "value": 10.0
+  },
+  {
+    "id": 30003001,
+    "name": "Dryden Hunt",
+    "position": "FWD",
+    "value": 10.0
+  },
+  {
+    "id": 30003630,
+    "name": "Henrik Haapala",
+    "position": "FWD",
+    "value": 10.0
+  },
+  {
+    "id": 30000652,
+    "name": "Jean-Sebastien Dea",
+    "position": "FWD",
+    "value": 10.0
+  },
+  {
+    "id": 30000924,
+    "name": "Frank Corrado",
+    "position": "D",
+    "value": 10.0
+  },
+  {
+    "id": 30002217,
+    "name": "Ryan Lomberg",
+    "position": "FWD",
+    "value": 10.0
+  },
+  {
+    "id": 30000208,
+    "name": "Joseph Blandisi",
+    "position": "FWD",
+    "value": 10.0
+  },
+  {
+    "id": 30000414,
+    "name": "Jared Boll",
+    "position": "FWD",
+    "value": 10.0
+  },
+  {
+    "id": 30001119,
+    "name": "Patrick Eaves",
+    "position": "FWD",
+    "value": 10.0
+  },
+  {
+    "id": 30003143,
+    "name": "Logan Brown",
+    "position": "FWD",
+    "value": 9.0
+  },
+  {
+    "id": 30000374,
+    "name": "Brooks Laich",
+    "position": "FWD",
+    "value": 9.0
+  },
+  {
+    "id": 30001217,
+    "name": "Dakota Mermis",
+    "position": "D",
+    "value": 9.0
+  },
+  {
+    "id": 30000464,
+    "name": "Andrew Hammond",
+    "position": "G",
+    "value": 11.5
+  },
+  {
+    "id": 30002581,
+    "name": "Thatcher Demko",
+    "position": "G",
+    "value": 11.0
+  },
+  {
+    "id": 30002619,
+    "name": "Shane Gersich",
+    "position": "FWD",
+    "value": 8.0
+  },
+  {
+    "id": 30000224,
+    "name": "Kyle Rau",
+    "position": "FWD",
+    "value": 8.0
+  },
+  {
+    "id": 30001017,
+    "name": "Mike Liambas",
+    "position": "FWD",
+    "value": 8.0
+  },
+  {
+    "id": 30002607,
+    "name": "Dominic Turgeon",
+    "position": "FWD",
+    "value": 7.0
+  },
+  {
+    "id": 30000786,
+    "name": "Chris Butler",
+    "position": "D",
+    "value": 7.0
+  },
+  {
+    "id": 30004012,
+    "name": "Daniel Brickley",
+    "position": "D",
+    "value": 7.0
+  },
+  {
+    "id": 30003997,
+    "name": "Zach Whitecloud",
+    "position": "D",
+    "value": 7.0
+  },
+  {
+    "id": 30001202,
+    "name": "Patrick Sieloff",
+    "position": "D",
+    "value": 6.0
+  },
+  {
+    "id": 30001248,
+    "name": "Joel Hanley",
+    "position": "D",
+    "value": 6.0
+  },
+  {
+    "id": 30000728,
+    "name": "Adam Wilcox",
+    "position": "G",
+    "value": 7.0
+  },
+  {
+    "id": 30001303,
+    "name": "Ales Hemsky",
+    "position": "FWD",
+    "value": 5.0
+  },
+  {
+    "id": 30000575,
+    "name": "Adam Cracknell",
+    "position": "FWD",
+    "value": 5.0
+  },
+  {
+    "id": 30000332,
+    "name": "Marek Hrivik",
+    "position": "FWD",
+    "value": 5.0
+  },
+  {
+    "id": 30002218,
+    "name": "Andrew Mangiapane",
+    "position": "FWD",
+    "value": 5.0
+  },
+  {
+    "id": 30003747,
+    "name": "Troy Terry",
+    "position": "FWD",
+    "value": 5.0
+  },
+  {
+    "id": 30002685,
+    "name": "Colby Cave",
+    "position": "FWD",
+    "value": 4.0
+  },
+  {
+    "id": 30000444,
+    "name": "Rinat Valiev",
+    "position": "D",
+    "value": 4.0
+  },
+  {
+    "id": 30001671,
+    "name": "Danny Taylor",
+    "position": "G",
+    "value": 7.0
+  },
+  {
+    "id": 30002591,
+    "name": "Andreas Englund",
+    "position": "D",
+    "value": 4.0
+  },
+  {
+    "id": 30000235,
+    "name": "Chase Balisy",
+    "position": "FWD",
+    "value": 4.0
+  },
+  {
+    "id": 30000420,
+    "name": "Dalton Prout",
+    "position": "D",
+    "value": 4.0
+  },
+  {
+    "id": 30000598,
+    "name": "Matt Beleskey",
+    "position": "FWD",
+    "value": 4.0
+  },
+  {
+    "id": 30000272,
+    "name": "Samuel Morin",
+    "position": "D",
+    "value": 4.0
+  },
+  {
+    "id": 30002980,
+    "name": "Eric Robinson",
+    "position": "FWD",
+    "value": 4.0
+  },
+  {
+    "id": 30003660,
+    "name": "Eeli Tolvanen",
+    "position": "FWD",
+    "value": 4.0
+  },
+  {
+    "id": 30002574,
+    "name": "Marek Langhamer",
+    "position": "G",
+    "value": 5.0
+  },
+  {
+    "id": 30000498,
+    "name": "Matt Moulson",
+    "position": "FWD",
+    "value": 3.0
+  },
+  {
+    "id": 30003617,
+    "name": "Calle Rosen",
+    "position": "D",
+    "value": 3.0
+  },
+  {
+    "id": 30003424,
+    "name": "Kevin Rooney",
+    "position": "FWD",
+    "value": 3.0
+  },
+  {
+    "id": 30001098,
+    "name": "Will O'Neill",
+    "position": "D",
+    "value": 3.0
+  },
+  {
+    "id": 30000401,
+    "name": "Beau Bennett",
+    "position": "FWD",
+    "value": 3.0
+  },
+  {
+    "id": 30004007,
+    "name": "Mitch Reinke",
+    "position": "D",
+    "value": 3.0
+  },
+  {
+    "id": 30003583,
+    "name": "Carson Soucy",
+    "position": "D",
+    "value": 3.0
+  },
+  {
+    "id": 30000365,
+    "name": "Keegan Lowe",
+    "position": "D",
+    "value": 3.0
+  },
+  {
+    "id": 30004013,
+    "name": "Scott Foster",
+    "position": "G",
+    "value": 3.5
+  },
+  {
+    "id": 30003136,
+    "name": "Alexander Nylander",
+    "position": "FWD",
+    "value": 2.0
+  },
+  {
+    "id": 30000340,
+    "name": "Michael Dal Colle",
+    "position": "FWD",
+    "value": 2.0
+  },
+  {
+    "id": 30001239,
+    "name": "Zach Trotman",
+    "position": "D",
+    "value": 2.0
+  },
+  {
+    "id": 30001182,
+    "name": "Cal O'Reilly",
+    "position": "FWD",
+    "value": 2.0
+  },
+  {
+    "id": 30002208,
+    "name": "Christoph Bertschy",
+    "position": "FWD",
+    "value": 2.0
+  },
+  {
+    "id": 30001304,
+    "name": "Calvin Pickard",
+    "position": "G",
+    "value": 4.0
+  },
+  {
+    "id": 30002554,
+    "name": "Hudson Fasching",
+    "position": "FWD",
+    "value": 1.0
+  },
+  {
+    "id": 30001043,
+    "name": "Mike Blunden",
+    "position": "FWD",
+    "value": 1.0
+  },
+  {
+    "id": 30003677,
+    "name": "Alex Formenton",
+    "position": "FWD",
+    "value": 1.0
+  },
+  {
+    "id": 30001279,
+    "name": "Trevor Carrick",
+    "position": "D",
+    "value": 1.0
+  },
+  {
+    "id": 30003204,
+    "name": "Janne Kuokkanen",
+    "position": "FWD",
+    "value": 1.0
+  },
+  {
+    "id": 30000993,
+    "name": "Blake Pietila",
+    "position": "FWD",
+    "value": 1.0
+  },
+  {
+    "id": 30000283,
+    "name": "Steve Bernier",
+    "position": "FWD",
+    "value": 1.0
+  },
+  {
+    "id": 30002452,
+    "name": "Steven Fogarty",
+    "position": "FWD",
+    "value": 1.0
+  },
+  {
+    "id": 30000593,
+    "name": "Liam O'Brien",
+    "position": "FWD",
+    "value": 1.0
+  },
+  {
+    "id": 30000773,
+    "name": "Alex Broadhurst",
+    "position": "FWD",
+    "value": 1.0
+  },
+  {
+    "id": 30003228,
+    "name": "Wade Megan",
+    "position": "FWD",
+    "value": 1.0
+  },
+  {
+    "id": 30000956,
+    "name": "Justin Auger",
+    "position": "FWD",
+    "value": 1.0
+  },
+  {
+    "id": 30003206,
+    "name": "Dylan Gambrell",
+    "position": "FWD",
+    "value": 1.0
+  },
+  {
+    "id": 30001395,
+    "name": "Laurent Dauphin",
+    "position": "FWD",
+    "value": 1.0
+  },
+  {
+    "id": 30000579,
+    "name": "Zane McIntyre",
+    "position": "G",
+    "value": 0.0
+  },
+  {
+    "id": 30000599,
+    "name": "Anton Blidh",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30001237,
+    "name": "Tommy Cross",
+    "position": "D",
+    "value": 0.0
+  },
+  {
+    "id": 30000662,
+    "name": "Kevin Porter",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30003387,
+    "name": "Kyle Criscuolo",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30000837,
+    "name": "Tom McCollum",
+    "position": "G",
+    "value": 0.0
+  },
+  {
+    "id": 30000847,
+    "name": "Brian Lashoff",
+    "position": "D",
+    "value": 0.0
+  },
+  {
+    "id": 30000703,
+    "name": "Zachary Fucale",
+    "position": "G",
+    "value": 0.0
+  },
+  {
+    "id": 30003043,
+    "name": "Jack Rodewald",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30003628,
+    "name": "Christian Jaros",
+    "position": "D",
+    "value": 0.0
+  },
+  {
+    "id": 30001205,
+    "name": "Jamie McBain",
+    "position": "D",
+    "value": 0.0
+  },
+  {
+    "id": 30000431,
+    "name": "Garret Sparks",
+    "position": "G",
+    "value": 0.0
+  },
+  {
+    "id": 30000485,
+    "name": "Martin Marincin",
+    "position": "D",
+    "value": 0.0
+  },
+  {
+    "id": 30002781,
+    "name": "Samuel Montembault",
+    "position": "G",
+    "value": 0.0
+  },
+  {
+    "id": 30003495,
+    "name": "Curtis Valk",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30000630,
+    "name": "Patrick Brown",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30002822,
+    "name": "Aleksi Saarela",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30003654,
+    "name": "Martin Necas",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30002779,
+    "name": "Mackenzie Blackwood",
+    "position": "G",
+    "value": 0.0
+  },
+  {
+    "id": 30001180,
+    "name": "Dan Catenacci",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30002604,
+    "name": "Brandon Halverson",
+    "position": "G",
+    "value": 0.5
+  },
+  {
+    "id": 30000434,
+    "name": "T.J. Brennan",
+    "position": "D",
+    "value": 0.0
+  },
+  {
+    "id": 30002528,
+    "name": "Tyrell Goulbourne",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30000234,
+    "name": "Garrett Wilson",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30000327,
+    "name": "Chris Summers",
+    "position": "D",
+    "value": 0.0
+  },
+  {
+    "id": 30000339,
+    "name": "Kevin Czuczman",
+    "position": "D",
+    "value": 0.0
+  },
+  {
+    "id": 30000930,
+    "name": "Andrey Pedan",
+    "position": "D",
+    "value": 0.0
+  },
+  {
+    "id": 30002479,
+    "name": "Theodor Blueger",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30003241,
+    "name": "Thomas Dipauli",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30000770,
+    "name": "Pheonix Copley",
+    "position": "G",
+    "value": 0.0
+  },
+  {
+    "id": 30001282,
+    "name": "Anthony Peluso",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30004018,
+    "name": "Brian Pinho",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30000231,
+    "name": "Cameron Gaunce",
+    "position": "D",
+    "value": 0.0
+  },
+  {
+    "id": 30000391,
+    "name": "Jeff Zatkoff",
+    "position": "G",
+    "value": 0.0
+  },
+  {
+    "id": 30001020,
+    "name": "Ville Pokka",
+    "position": "D",
+    "value": 0.0
+  },
+  {
+    "id": 30002811,
+    "name": "Roope Hintz",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30003436,
+    "name": "Landon Bow",
+    "position": "G",
+    "value": 0.0
+  },
+  {
+    "id": 30000910,
+    "name": "Joe Cannata",
+    "position": "G",
+    "value": 0.0
+  },
+  {
+    "id": 30001141,
+    "name": "Andrew Agozzino",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30002524,
+    "name": "Spencer Martin",
+    "position": "G",
+    "value": 0.0
+  },
+  {
+    "id": 30000666,
+    "name": "Jordan Binnington",
+    "position": "G",
+    "value": 0.0
+  },
+  {
+    "id": 30002623,
+    "name": "Jake Walman",
+    "position": "D",
+    "value": 0.0
+  },
+  {
+    "id": 30002760,
+    "name": "Ville Husso",
+    "position": "G",
+    "value": 0.0
+  },
+  {
+    "id": 30003959,
+    "name": "Nolan Stevens",
+    "position": "FWD",
+    "value": 0.0
+  },
+  {
+    "id": 30003984,
+    "name": "Tyler Stewart",
+    "position": "G",
+    "value": 0.0
+  }
+]
