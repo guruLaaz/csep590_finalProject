@@ -21,18 +21,18 @@ class Ordered(Strategy):
         best_GoaltenderValue = 0
 
         for p in remaining_players:
-            if p.position == 'C' or p.position == 'LW' or p.position == 'RW' or p.position == "FW":
-                if p.value > best_ForwardValue:
+            if p.position == 'C' or p.position == 'LW' or p.position == 'RW' or p.position == "FWD":
+                if p.value >= best_ForwardValue:
                     best_ForwardPlayer = p
                     best_ForwardValue = p.value
 
             if p.position == "D":
-                if p.value > best_DefenseValue:
+                if p.value >= best_DefenseValue:
                     best_DefensePlayer = p
                     best_DefenseValue = p.value
 
             if p.position == "G":
-                if p.value > best_GoaltenderValue:
+                if p.value >= best_GoaltenderValue:
                     best_GoaltenderPlayer = p
                     best_GoaltenderValue = p.value
 

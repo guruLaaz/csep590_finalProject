@@ -25,6 +25,9 @@ class Draft(object):
         while teams_remaining:
             # noinspection PyTupleAssignmentBalance
             team_idx, player = self.next_turn(list(remaining_players))
+            if player is None:
+                raise AssertionError(
+                    f'Team {team_idx} using strategy {self.teams[team_idx].strategy_name} made an invalid selection')
 
             team = self.teams[team_idx]
             team.add_player(player)
@@ -54,7 +57,7 @@ class NormalDraft(Draft):
 
         # update counters for next pick
         self.pick += 1
-        self.round = self.pick % self.num_teams
+        self.round = self.pick // self.num_teams
 
         return team_idx, player
 
