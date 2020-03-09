@@ -2,13 +2,13 @@ from drafts.player import Player
 from .strategy import Strategy
 
 
-class Ordered_FW_D_G(Strategy):
+class Ordered(Strategy):
     """
     Picks the best fowards, then best defensemen, then best goaltenders available
     """
 
     def __init__(self, *args, **kwargs):
-        super(Ordered_FW_D_G, self).__init__(*args, **kwargs)
+        super(Ordered, self).__init__(*args, **kwargs)
 
     def pick(self, remaining_players: [Player]):
         best_ForwardPlayer = None

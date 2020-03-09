@@ -1,11 +1,15 @@
+from drafts.player import Player
+from typing import List
+
 class Strategy(object):
     """
     Defines an agent that will drafts.
     """
 
-    def __init__(self, num_teams: int, draft_pos: int):
+    def __init__(self, num_teams: int, draft_pos: int, players: List[Player]):
         self.num_teams = num_teams
         self.draft_pos = draft_pos
+        self.initialPlayers = players
 
     def pick(self, remaining_players):
         """

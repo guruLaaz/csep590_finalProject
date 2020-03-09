@@ -42,7 +42,7 @@ if __name__ == '__main__':
     parser.add_argument("--team_type", choices=team_types.keys(), default='hockey', help='Type of team')
     parser.add_argument("--teams", default='./data/teams.txt', type=argparse.FileType('r'),
                         help="File that contains list of strategies")
-    parser.add_argument("--shuffle", default=False, action='store_true',
+    parser.add_argument("--shuffle", default=True, action='store_true',
                         help="Shuffle strategies before starting the draft?")
     parser.add_argument("--draft_type", default="normal", choices=draft_types.keys(),
                         help="Type of draft to use")
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     strategies = []
     teams = []
     for i, name in enumerate(strategy_names):
-        strategies.append(new_strategy(name, num_teams, i))
+        strategies.append(new_strategy(name, num_teams, i, players))
         teams.append(TeamClazz(i, name))
 
     DraftClazz = draft_types[args.draft_type]
