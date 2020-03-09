@@ -16,7 +16,11 @@ def player_id(stat):
 
 
 def player_position(stat):
-    return stat['Position']
+    if 'Position' in stat and stat['Position']:
+        return stat['Position']
+
+    raise AssertionError('InvalidPosition')
+
 
 def player_name(stat):
     return stat['Name']
@@ -34,13 +38,15 @@ if __name__ == '__main__':
     stats = json_api_body['Data']
     players = []
     for i, stat in enumerate(stats):
-        position = player_position(stat)
-        players.append({
-            "id": player_id(stat),
-            "name": player_name(stat),
-            "position": position,
-            "value": player_value(stat),
-        })
+        try:
+            players.append({
+                "id": player_id(stat),
+                "name": player_name(stat),
+                "position": player_position(stat),
+                "value": player_value(stat),
+            })
+        except:
+            print("skipping")
 
     with open(f'./data/stats_{args.year}.json', 'w') as out:
         json.dump(players, out, indent=2)
