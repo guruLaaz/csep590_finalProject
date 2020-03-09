@@ -25,7 +25,7 @@ class Ordered_FW_D_G(Strategy):
                 if p.value > best_ForwardValue:
                     best_ForwardPlayer = p
                     best_ForwardValue = p.value
-                    
+
             if p.position == "D":
                 if p.value > best_DefenseValue:
                     best_DefensePlayer = p
@@ -38,7 +38,7 @@ class Ordered_FW_D_G(Strategy):
 
         if best_ForwardPlayer != None:
             return best_ForwardPlayer
-        
+
         if best_DefensePlayer != None:
             return best_DefensePlayer
 

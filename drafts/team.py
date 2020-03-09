@@ -1,28 +1,43 @@
 from drafts.player import Player
+from copy import copy
 
 
 class Team(object):
-    def __init__(self, draft_pos, strategy_name, remaining_pos):
+    """
+    Keeps track of each team
+    """
+
+    def __init__(self, draft_pos, strategy_name, team_config):
         self.draft_pos = draft_pos
         self.strategy_name = strategy_name
+        self.remaining_spots_per_pos = copy(team_config)
         self.players = []
-        self.remaining_pos = remaining_pos
         self.total_value = 0
 
-    def sign_player(self, player: Player):
+    def add_player(self, player: Player):
         self.total_value += player.value
-        if self.remaining_pos[player.position] == 0:
+        if self.remaining_spots_per_pos[player.position] == 0:
             raise ValueError(
                 f'Team {self.draft_pos} has no remaining spots for position {player.position}')
 
-        self.remaining_pos[player.position] -= 1
+        self.remaining_spots_per_pos[player.position] -= 1
         self.players.append(player)
 
-    def can_sign_player(self, player: Player):
-        return self.remaining_pos[player.position] > 0
+    def is_done_drafting(self):
+        return self.num_spots_remaining() == 0
 
-    def eligible_players(self, remaining_players):
-        return list(filter(self.can_sign_player, remaining_players))
+    def num_spots_remaining(self):
+        remaining = 0
+        for pos, num_remaining in self.remaining_spots_per_pos.items():
+            remaining += num_remaining
+
+        return remaining
+
+    def draftable_players(self, remaining_players: [Player]):
+        return list(filter(self._can_draft_player, remaining_players))
+
+    def _can_draft_player(self, player: Player):
+        return self.remaining_spots_per_pos[player.position] > 0
 
     def __hash__(self):
         return hash(self.draft_pos)

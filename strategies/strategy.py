@@ -15,3 +15,6 @@ class Strategy(object):
         will not include any Forwards.
         """
         pass
+
+    def __hash__(self):
+        return hash(self.draft_pos)

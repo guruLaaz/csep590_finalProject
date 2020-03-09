@@ -1,13 +1,13 @@
 import argparse
-import json
-from random import shuffle
-from drafts.snakedraft import SnakeDraft
-from drafts.normaldraft import NormalDraft
-from strategies.strategy import Strategy
-from drafts.player import Player
-from drafts.team import HockeyTeam, HockeyTeamWithForwards
 import importlib
 import inspect
+import json
+from random import shuffle
+
+from drafts.drafts import NormalDraft, SnakeDraft
+from drafts.player import Player
+from drafts.team import HockeyTeam, HockeyTeamWithForwards
+from strategies.strategy import Strategy
 
 
 def new_strategy(strategy_name, *args, **kwargs):
@@ -31,6 +31,11 @@ team_types = {
     'hockey_forwards': HockeyTeamWithForwards
 }
 
+draft_types = {
+    'snake': SnakeDraft,
+    'normal': NormalDraft,
+}
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument("--year", default=2019, type=str, help="Which year's player data to use")
@@ -39,7 +44,8 @@ if __name__ == '__main__':
                         help="File that contains list of strategies")
     parser.add_argument("--shuffle", default=False, action='store_true',
                         help="Shuffle strategies before starting the draft?")
-    parser.add_argument("--draft_type", default="normaldraft", type=str, help="Type of draft to use (normaldraft vs snakedraft)")
+    parser.add_argument("--draft_type", default="normal", choices=draft_types.keys(),
+                        help="Type of draft to use")
     args = parser.parse_args()
 
     # validate arguments
@@ -64,11 +70,8 @@ if __name__ == '__main__':
         strategies.append(new_strategy(name, num_teams, i))
         teams.append(TeamClazz(i, name))
 
-    if args.draft_type == "snakedraft":
-        draft = SnakeDraft(players, strategies, teams)
-    else:
-        draft = NormalDraft(players, strategies, teams)
-
+    DraftClazz = draft_types[args.draft_type]
+    draft = DraftClazz(players, strategies, teams)
     draft.run()
     print('draft_pos', 'strategy_name', 'total_value', sep=',')
     for t in sorted(draft.teams, key=lambda t: t.total_value, reverse=True):
