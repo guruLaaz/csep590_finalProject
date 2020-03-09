@@ -18,7 +18,6 @@ def player_id(stat):
 def player_position(stat):
     return stat['Position']
 
-
 def player_name(stat):
     return stat['Name']
 
@@ -35,11 +34,12 @@ if __name__ == '__main__':
     stats = json_api_body['Data']
     players = []
     for i, stat in enumerate(stats):
+        position = player_position(stat)
         players.append({
             "id": player_id(stat),
             "name": player_name(stat),
-            "position": player_position(stat),
-            "value": player_value(stat)
+            "position": position,
+            "value": player_value(stat),
         })
 
     with open(f'./data/stats_{args.year}.json', 'w') as out:

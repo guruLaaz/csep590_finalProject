@@ -2,6 +2,7 @@ import argparse
 import json
 from random import shuffle
 from drafts.snakedraft import SnakeDraft
+from drafts.normaldraft import NormalDraft
 from strategies.strategy import Strategy
 from drafts.player import Player
 from drafts.team import HockeyTeam, HockeyTeamWithForwards
@@ -38,6 +39,7 @@ if __name__ == '__main__':
                         help="File that contains list of strategies")
     parser.add_argument("--shuffle", default=False, action='store_true',
                         help="Shuffle strategies before starting the draft?")
+    parser.add_argument("--draft_type", default="normaldraft", type=str, help="Type of draft to use (normaldraft vs snakedraft)")
     args = parser.parse_args()
 
     # validate arguments
@@ -62,7 +64,10 @@ if __name__ == '__main__':
         strategies.append(new_strategy(name, num_teams, i))
         teams.append(TeamClazz(i, name))
 
-    draft = SnakeDraft(players, strategies, teams)
+    if args.draft_type == "snakedraft":
+        draft = SnakeDraft(players, strategies, teams)
+    else:
+        draft = NormalDraft(players, strategies, teams)
 
     draft.run()
     print('draft_pos', 'strategy_name', 'total_value', sep=',')

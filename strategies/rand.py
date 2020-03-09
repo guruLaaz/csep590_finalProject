@@ -5,7 +5,7 @@ from random import choice
 
 class Rand(Strategy):
     """
-    Returns the remaining player with the highest value.
+    Returns a player at random.
     """
 
     def __init__(self, *args, **kwargs):
