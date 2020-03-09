@@ -14,9 +14,9 @@ def new_strategy(strategy_name, *args, **kwargs):
     """
     Dynamically initialize strategy classes.
 
-    Initializes class found in module "strategy.<name>". If there
-    are more than one classes, returns an arbitrary one.
-    (There should only one class in each file, for now).
+    Initializes a subclass of Strategy found in module "strategy.<name>".
+    If there are more than one of such classes, returns an arbitrary one.
+    (There should only one such class in each file anyway).
 
     Passes all arguments as-is.
     """
