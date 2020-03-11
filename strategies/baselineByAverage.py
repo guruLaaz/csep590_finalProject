@@ -14,7 +14,7 @@ class BaselineByAverage(Strategy):
         super(BaselineByAverage, self).__init__(*args, **kwargs)
 
         #now initialize each baseline, per position
-        for player in self.initialPlayers:
+        for player in self.initial_players:
             if player.position in self.baselinePerPosition:  
                 self.baselinePerPosition[player.position] += player.value  
             else:

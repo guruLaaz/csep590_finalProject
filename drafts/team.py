@@ -7,10 +7,11 @@ class Team(object):
     Keeps track of each team
     """
 
-    def __init__(self, draft_pos, strategy_name, team_config):
+    def __init__(self, draft_pos, strategy_name, teamConfig):
+        self.team_config = teamConfig
         self.draft_pos = draft_pos
         self.strategy_name = strategy_name
-        self.remaining_spots_per_pos = copy(team_config)
+        self.remaining_spots_per_pos = copy(teamConfig)
         self.players = []
         self.total_value = 0
 
@@ -32,6 +33,9 @@ class Team(object):
             remaining += num_remaining
 
         return remaining
+
+    def team_config(self):
+        return self.team_config
 
     def draftable_players(self, remaining_players: [Player]):
         return list(filter(self._can_draft_player, remaining_players))

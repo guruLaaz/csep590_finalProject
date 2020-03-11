@@ -20,8 +20,9 @@ def RunDraft(draftYear):
     strategies = []
     teams = []
     for i, name in enumerate(strategy_names):
-        strategies.append(new_strategy(name, num_teams, i, players))
-        teams.append(TeamClazz(i, name))
+        team = TeamClazz(i, name)
+        teams.append(team)
+        strategies.append(new_strategy(name, num_teams, i, players, team.team_config))
 
     DraftClazz = draft_types[args.draft_type]
     draft = DraftClazz(players, strategies, teams)
