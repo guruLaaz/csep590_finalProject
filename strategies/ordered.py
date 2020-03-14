@@ -10,7 +10,7 @@ class Ordered(Strategy):
     def __init__(self, *args, **kwargs):
         super(Ordered, self).__init__(*args, **kwargs)
 
-    def pick(self, remaining_players: [Player]):
+    def pick(self, remaining_players: [Player], numberOfRoundsUntilNextPick: int):
         best_ForwardPlayer = None
         best_ForwardValue = 0
 
@@ -21,7 +21,7 @@ class Ordered(Strategy):
         best_GoaltenderValue = 0
 
         for p in remaining_players:
-            if p.position == 'C' or p.position == 'LW' or p.position == 'RW' or p.position == "FWD":
+            if p.IsForward():
                 if p.value >= best_ForwardValue:
                     best_ForwardPlayer = p
                     best_ForwardValue = p.value

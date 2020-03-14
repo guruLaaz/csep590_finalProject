@@ -23,13 +23,15 @@ def RunDraft(draftYear):
     # initialize teams
     strategies = []
     teams = []
+    numberOfPlayersPerTeam = TeamClazz.number_players_in_team()
+
     for i, name in enumerate(strategy_names):
         team = TeamClazz(i, name)
         teams.append(team)
         strategies.append(new_strategy(name, num_teams, i, players, team.team_config))
 
     DraftClazz = draft_types[args.draft_type]
-    draft = DraftClazz(players, strategies, teams)
+    draft = DraftClazz(players, strategies, teams, numberOfPlayersPerTeam)
     draft.run()
     print(f"\r\n *** Draft {draftYear} ***\r\n\r\n" "draft_pos", 'strategy_name', 'total_value', sep=',')
     sortedDraft = sorted(draft.teams, key=lambda t: t.total_value, reverse=True)
@@ -90,7 +92,7 @@ if __name__ == '__main__':
         exit(1)
 
     years = [2016, 2017, 2018, 2019]
-    allDraftsRepeatCount = 10 #40 drafts total
+    allDraftsRepeatCount = 40 #40 drafts total
     draftRankings = DraftResults.DraftResults()
 
     if (args.year != None):

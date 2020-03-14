@@ -11,5 +11,5 @@ class Rand(Strategy):
     def __init__(self, *args, **kwargs):
         super(Rand, self).__init__(*args, **kwargs)
 
-    def pick(self, remaining_players: [Player]):
+    def pick(self, remaining_players: [Player], numberOfRoundsUntilNextPick: int):
         return choice(remaining_players)

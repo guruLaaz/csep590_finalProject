@@ -75,6 +75,10 @@ class HockeyTeamWithForwards(Team):
 
         return [combine_forwards(p) for p in players]
 
+    @staticmethod
+    def number_players_in_team():
+        return 20
+
 
 class HockeyTeam(Team):
     def __init__(self, draft_pos, strategy_name):
@@ -92,3 +96,7 @@ class HockeyTeam(Team):
         Don't do anything
         """
         return players
+
+    @staticmethod
+    def number_players_in_team():
+        return 20

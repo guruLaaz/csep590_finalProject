@@ -34,11 +34,9 @@ class BaselineByAverage(Strategy):
             #print("average point per player: ", totalPointsAtPosition / numberOfPlayersAtPosition)
             self.baselinePerPosition[key] = totalPointsAtPosition / numberOfPlayersAtPosition
 
-    def pick(self, remaining_players: [Player]):
-        max_value = float('-inf')
-
+    def pick(self, remaining_players: [Player], numberOfRoundsUntilNextPick: int):
         # rank players by how much they're above the baseline
-        greatestBaseline = -1000000
+        greatestBaseline = float('-inf')
         playerToPick = remaining_players[0]
 
         for p in remaining_players:

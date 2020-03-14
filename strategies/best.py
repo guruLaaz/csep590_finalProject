@@ -10,7 +10,7 @@ class Best(Strategy):
     def __init__(self, *args, **kwargs):
         super(Best, self).__init__(*args, **kwargs)
 
-    def pick(self, remaining_players: [Player]):
+    def pick(self, remaining_players: [Player], numberOfRoundsUntilNextPick: int):
         max_value = float('-inf')
         best_player = None
         for p in remaining_players:

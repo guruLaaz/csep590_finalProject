@@ -10,3 +10,6 @@ class Player:
 
     def __hash__(self):
         return hash(self.id)
+
+    def IsForward(self):
+        return (self.position == 'C' or self.position == 'LW' or self.position == 'RW' or self.position == "FWD")

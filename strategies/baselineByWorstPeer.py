@@ -30,11 +30,9 @@ class BaselineByWorstPeer(Strategy):
             #print("Worst peer for position ", key, "is ", worstPeer.name)
             self.baselinePerPosition[key] = worstPeer.value
 
-    def pick(self, remaining_players: [Player]):
-        max_value = float('-inf')
-
+    def pick(self, remaining_players: [Player], numberOfRoundsUntilNextPick: int):
         # rank players by how much they're above the baseline
-        greatestBaseline = -1000000
+        greatestBaseline = float('-inf')
         playerToPick = remaining_players[0]
 
         for p in remaining_players:
