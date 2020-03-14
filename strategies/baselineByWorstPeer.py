@@ -27,7 +27,7 @@ class BaselineByWorstPeer(Strategy):
             # now get the worst player that is likely to be drafted for each position
             totalSlotsForPosition = self.team_config[key] * self.num_teams
             worstPeer = sortedPlayers[totalSlotsForPosition - 1]
-            print("Worst peer for position ", key, "is ", worstPeer.name)
+            #print("Worst peer for position ", key, "is ", worstPeer.name)
             self.baselinePerPosition[key] = worstPeer.value
 
     def pick(self, remaining_players: [Player]):

@@ -8,8 +8,12 @@ from drafts.drafts import NormalDraft, SnakeDraft
 from drafts.player import Player
 from drafts.team import HockeyTeam, HockeyTeamWithForwards
 from strategies.strategy import Strategy
+import DraftResults
 
 def RunDraft(draftYear):
+
+    if args.shuffle:
+        shuffle(strategy_names)
     
     TeamClazz = team_types[args.team_type]
     # load player data
@@ -29,10 +33,16 @@ def RunDraft(draftYear):
     draft.run()
     print(f"\r\n *** Draft {draftYear} ***\r\n\r\n" "draft_pos", 'strategy_name', 'total_value', sep=',')
     sortedDraft = sorted(draft.teams, key=lambda t: t.total_value, reverse=True)
-    for t in sortedDraft:
-        print(f'{t.draft_pos}', t.strategy_name, t.total_value, sep=',')
+    draftResult = DraftResults.DraftResults()
+    draftRanking = 1
 
-    return sortedDraft
+    for t in sortedDraft:
+        name = t.strategy_name
+        print(f'{t.draft_pos}', name, t.total_value, sep=',')
+        draftResult.AddDraftRanking(name, draftRanking)
+        draftRanking += 1
+
+    return draftResult
 
 def new_strategy(strategy_name, *args, **kwargs):
     """
@@ -79,35 +89,24 @@ if __name__ == '__main__':
         print('Must have at least 6 teams')
         exit(1)
 
-    if args.shuffle:
-        shuffle(strategy_names)
-
     years = [2016, 2017, 2018, 2019]
-    sortedDrafts = []
-    finalPayoffs = {}
+    allDraftsRepeatCount = 10 #40 drafts total
+    draftRankings = DraftResults.DraftResults()
 
     if (args.year != None):
         RunDraft(2019)
     else:
-        for year in years:
-            sortedDrafts.append(RunDraft(year))
+        for count in range(0, allDraftsRepeatCount):
+            for year in years:
+                draftRankings.AddDraftRankings(RunDraft(year))
 
-        # now get the average of each draft
-        for draft in sortedDrafts:
-            for strat in draft:
-                key = f"{strat.strategy_name}:{strat.draft_pos}"
-                if key in finalPayoffs:
-                    finalPayoffs[key] += strat.total_value
-                else:
-                    finalPayoffs[key] = strat.total_value
+    finalRankingsByStrategy = {}
 
-        for strat in finalPayoffs:
-            #print("PAYOFF ",strat, " is total of ", finalPayoffs[strat])
-            finalPayoffs[strat] /= len(years)
-            #print("AVERAGE PAYOFF ",strat, " is ", finalPayoffs[strat])
+    for strategyName in strategy_names:
+        finalRankingsByStrategy[strategyName] = draftRankings.GetAverageDraftRanking(strategyName)
 
+    print("\r\n*********** TOTAL DRAFT PAYOFFS ***********\r\n")
 
-        print("\r\n*********** TOTAL DRAFT PAYOFFS ***********\r\n")
-
-        for final in sorted(finalPayoffs, key=finalPayoffs.get, reverse=True):
-            print(final, finalPayoffs[final])
+    # sort by ascending, since rank no1 is best.
+    for final in sorted(finalRankingsByStrategy, key=finalRankingsByStrategy.get, reverse=False):
+        print(f"{final} ({strategy_names.count(final)})", f"{finalRankingsByStrategy[final]}/{num_teams}")
