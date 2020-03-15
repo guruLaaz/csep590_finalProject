@@ -1,5 +1,6 @@
-from drafts.player import Player
 from copy import copy
+
+from player import Player
 
 
 class Team(object):
@@ -7,20 +8,26 @@ class Team(object):
     Keeps track of each team
     """
 
-    def __init__(self, draft_pos, strategy_name, teamConfig):
-        self.team_config = teamConfig
+    def __init__(self, draft_pos, strategy_name, budget=float('inf'), team_config={}):
+        self.team_config = team_config
         self.draft_pos = draft_pos
         self.strategy_name = strategy_name
-        self.remaining_spots_per_pos = copy(teamConfig)
         self.players = []
-        self.total_value = 0
 
-    def add_player(self, player: Player):
-        self.total_value += player.value
+        self.total_value = 0
+        self.remaining_budget = budget
+        self.remaining_spots_per_pos = copy(team_config)
+
+    def add_player(self, player: Player, spent=0):
         if self.remaining_spots_per_pos[player.position] == 0:
             raise ValueError(
                 f'Team {self.draft_pos} has no remaining spots for position {player.position}')
 
+        if self.remaining_budget < spent:
+            raise ValueError(f'Team {self.draft_pos} has no budget to spend {spent}')
+
+        self.total_value += player.value
+        self.remaining_budget -= spent
         self.remaining_spots_per_pos[player.position] -= 1
         self.players.append(player)
 
@@ -55,7 +62,7 @@ class Team(object):
 
 class HockeyTeamWithForwards(Team):
     def __init__(self, draft_pos, strategy_name):
-        super().__init__(draft_pos, strategy_name, {
+        super().__init__(draft_pos, strategy_name, team_config={
             'FWD': 12,
             'D': 6,
             'G': 2,
@@ -82,7 +89,7 @@ class HockeyTeamWithForwards(Team):
 
 class HockeyTeam(Team):
     def __init__(self, draft_pos, strategy_name):
-        super().__init__(draft_pos, strategy_name, {
+        super().__init__(draft_pos, strategy_name, team_config={
             'C': 4,
             'LW': 4,
             'RW': 4,

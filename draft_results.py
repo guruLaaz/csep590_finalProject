@@ -1,6 +1,5 @@
 from collections import defaultdict, namedtuple
 
-
 # class DraftResults(object):
 #     def __init__(self):
 #         self.rankings = []
@@ -35,7 +34,7 @@ class DraftResults(object):
     def __init__(self):
         self.results = []
 
-    def add_trials(self, trials: TrialResult):
+    def add_trials(self, trials: [TrialResult]):
         self.results.extend(trials)
 
     def summary_by_strategy(self):

@@ -1,7 +1,5 @@
-from drafts.player import Player
-from .strategy import RoundBasedStrategy
-from itertools import groupby, chain
-from operator import itemgetter
+from player import Player
+from strategy import RoundBasedStrategy
 
 
 class BaselineByAverage(RoundBasedStrategy):

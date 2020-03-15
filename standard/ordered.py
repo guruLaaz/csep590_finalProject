@@ -1,5 +1,5 @@
-from drafts.player import Player
-from .strategy import RoundBasedStrategy
+from player import Player
+from strategy import RoundBasedStrategy
 
 
 class Ordered(RoundBasedStrategy):
@@ -21,7 +21,7 @@ class Ordered(RoundBasedStrategy):
         best_GoaltenderValue = 0
 
         for p in remaining_players:
-            if p.IsForward():
+            if p.is_forward():
                 if p.value >= best_ForwardValue:
                     best_ForwardPlayer = p
                     best_ForwardValue = p.value

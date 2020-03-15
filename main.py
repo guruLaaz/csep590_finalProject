@@ -1,27 +1,54 @@
 import argparse
+import copy
 import importlib
 import inspect
 import json
-import copy
+import pkgutil
+from collections import Counter
 from random import shuffle
 
-from drafts.drafts import NormalDraft, SnakeDraft, DraftConfig
-from drafts.player import Player
-from drafts.team import HockeyTeam, HockeyTeamWithForwards
-from strategies.strategy import RoundBasedStrategy
+from draft import Draft, DraftConfig
 from draft_results import DraftResults, TrialResult
-from collections import Counter
+from player import Player
+from strategy import Strategy, StrategyConfig
+from team import HockeyTeam, HockeyTeamWithForwards
 
 
-def run_trial(TeamClazz, DraftClazz, year, players, strategy_names):
+def load_clazzes():
+    draft_clazz = {}
+    strategy_clazz = {}
+
+    for x in ['standard', 'auction']:
+        for p in pkgutil.iter_modules(path=[x]):
+            mod = importlib.import_module(f'{x}.{p[1]}')
+            for _, obj in inspect.getmembers(mod):
+                if inspect.isclass(obj) and issubclass(obj, Draft) and p[1] in obj.__module__:
+                    draft_clazz[obj.__name__.lower().strip('draft')] = obj
+
+                if inspect.isclass(obj) and issubclass(obj, Strategy) and p[1] in obj.__module__:
+                    strategy_clazz[p[1]] = obj
+
+    return draft_clazz, strategy_clazz
+
+
+def new_draft(draft_type, *args, **kwargs):
+    return draft_clazzes[draft_type](*args, **kwargs)
+
+
+def new_strategy(strategy_name, *args, **kwargs):
+    return strategy_clazzes[strategy_name](*args, **kwargs)
+
+
+def run_trial(TeamClazz, DraftClazz, year, players, strategy_names, budget):
     # initialize teams & strategies
     strategies = []
     teams = []
 
-    for i, name in enumerate(strategy_names):
-        team = TeamClazz(i, name)
+    for draft_pos, strategy_name in enumerate(strategy_names):
+        team = TeamClazz(draft_pos, strategy_name)
         teams.append(team)
-        strategies.append(new_strategy(name, num_teams, i, players, team.team_config))
+        strategy_config = StrategyConfig(num_teams, players, team.team_config, budget)
+        strategies.append(new_strategy(strategy_name, draft_pos, strategy_config))
 
     draft_config = DraftConfig(players, strategies, teams, TeamClazz.number_players_in_team())
     draft = DraftClazz(draft_config)
@@ -40,31 +67,12 @@ def run_trial(TeamClazz, DraftClazz, year, players, strategy_names):
     return results
 
 
-def new_strategy(strategy_name, *args, **kwargs):
-    """
-    Dynamically initialize strategy classes.
-
-    Initializes a subclass of Strategy found in module "strategy.<name>".
-    If there are more than one of such classes, returns an arbitrary one.
-    (There should only one such class in each file anyway).
-
-    Passes all arguments as-is.
-    """
-    mod = importlib.import_module(f"strategies.{strategy_name}")
-    for _, obj in inspect.getmembers(mod):
-        if inspect.isclass(obj) and issubclass(obj, RoundBasedStrategy):
-            return obj(*args, **kwargs)
-
-
 team_types = {
     'hockey': HockeyTeam,
     'hockey_forwards': HockeyTeamWithForwards
 }
 
-draft_types = {
-    'snake': SnakeDraft,
-    'normal': NormalDraft,
-}
+draft_clazzes, strategy_clazzes = load_clazzes()
 
 if __name__ == '__main__':
     years = [2016, 2017, 2018, 2019]
@@ -76,12 +84,19 @@ if __name__ == '__main__':
                         help="File that contains list of strategies")
     parser.add_argument("--shuffle", default=True, action='store_true',
                         help="Shuffle strategies before starting the draft?")
-    parser.add_argument("--draft_type", default="normal", choices=draft_types.keys(),
+    parser.add_argument("--draft_type", default="normal", choices=draft_clazzes.keys(),
                         help="Type of draft to use")
+    parser.add_argument("--budget", default=float('inf'),
+                        help="Initial budget for each time (only applies to auction drafts)")
+
     args = parser.parse_args()
 
     # validate arguments
     given_strategy_names = [name.strip() for name in args.teams.readlines()]
+    for name in given_strategy_names:
+        if name not in strategy_clazzes:
+            raise ValueError(f'{name} is not a valid strategy for draft type {args.draft_type}')
+
     num_teams = len(given_strategy_names)
     if num_teams < 6:
         print('Must have at least 6 teams')
@@ -96,7 +111,7 @@ if __name__ == '__main__':
     print("====")
 
     TeamClazz = team_types[args.team_type]
-    DraftClazz = draft_types[args.draft_type]
+    DraftClazz = draft_clazzes[args.draft_type]
 
     overall_results = DraftResults()
     for year in args.years:
@@ -108,7 +123,9 @@ if __name__ == '__main__':
             if args.shuffle:
                 shuffle(trial_strategy_names)
 
-            trial_results = run_trial(TeamClazz, DraftClazz, year, copy.copy(players), trial_strategy_names)
+            trial_results = run_trial(TeamClazz, DraftClazz, year, copy.copy(players), trial_strategy_names,
+                                      args.budget)
+
             overall_results.add_trials(trial_results)
 
     overall_results.summary_by_strategy()

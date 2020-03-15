@@ -1,5 +1,5 @@
-from drafts.player import Player
-from .strategy import RoundBasedStrategy
+from player import Player
+from strategy import RoundBasedStrategy
 
 
 class Best(RoundBasedStrategy):
