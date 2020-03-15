@@ -2,7 +2,7 @@ import copy
 from typing import List
 from dataclasses import dataclass
 
-from strategies.strategy import Strategy
+from strategies.strategy import RoundBasedStrategy
 from .player import Player
 from .team import Team
 
@@ -10,13 +10,13 @@ from .team import Team
 @dataclass
 class DraftConfig():
     players: List[Player]
-    strategies: List[Strategy]
+    strategies: List[RoundBasedStrategy]
     teams: List[Team]
     players_per_team: int
 
 
 class Draft(object):
-    strategies: List[Strategy]
+    strategies: List[RoundBasedStrategy]
     teams: List[Team]
 
     def __init__(self, config: DraftConfig):

@@ -1,8 +1,8 @@
 from drafts.player import Player
-from .strategy import Strategy
+from .strategy import RoundBasedStrategy
 
 
-class Ordered(Strategy):
+class Ordered(RoundBasedStrategy):
     """
     Picks the best fowards, then best defensemen, then best goaltenders available
     """

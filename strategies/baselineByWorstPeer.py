@@ -1,9 +1,9 @@
 from drafts.player import Player
-from .strategy import Strategy
+from .strategy import RoundBasedStrategy
 from itertools import groupby, chain
 from operator import itemgetter
 
-class BaselineByWorstPeer(Strategy):
+class BaselineByWorstPeer(RoundBasedStrategy):
     """
     1. Baseline = Average points expected for the worst peer of j (a viable peer is the worst player likely to get picked in the draft, at j's position)
     """

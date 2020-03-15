@@ -8,7 +8,7 @@ from random import shuffle
 from drafts.drafts import NormalDraft, SnakeDraft, DraftConfig
 from drafts.player import Player
 from drafts.team import HockeyTeam, HockeyTeamWithForwards
-from strategies.strategy import Strategy
+from strategies.strategy import RoundBasedStrategy
 from draft_results import DraftResults, TrialResult
 from collections import Counter
 
@@ -52,7 +52,7 @@ def new_strategy(strategy_name, *args, **kwargs):
     """
     mod = importlib.import_module(f"strategies.{strategy_name}")
     for _, obj in inspect.getmembers(mod):
-        if inspect.isclass(obj) and issubclass(obj, Strategy):
+        if inspect.isclass(obj) and issubclass(obj, RoundBasedStrategy):
             return obj(*args, **kwargs)
 
 

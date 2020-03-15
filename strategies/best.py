@@ -1,8 +1,8 @@
 from drafts.player import Player
-from .strategy import Strategy
+from .strategy import RoundBasedStrategy
 
 
-class Best(Strategy):
+class Best(RoundBasedStrategy):
     """
     Returns the remaining player with the highest value.
     """

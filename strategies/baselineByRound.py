@@ -1,10 +1,10 @@
 from drafts.player import Player
-from .strategy import Strategy
+from .strategy import RoundBasedStrategy
 from itertools import groupby, chain
 from operator import itemgetter
 import math
 
-class BaselineByRound(Strategy):
+class BaselineByRound(RoundBasedStrategy):
     """
     1. Baseline reset every time we pick. The baseline for a player j is relative to the best peer of j
     that we estimate will be available for us to pick next round. The estimate assumes that other agents are

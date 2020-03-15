@@ -1,9 +1,10 @@
 from drafts.player import Player
-from .strategy import Strategy
+from .strategy import RoundBasedStrategy
 from itertools import groupby, chain
 from operator import itemgetter
 
-class BaselineByAverage(Strategy):
+
+class BaselineByAverage(RoundBasedStrategy):
     """
     1. Baseline = Average points expected for the peers of j
     """
@@ -13,24 +14,24 @@ class BaselineByAverage(Strategy):
     def __init__(self, *args, **kwargs):
         super(BaselineByAverage, self).__init__(*args, **kwargs)
 
-        #now initialize each baseline, per position
+        # now initialize each baseline, per position
         for player in self.initial_players:
-            if player.position in self.baselinePerPosition:  
-                self.baselinePerPosition[player.position] += player.value  
+            if player.position in self.baselinePerPosition:
+                self.baselinePerPosition[player.position] += player.value
             else:
                 self.baselinePerPosition[player.position] = player.value
 
-            if player.position in self.numberOfPlayersPerPosition:  
+            if player.position in self.numberOfPlayersPerPosition:
                 self.numberOfPlayersPerPosition[player.position] += 1
             else:
                 self.numberOfPlayersPerPosition[player.position] = 1
-                        
+
         # baseline: average of all peers of a player
         for key in self.baselinePerPosition.keys():
             numberOfPlayersAtPosition = self.numberOfPlayersPerPosition[key]
             #print(numberOfPlayersAtPosition, " at position ", key)
             totalPointsAtPosition = self.baselinePerPosition.get(key)
-            #print(totalPointsAtPosition, " at position ", key)            
+            #print(totalPointsAtPosition, " at position ", key)
             #print("average point per player: ", totalPointsAtPosition / numberOfPlayersAtPosition)
             self.baselinePerPosition[key] = totalPointsAtPosition / numberOfPlayersAtPosition
 

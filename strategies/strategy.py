@@ -1,7 +1,8 @@
 from drafts.player import Player
 from typing import List
 
-class Strategy(object):
+
+class RoundBasedStrategy(object):
     """
     Defines an agent that will drafts.
     """

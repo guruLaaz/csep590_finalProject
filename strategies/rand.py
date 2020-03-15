@@ -1,9 +1,9 @@
 from drafts.player import Player
-from .strategy import Strategy
+from .strategy import RoundBasedStrategy
 from random import choice
 
 
-class Rand(Strategy):
+class Rand(RoundBasedStrategy):
     """
     Returns a player at random.
     """
