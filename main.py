@@ -32,6 +32,11 @@ def run_trial(TeamClazz, DraftClazz, year, players, strategy_names):
     for rank, team in enumerate(ranked_teams):
         results.append(TrialResult(year, team.strategy_name, team.total_value, rank, team.draft_pos))
 
+    # print("\r\n**** DRAFT RESULT ****\r\n")
+    # for t in ranked_teams:
+    #     name = t.strategy_name
+    #     print(f'{t.draft_pos}', name, t.total_value, sep=',')
+
     return results
 
 

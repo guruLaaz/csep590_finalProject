@@ -2,6 +2,7 @@ from drafts.player import Player
 from .strategy import Strategy
 from itertools import groupby, chain
 from operator import itemgetter
+import math
 
 class BaselineByRound(Strategy):
     """
@@ -13,59 +14,61 @@ class BaselineByRound(Strategy):
     def __init__(self, *args, **kwargs):
         super(BaselineByRound, self).__init__(*args, **kwargs)
 
+        #from team_config, get how many players total are drafted
+        self.total_players_drafted_per_team = 0
+        for config in self.team_config:
+            self.total_players_drafted_per_team += self.team_config[config]
+
     def pick(self, remaining_players: [Player], num_picks_until_next_turn: int):
 
         # remaining players by their value
-        sortedPlayers = sorted(remaining_players, key=lambda x: x.value, reverse=True)
-
-        #print("BEST PLAYER THIS ROUND: ", sortedPlayers[0].name)
+        sorted_players = sorted(remaining_players, key=lambda x: x.value, reverse=True)
 
         if num_picks_until_next_turn == -1:
             #last pick of the draft
-            return sortedPlayers[0]
+            return sorted_players[0]
 
-        #split players by position
-        playersByPosition = {}
-        for p in sortedPlayers:
-            if not p.position in playersByPosition:
-                playersByPosition[p.position] = [] # init array
+        #split and sort players by position
+        players_sorted_by_position = {}
+        for p in sorted_players:
+            if not p.position in players_sorted_by_position:
+                players_sorted_by_position[p.position] = [] # init array
             
-            playersByPosition[p.position].append(p)
+            players_sorted_by_position[p.position].append(p)
             
         #baseline: the number of points that should still be available to us next time we pick a player, for each position
-        baselineByPosition = []
-
-        #adjust num_picks_until_next_turn to account for team balance
-
-        #print("PICKING A PLAYER")
-
-        for position in playersByPosition.keys():
-            #print("looking at position ", position, " available in ", num_picks_until_next_turn, " rounds.")
+        baseline_per_position = []
+            
+        for position in players_sorted_by_position.keys():
             # get the player that we think we can still pick at that position N picks laters
-            baselinePeer = None
-            if len(playersByPosition[position]) < num_picks_until_next_turn:
-                #print("there is only ", len(playersByPosition), " players at position ", position, " left")
-                baselinePeer = playersByPosition[position][-1] #last element of the array
-            else:
-                baselinePeer = playersByPosition[position][num_picks_until_next_turn]
+            #adjust to account for team balance, because we're looking at players that are likely to still be available next round
+            #eg. let's say that a team has 12F, 6D and 2G composition, and there are 10 agents drafting. Then, we expect each 6F, 3D and 1G to be drafted
+            #on average before we get to pick again (so a factor of 10/20 = 0.5 is applied on each position)
+            adjustement_factor = self.num_teams / self.total_players_drafted_per_team
+            #get the index in the array of the peer we think should be available next turn, on average. Round down.
+            index_of_peer_available_next_turn = int(adjustement_factor * self.team_config[position])
 
-            #baseline is the diff between the best player at a position and his peer N picks laters
-            #print(f"comparing {playersByPosition[position][0].name} {playersByPosition[position][0].value} with baseline {baselinePeer.name} {baselinePeer.value}")
-            baseline = playersByPosition[position][0].value - baselinePeer.value
+            baseline_peer = None
+            if len(players_sorted_by_position[position]) < num_picks_until_next_turn:
+                assert false, "should not happen"
+                baseline_peer = players_sorted_by_position[position][-1] #last element of the array
+            else:
+                baseline_peer = players_sorted_by_position[position][index_of_peer_available_next_turn]
+
+            #baseline is the diff between the best player at a position and his peer we can pick next round
+            baseline = players_sorted_by_position[position][0].value - baseline_peer.value
             
             pair = (position, baseline)
-            baselineByPosition.append(pair)
+            baseline_per_position.append(pair)
 
         # Now get the position where the baseline is the biggest. This means that there is a large difference 
         # between a best player at a position and his peer available next round
-        greatestBaseline = baselineByPosition[0]
+        greatest_baseline = baseline_per_position[0]
 
-        for baseline in baselineByPosition:
+        for baseline in baseline_per_position:
             #cost of not picking: diff between best player available at a position and his peer N rounds later
-            if baseline[1] > greatestBaseline[1]:
-                greatestBaseline = baseline        
-
-        #print("Greatest baseline was for position ", greatestBaseline[0])
+            if baseline[1] > greatest_baseline[1]:
+                greatest_baseline = baseline        
                 
         #return the best player at the baseline's position
-        return next(x for x in sortedPlayers if x.position == greatestBaseline[0])
+        return next(x for x in sorted_players if x.position == greatest_baseline[0])
