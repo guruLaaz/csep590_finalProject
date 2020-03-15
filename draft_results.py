@@ -31,8 +31,9 @@ TrialResult = namedtuple('TrialResult', 'year strategy_name value rank draft_pos
 
 class DraftResults(object):
 
-    def __init__(self):
+    def __init__(self, numteams):
         self.results = []
+        self.num_teams = numteams
 
     def add_trials(self, trials: [TrialResult]):
         self.results.extend(trials)
@@ -44,17 +45,26 @@ class DraftResults(object):
 
         for trial_result in self.results:
             ranks_per_strategy[trial_result.strategy_name].append(trial_result.rank)
-            rank_diffs_per_strategy[trial_result.strategy_name].append(trial_result.rank - trial_result.draft_pos)
+            gain_in_rank = trial_result.draft_pos - trial_result.rank
+            rank_diffs_per_strategy[trial_result.strategy_name].append(gain_in_rank)
             vals_per_strategy[trial_result.strategy_name].append(trial_result.value)
 
-        def average_and_rank(data, descending=False):
+        def average_and_rank(data, descending=False, rankmaximum=-1):
             averages = []
             for strategy_name, data_pts in data.items():
                 averages.append((strategy_name, sum(data_pts) / len(data_pts)))
 
             ordered = sorted(averages, key=lambda avg: avg[1], reverse=descending)
-            return "\n".join([f"{name}, {avg}" for name, avg in ordered])
+            return "\n".join([f"{name}, {f'{avg}/{rankmaximum}' if (rankmaximum != -1) else avg}" for name, avg in ordered])
 
-        print("Rank", average_and_rank(ranks_per_strategy), sep="\n----\n", end="\n\n")
-        print("Change in rank", average_and_rank(rank_diffs_per_strategy), sep="\n----\n", end="\n\n")
-        print("Values", average_and_rank(vals_per_strategy, True), sep="\n----\n", end="\n\n")
+        def average_and_rank_with_sign(data, descending=False):
+            averages = []
+            for strategy_name, data_pts in data.items():
+                averages.append((strategy_name, sum(data_pts) / len(data_pts)))
+
+            ordered = sorted(averages, key=lambda avg: avg[1], reverse=descending)
+            return "\n".join([f"{name}, {f'+{avg}' if (avg > 0) else avg}" for name, avg in ordered])
+
+        print("Final rank in the drafts on average (payoff)", average_and_rank(ranks_per_strategy, False, self.num_teams), sep="\n----\n", end="\n----\n\n")
+        print("Average rank compared to draft rank", average_and_rank_with_sign(rank_diffs_per_strategy, True), sep="\n----\n", end="\n----\n\n")
+        print("Total accumulated player values", average_and_rank(vals_per_strategy, True), sep="\n----\n", end="\n----\n\n")

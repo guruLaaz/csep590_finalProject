@@ -112,11 +112,12 @@ if __name__ == '__main__':
     print(f"Team type: {args.team_type}")
     print(f"Strategies: {Counter(given_strategy_names)}")
     print("====")
+    print("\nRunning trials...\n\n")
 
     TeamClazz = team_types[args.team_type]
     DraftClazz = draft_clazzes[args.draft_type]
 
-    overall_results = DraftResults()
+    overall_results = DraftResults(num_teams)
     for year in args.years:
         raw_players = json.load(open(f'./data/stats_{year}.json', 'r'))
         players = TeamClazz.transform_players([Player(**p) for p in raw_players])
