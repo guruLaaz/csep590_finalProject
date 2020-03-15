@@ -13,14 +13,14 @@ class BaselineByRound(Strategy):
     def __init__(self, *args, **kwargs):
         super(BaselineByRound, self).__init__(*args, **kwargs)
 
-    def pick(self, remaining_players: [Player], numberOfRoundsUntilNextPick: int):
+    def pick(self, remaining_players: [Player], num_picks_until_next_turn: int):
 
         # remaining players by their value
         sortedPlayers = sorted(remaining_players, key=lambda x: x.value, reverse=True)
 
         #print("BEST PLAYER THIS ROUND: ", sortedPlayers[0].name)
 
-        if numberOfRoundsUntilNextPick == -1:
+        if num_picks_until_next_turn == -1:
             #last pick of the draft
             return sortedPlayers[0]
 
@@ -35,19 +35,19 @@ class BaselineByRound(Strategy):
         #baseline: the number of points that should still be available to us next time we pick a player, for each position
         baselineByPosition = []
 
-        #adjust numberOfRoundsUntilNextPick to account for team balance
+        #adjust num_picks_until_next_turn to account for team balance
 
         #print("PICKING A PLAYER")
 
         for position in playersByPosition.keys():
-            #print("looking at position ", position, " available in ", numberOfRoundsUntilNextPick, " rounds.")
+            #print("looking at position ", position, " available in ", num_picks_until_next_turn, " rounds.")
             # get the player that we think we can still pick at that position N picks laters
             baselinePeer = None
-            if len(playersByPosition[position]) < numberOfRoundsUntilNextPick:
+            if len(playersByPosition[position]) < num_picks_until_next_turn:
                 #print("there is only ", len(playersByPosition), " players at position ", position, " left")
                 baselinePeer = playersByPosition[position][-1] #last element of the array
             else:
-                baselinePeer = playersByPosition[position][numberOfRoundsUntilNextPick]
+                baselinePeer = playersByPosition[position][num_picks_until_next_turn]
 
             #baseline is the diff between the best player at a position and his peer N picks laters
             #print(f"comparing {playersByPosition[position][0].name} {playersByPosition[position][0].value} with baseline {baselinePeer.name} {baselinePeer.value}")

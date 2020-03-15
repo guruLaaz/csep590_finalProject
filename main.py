@@ -5,7 +5,7 @@ import json
 import copy
 from random import shuffle
 
-from drafts.drafts import NormalDraft, SnakeDraft
+from drafts.drafts import NormalDraft, SnakeDraft, DraftConfig
 from drafts.player import Player
 from drafts.team import HockeyTeam, HockeyTeamWithForwards
 from strategies.strategy import Strategy
@@ -17,14 +17,14 @@ def run_trial(TeamClazz, DraftClazz, year, players, strategy_names):
     # initialize teams & strategies
     strategies = []
     teams = []
-    numberOfPlayersPerTeam = TeamClazz.number_players_in_team()
 
     for i, name in enumerate(strategy_names):
         team = TeamClazz(i, name)
         teams.append(team)
         strategies.append(new_strategy(name, num_teams, i, players, team.team_config))
 
-    draft = DraftClazz(players, strategies, teams)
+    draft_config = DraftConfig(players, strategies, teams, TeamClazz.number_players_in_team())
+    draft = DraftClazz(draft_config)
     draft.run()
     ranked_teams = sorted(draft.teams, key=lambda t: t.total_value, reverse=True)
 

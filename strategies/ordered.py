@@ -10,7 +10,7 @@ class Ordered(Strategy):
     def __init__(self, *args, **kwargs):
         super(Ordered, self).__init__(*args, **kwargs)
 
-    def pick(self, remaining_players: [Player], numberOfRoundsUntilNextPick: int):
+    def pick(self, remaining_players: [Player], num_picks_until_next_turn: int):
         best_ForwardPlayer = None
         best_ForwardValue = 0
 

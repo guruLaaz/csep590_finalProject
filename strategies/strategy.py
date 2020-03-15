@@ -12,7 +12,7 @@ class Strategy(object):
         self.draft_pos = draft_pos
         self.initial_players = players
 
-    def pick(self, remaining_players, numberOfRoundsUntilNextPick):
+    def pick(self, remaining_players, num_picks_until_next_turn):
         """
         Select a player to draft. Given remaining players only include
         who are eligible for a team. For example, if the team using this
