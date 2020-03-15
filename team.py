@@ -2,13 +2,18 @@ from copy import copy
 
 from player import Player
 
+DEFAULT_BUDGET = 200
+
 
 class Team(object):
     """
     Keeps track of each team
     """
 
-    def __init__(self, draft_pos, strategy_name, budget=float('inf'), team_config={}):
+    def __init__(self, draft_pos, strategy_name, budget: int = DEFAULT_BUDGET, team_config=None):
+        if team_config is None:
+            raise ValueError("Required param team_config is missing")
+
         self.team_config = team_config
         self.draft_pos = draft_pos
         self.strategy_name = strategy_name
@@ -18,16 +23,20 @@ class Team(object):
         self.remaining_budget = budget
         self.remaining_spots_per_pos = copy(team_config)
 
-    def add_player(self, player: Player, spent=0):
+    def add_player(self, player: Player, cost=0):
+        """
+        :param player: Player that was acquired by the team
+        :param cost: How much the player costed (nonzero in auction drafts, zero by default)
+        """
         if self.remaining_spots_per_pos[player.position] == 0:
             raise ValueError(
                 f'Team {self.draft_pos} has no remaining spots for position {player.position}')
 
-        if self.remaining_budget < spent:
-            raise ValueError(f'Team {self.draft_pos} has no budget to spend {spent}')
+        if self.remaining_budget < cost:
+            raise ValueError(f'Team {self.draft_pos} has no budget to spend {cost}')
 
         self.total_value += player.value
-        self.remaining_budget -= spent
+        self.remaining_budget -= cost
         self.remaining_spots_per_pos[player.position] -= 1
         self.players.append(player)
 
@@ -61,8 +70,8 @@ class Team(object):
 
 
 class HockeyTeamWithForwards(Team):
-    def __init__(self, draft_pos, strategy_name):
-        super().__init__(draft_pos, strategy_name, team_config={
+    def __init__(self, draft_pos, strategy_name, budget=DEFAULT_BUDGET):
+        super().__init__(draft_pos, strategy_name, budget, team_config={
             'FWD': 12,
             'D': 6,
             'G': 2,
@@ -88,8 +97,8 @@ class HockeyTeamWithForwards(Team):
 
 
 class HockeyTeam(Team):
-    def __init__(self, draft_pos, strategy_name):
-        super().__init__(draft_pos, strategy_name, team_config={
+    def __init__(self, draft_pos, strategy_name, budget=DEFAULT_BUDGET):
+        super().__init__(draft_pos, strategy_name, budget, team_config={
             'C': 4,
             'LW': 4,
             'RW': 4,

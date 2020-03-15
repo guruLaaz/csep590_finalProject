@@ -11,7 +11,7 @@ from draft import Draft, DraftConfig
 from draft_results import DraftResults, TrialResult
 from player import Player
 from strategy import Strategy, StrategyConfig
-from team import HockeyTeam, HockeyTeamWithForwards
+from team import DEFAULT_BUDGET, HockeyTeam, HockeyTeamWithForwards
 
 
 def load_clazzes():
@@ -45,7 +45,7 @@ def run_trial(TeamClazz, DraftClazz, year, players, strategy_names, budget):
     teams = []
 
     for draft_pos, strategy_name in enumerate(strategy_names):
-        team = TeamClazz(draft_pos, strategy_name)
+        team = TeamClazz(draft_pos, strategy_name, budget=budget)
         teams.append(team)
         strategy_config = StrategyConfig(num_teams, players, team.team_config, budget)
         strategies.append(new_strategy(strategy_name, draft_pos, strategy_config))
@@ -57,7 +57,8 @@ def run_trial(TeamClazz, DraftClazz, year, players, strategy_names, budget):
 
     results = []
     for rank, team in enumerate(ranked_teams):
-        results.append(TrialResult(year, team.strategy_name, team.total_value, rank, team.draft_pos))
+        results.append(
+            TrialResult(year, team.strategy_name, team.total_value, rank, team.draft_pos))
 
     # print("\r\n**** DRAFT RESULT ****\r\n")
     # for t in ranked_teams:
@@ -77,16 +78,18 @@ draft_clazzes, strategy_clazzes = load_clazzes()
 if __name__ == '__main__':
     years = [2016, 2017, 2018, 2019]
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument("--years", default=years, type=int, nargs="*", help="Which years player data to use")
+    parser.add_argument("--years", default=years, type=int, nargs="*",
+                        help="Which years player data to use")
     parser.add_argument("--num_trials", default=10, type=int, help="Number of trials to run")
-    parser.add_argument("--team_type", choices=team_types.keys(), default='hockey', help='Type of team')
+    parser.add_argument("--team_type", choices=team_types.keys(), default='hockey',
+                        help='Type of team')
     parser.add_argument("--teams", default='./data/teams.txt', type=argparse.FileType('r'),
                         help="File that contains list of strategies")
     parser.add_argument("--shuffle", default=True, action='store_true',
                         help="Shuffle strategies before starting the draft?")
     parser.add_argument("--draft_type", default="normal", choices=draft_clazzes.keys(),
                         help="Type of draft to use")
-    parser.add_argument("--budget", default=float('inf'),
+    parser.add_argument("--budget", default=DEFAULT_BUDGET, type=int,
                         help="Initial budget for each time (only applies to auction drafts)")
 
     args = parser.parse_args()
@@ -123,7 +126,8 @@ if __name__ == '__main__':
             if args.shuffle:
                 shuffle(trial_strategy_names)
 
-            trial_results = run_trial(TeamClazz, DraftClazz, year, copy.copy(players), trial_strategy_names,
+            trial_results = run_trial(TeamClazz, DraftClazz, year, copy.copy(players),
+                                      trial_strategy_names,
                                       args.budget)
 
             overall_results.add_trials(trial_results)

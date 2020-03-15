@@ -46,5 +46,5 @@ class Draft(object):
             if team.is_done_drafting():
                 teams_remaining.remove(team.draft_pos)
 
-    def next_turn(self, remaining_players: List[Player]):
+    def next_turn(self, remaining_players: List[Player]) -> (int, Player):
         pass  # return -1, None
