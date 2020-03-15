@@ -2,13 +2,13 @@ from player import Player
 from strategy import RoundBasedStrategy
 
 
-class Best(RoundBasedStrategy):
+class Truthful(RoundBasedStrategy):
     """
     Returns the remaining player with the highest value.
     """
 
     def __init__(self, *args, **kwargs):
-        super(Best, self).__init__(*args, **kwargs)
+        super(Truthful, self).__init__(*args, **kwargs)
 
     def pick(self, remaining_players: [Player], num_picks_until_next_turn: int):
         max_value = float('-inf')
