@@ -2,25 +2,19 @@ import argparse
 import importlib
 import inspect
 import json
+import copy
 from random import shuffle
 
 from drafts.drafts import NormalDraft, SnakeDraft
 from drafts.player import Player
 from drafts.team import HockeyTeam, HockeyTeamWithForwards
 from strategies.strategy import Strategy
-import DraftResults
+from draft_results import DraftResults, TrialResult
+from collections import Counter
 
-def RunDraft(draftYear):
 
-    if args.shuffle:
-        shuffle(strategy_names)
-    
-    TeamClazz = team_types[args.team_type]
-    # load player data
-    raw_players = json.load(open(f'./data/stats_{draftYear}.json', 'r'))
-    players = TeamClazz.transform_players([Player(**p) for p in raw_players])
-
-    # initialize teams
+def run_trial(TeamClazz, DraftClazz, year, players, strategy_names):
+    # initialize teams & strategies
     strategies = []
     teams = []
     numberOfPlayersPerTeam = TeamClazz.number_players_in_team()
@@ -30,21 +24,16 @@ def RunDraft(draftYear):
         teams.append(team)
         strategies.append(new_strategy(name, num_teams, i, players, team.team_config))
 
-    DraftClazz = draft_types[args.draft_type]
-    draft = DraftClazz(players, strategies, teams, numberOfPlayersPerTeam)
+    draft = DraftClazz(players, strategies, teams)
     draft.run()
-    print(f"\r\n *** Draft {draftYear} ***\r\n\r\n" "draft_pos", 'strategy_name', 'total_value', sep=',')
-    sortedDraft = sorted(draft.teams, key=lambda t: t.total_value, reverse=True)
-    draftResult = DraftResults.DraftResults()
-    draftRanking = 1
+    ranked_teams = sorted(draft.teams, key=lambda t: t.total_value, reverse=True)
 
-    for t in sortedDraft:
-        name = t.strategy_name
-        print(f'{t.draft_pos}', name, t.total_value, sep=',')
-        draftResult.AddDraftRanking(name, draftRanking)
-        draftRanking += 1
+    results = []
+    for rank, team in enumerate(ranked_teams):
+        results.append(TrialResult(year, team.strategy_name, team.total_value, rank, team.draft_pos))
 
-    return draftResult
+    return results
+
 
 def new_strategy(strategy_name, *args, **kwargs):
     """
@@ -73,8 +62,10 @@ draft_types = {
 }
 
 if __name__ == '__main__':
+    years = [2016, 2017, 2018, 2019]
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument("--year", default=None, type=str, help="Which year's player data to use")
+    parser.add_argument("--years", default=years, type=int, nargs="*", help="Which years player data to use")
+    parser.add_argument("--num_trials", default=10, type=int, help="Number of trials to run")
     parser.add_argument("--team_type", choices=team_types.keys(), default='hockey', help='Type of team')
     parser.add_argument("--teams", default='./data/teams.txt', type=argparse.FileType('r'),
                         help="File that contains list of strategies")
@@ -85,30 +76,34 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # validate arguments
-    strategy_names = [name.strip() for name in args.teams.readlines()]
-    num_teams = len(strategy_names)
+    given_strategy_names = [name.strip() for name in args.teams.readlines()]
+    num_teams = len(given_strategy_names)
     if num_teams < 6:
         print('Must have at least 6 teams')
         exit(1)
 
-    years = [2016, 2017, 2018, 2019]
-    allDraftsRepeatCount = 40 #40 drafts total
-    draftRankings = DraftResults.DraftResults()
+    print("Scenario")
+    print(f"Num trials: {args.num_trials}")
+    print(f"Draft type: {args.draft_type}")
+    print(f"Shuffle?: {args.shuffle}")
+    print(f"Team type: {args.team_type}")
+    print(f"Strategies: {Counter(given_strategy_names)}")
+    print("====")
 
-    if (args.year != None):
-        RunDraft(2019)
-    else:
-        for count in range(0, allDraftsRepeatCount):
-            for year in years:
-                draftRankings.AddDraftRankings(RunDraft(year))
+    TeamClazz = team_types[args.team_type]
+    DraftClazz = draft_types[args.draft_type]
 
-    finalRankingsByStrategy = {}
+    overall_results = DraftResults()
+    for year in args.years:
+        raw_players = json.load(open(f'./data/stats_{year}.json', 'r'))
+        players = TeamClazz.transform_players([Player(**p) for p in raw_players])
 
-    for strategyName in strategy_names:
-        finalRankingsByStrategy[strategyName] = draftRankings.GetAverageDraftRanking(strategyName)
+        for _ in range(0, args.num_trials):
+            trial_strategy_names = copy.copy(given_strategy_names)
+            if args.shuffle:
+                shuffle(trial_strategy_names)
 
-    print("\r\n*********** TOTAL DRAFT PAYOFFS ***********\r\n")
+            trial_results = run_trial(TeamClazz, DraftClazz, year, copy.copy(players), trial_strategy_names)
+            overall_results.add_trials(trial_results)
 
-    # sort by ascending, since rank no1 is best.
-    for final in sorted(finalRankingsByStrategy, key=finalRankingsByStrategy.get, reverse=False):
-        print(f"{final} ({strategy_names.count(final)})", f"{finalRankingsByStrategy[final]}/{num_teams}")
+    overall_results.summary_by_strategy()
