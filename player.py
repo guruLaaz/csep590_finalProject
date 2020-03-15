@@ -6,7 +6,7 @@ class Player:
     id: int
     name: str
     position: str
-    value: str
+    value: float
 
     def __hash__(self):
         return hash(self.id)

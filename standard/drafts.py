@@ -35,7 +35,7 @@ class NormalDraft(Draft):
         self.pick += 1
         self.round = self.pick // self.num_teams
 
-        return team_idx, player
+        return team_idx, player, 0
 
 
 class SnakeDraft(Draft):
@@ -66,4 +66,4 @@ class SnakeDraft(Draft):
         self.pick += 1
         self.round = self.pick // self.num_teams
 
-        return team_idx, player
+        return team_idx, player, 0

@@ -54,9 +54,9 @@ class Team(object):
         return self.team_config
 
     def draftable_players(self, remaining_players: [Player]):
-        return list(filter(self._can_draft_player, remaining_players))
+        return list(filter(self.can_draft_player, remaining_players))
 
-    def _can_draft_player(self, player: Player):
+    def can_draft_player(self, player: Player):
         return self.remaining_spots_per_pos[player.position] > 0
 
     def __hash__(self):

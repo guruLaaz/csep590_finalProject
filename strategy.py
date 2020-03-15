@@ -20,6 +20,7 @@ class Strategy(object):
         self.num_teams = strategy_config.num_teams
         self.initial_players = strategy_config.players
         self.team_config = strategy_config.team_config
+        self.num_players_per_team = sum(self.team_config.values())
 
     def __hash__(self):
         return hash(self.draft_pos)
@@ -65,7 +66,7 @@ class AuctionStrategy(Strategy):
         """
         pass
 
-    def get_bid(self, nominated_player: Player, knowledge: AuctionKnowledge, teams: [Team]) -> int:
+    def get_bid(self, nominated_player: object, knowledge: object, teams: object) -> object:
         """
         Return bid for given nominated_player or None if you do not wish to acquire this player.
 

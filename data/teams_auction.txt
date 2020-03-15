@@ -1,8 +1,8 @@
-basicbidder
-basicbidder
-basicbidder
-basicbidder
-basicbidder
-basicbidder
-basicbidder
-basicbidder
+proportional
+proportional
+proportional
+proportional
+proportional
+proportional
+proportional
+proportional
