@@ -3,12 +3,11 @@ best
 best
 best
 best
+best
+best
 rand
 rand
 rand
-rand
-rand
-ordered
 ordered
 ordered
 ordered
