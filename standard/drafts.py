@@ -2,9 +2,13 @@ from typing import List
 
 from draft import Draft, DraftConfig
 from player import Player
+from strategy import RoundBasedStrategy
+from team import Team
 
 
 class NormalDraft(Draft):
+    strategies: List[RoundBasedStrategy]
+    teams: List[Team]
 
     def __init__(self, config: DraftConfig):
         super().__init__(config)
@@ -35,6 +39,9 @@ class NormalDraft(Draft):
 
 
 class SnakeDraft(Draft):
+    strategies: List[RoundBasedStrategy]
+    teams: List[Team]
+
     def __init__(self, config: DraftConfig):
         super().__init__(config)
         self.round = 0
