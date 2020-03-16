@@ -39,9 +39,11 @@ class DraftResults(object):
         self.results.extend(trials)
 
     def summary_by_strategy(self):
+        normalization_factor = defaultdict(int)
         ranks_per_strategy = defaultdict(list)
         rank_diffs_per_strategy = defaultdict(list)
         vals_per_strategy = defaultdict(list)
+        strategy_per_rank = defaultdict(lambda: defaultdict(int))
 
         for trial_result in self.results:
             ranks_per_strategy[trial_result.strategy_name].append(
@@ -49,6 +51,8 @@ class DraftResults(object):
             gain_in_rank = trial_result.draft_pos - trial_result.rank
             rank_diffs_per_strategy[trial_result.strategy_name].append(gain_in_rank)
             vals_per_strategy[trial_result.strategy_name].append(trial_result.value)
+            strategy_per_rank[trial_result.rank][trial_result.strategy_name] += 1
+            normalization_factor[trial_result.strategy_name] += 1
 
         def average_and_rank(data, descending=False, rankmaximum=-1):
             averages = []
@@ -77,3 +81,17 @@ class DraftResults(object):
               end="\n----\n\n")
         print("Average accumulated player values", average_and_rank(vals_per_strategy, True),
               sep="\n----\n", end="\n----\n\n")
+
+        print("Stacked bar chart CSV")
+        strategy_names = ranks_per_strategy.keys()
+        print('', *strategy_names, sep=',')
+        for rank, strategy_ranks in strategy_per_rank.items():
+            print(rank + 1, end=',')
+            vals = []
+            for strategy in strategy_names:
+                if strategy in strategy_ranks:
+                    vals.append(f'{strategy_ranks[strategy] / normalization_factor[strategy]}')
+                else:
+                    vals.append('')
+
+            print(",".join(vals))
