@@ -82,16 +82,16 @@ class DraftResults(object):
         print("Average accumulated player values", average_and_rank(vals_per_strategy, True),
               sep="\n----\n", end="\n----\n\n")
 
-        print("Stacked bar chart CSV")
-        strategy_names = ranks_per_strategy.keys()
-        print('', *strategy_names, sep=',')
-        for rank, strategy_ranks in strategy_per_rank.items():
-            print(rank + 1, end=',')
-            vals = []
-            for strategy in strategy_names:
-                if strategy in strategy_ranks:
-                    vals.append(f'{strategy_ranks[strategy] / normalization_factor[strategy]}')
-                else:
-                    vals.append('')
+        # print("Stacked bar chart CSV")
+        # strategy_names = ranks_per_strategy.keys()
+        # print('', *strategy_names, sep=',')
+        # for rank, strategy_ranks in strategy_per_rank.items():
+        #     print(rank + 1, end=',')
+        #     vals = []
+        #     for strategy in strategy_names:
+        #         if strategy in strategy_ranks:
+        #             vals.append(f'{strategy_ranks[strategy] / normalization_factor[strategy]}')
+        #         else:
+        #             vals.append('')
 
-            print(",".join(vals))
+        #     print(",".join(vals))

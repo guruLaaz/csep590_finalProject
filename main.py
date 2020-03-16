@@ -97,6 +97,11 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
+    #auction vs round based drafts use different files. hardcode it for now
+    #eventually we should add the feature to let the user know
+    if args.draft_type == "liveauction":
+        args.teams = open("./data/teams_auction.txt", "r")
+
     # validate arguments
     given_strategy_names = [name.strip() for name in args.teams.readlines()]
     for name in given_strategy_names:
