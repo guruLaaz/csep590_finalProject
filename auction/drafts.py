@@ -57,7 +57,7 @@ class LiveAuction(Draft):
                              AuctionKnowledge(limit, curr_high_bid, self.teams[curr_winning_team]),
                              [copy(t) for t in self.teams])
 
-                bid = None if team_bid is None else int(min(team_bid, limit))
+                bid = None if team_bid is None else int(min(limit, team_bid))
                 if bid is not None and bid > curr_high_bid:
                     bids.append((team_idx, bid))
 
