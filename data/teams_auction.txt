@@ -1,8 +1,8 @@
-proportional
-proportional
-proportional
-proportional
-proportional
-proportional
-proportional
+truthful_bidder
+truthful_bidder
+truthful_bidder
+truthful_bidder
+truthful_bidder
+truthful_bidder
+force_early
 top_heavy

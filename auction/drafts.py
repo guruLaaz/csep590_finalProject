@@ -35,7 +35,8 @@ class LiveAuction(Draft):
     def get_nomination(self, remaining_players, team_idx) -> (Player, int):
         # use strategy to figure out what player the team chooses
         eligible_players = self.teams[team_idx].draftable_players(remaining_players)
-        nominated_player, nominee_bid = self.strategies[team_idx].nominate(eligible_players)
+        nominated_player, nominee_bid = self.strategies[team_idx] \
+            .nominate(eligible_players, copy(self.teams))
         assert nominee_bid >= 1, f"Minimum nomination bid is $1 but was {nominee_bid}"
         return nominated_player, nominee_bid
 
@@ -52,10 +53,12 @@ class LiveAuction(Draft):
 
                 # assume team needs $1 to get_bid to fill up for every remaining spot
                 limit = team.remaining_budget - team.num_spots_remaining() + 1
+                teams = [copy(t) for t in self.teams]
                 team_bid = self.strategies[team_idx] \
                     .get_bid(player,
-                             AuctionKnowledge(limit, curr_high_bid, self.teams[curr_winning_team]),
-                             [copy(t) for t in self.teams])
+                             AuctionKnowledge(limit, curr_high_bid, teams[curr_winning_team],
+                                              teams[nominating_team_idx]),
+                             teams)
 
                 bid = None if team_bid is None else int(min(limit, team_bid))
                 if bid is not None and bid > curr_high_bid:

@@ -23,8 +23,7 @@ class Strategy(object):
         self.num_players_per_team = sum(self.team_config.values())
 
     def __eq__(self, other):
-        return (type(other) is type(self)) \
-               and (self.draft_pos == other.draft_pos)
+        return (type(other) is type(self)) and (self.draft_pos == other.draft_pos)
 
     def __hash__(self):
         return hash(self.draft_pos)
@@ -53,6 +52,7 @@ class AuctionKnowledge:
     bid_limit: int
     curr_high_bid: int
     cur_high_bidding_team: Team
+    nominating_team: Team
 
 
 class AuctionStrategy(Strategy):
@@ -60,7 +60,7 @@ class AuctionStrategy(Strategy):
         super(AuctionStrategy, self).__init__(draft_pos, strategy_config)
         self.initial_budget = strategy_config.initial_budget
 
-    def nominate(self, remaining_players: [Player]) -> (Player, int):
+    def nominate(self, remaining_players: [Player], teams: [Team]) -> (Player, int):
         """
         Nominate a player that will be drafted -- note: a nomination is equivalent
         to a $1 bid.

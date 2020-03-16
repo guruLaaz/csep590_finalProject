@@ -5,12 +5,12 @@ from strategy import AuctionKnowledge, AuctionStrategy, StrategyConfig
 from team import Team
 
 
-class TopHeavy(AuctionStrategy):
+class MidHeavy(AuctionStrategy):
     """
     Always try to win the top player in each position, no matter what it takes.
     """
 
-    def __init__(self, draft_pos, strategy_config: StrategyConfig, num_top_players_per_pos=3):
+    def __init__(self, draft_pos, strategy_config: StrategyConfig, rounds=(2, 5)):
         super().__init__(draft_pos, strategy_config)
         self.sorted_players = sorted(self.initial_players, key=lambda p: p.value, reverse=True)
 
