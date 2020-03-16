@@ -4,5 +4,9 @@ truthful_bidder
 truthful_bidder
 truthful_bidder
 truthful_bidder
-force_early
+truthful_bidder
+truthful_bidder
 top_heavy
+top_heavy
+force_early
+force_early
