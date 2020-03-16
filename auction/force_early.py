@@ -33,9 +33,8 @@ class ForceEarlyStrategy(TruthfulBidder):
             if p in self.nominations:
                 return p, 1
 
+    def get_bid(self, nominated_player: Player, knowledge: AuctionKnowledge, teams: [Team]) -> int:
+        if knowledge.nominating_team.draft_pos == self.draft_pos:
+            return 0
 
-def get_bid(self, nominated_player: Player, knowledge: AuctionKnowledge, teams: [Team]) -> int:
-    if knowledge.nominating_team.draft_pos == self.draft_pos:
-        return 0
-
-    return super(ForceEarlyStrategy, self).get_bid(nominated_player, knowledge, teams)
+        return super(ForceEarlyStrategy, self).get_bid(nominated_player, knowledge, teams)
