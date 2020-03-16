@@ -59,6 +59,9 @@ class Team(object):
     def can_draft_player(self, player: Player):
         return self.remaining_spots_per_pos[player.position] > 0
 
+    def __eq__(self, other):
+        return (type(other) is type(self)) and (self.draft_pos == other.draft_pos)
+
     def __hash__(self):
         return hash(self.draft_pos)
 

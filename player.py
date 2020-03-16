@@ -8,6 +8,9 @@ class Player:
     position: str
     value: float
 
+    def __eq__(self, other):
+        return (type(other) is type(self)) and (self.id == other.id)
+
     def __hash__(self):
         return hash(self.id)
 

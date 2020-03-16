@@ -64,6 +64,9 @@ def run_trial(TeamClazz, DraftClazz, year, players, strategy_names, budget):
     # for t in ranked_teams:
     #     name = t.strategy_name
     #     print(f'{t.draft_pos}', name, t.total_value, sep=',')
+    #
+    # for res in results:
+    #     print(res)
 
     return results
 
